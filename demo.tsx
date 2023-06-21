@@ -71,12 +71,24 @@ function Row(props: { row: Permission }) {
         </TableCell>
         <TableCell align="center">{row.name}</TableCell>
         <TableCell align="center">{row.fat}</TableCell>
-        <TableCell align="center">{row.carbs}</TableCell>
-        <TableCell align="center">{row.protein}</TableCell>
-        <TableCell align="center">{row.protein}</TableCell>
-        <TableCell align="center">{row.protein}</TableCell>
-        <TableCell align="center">{row.protein}</TableCell>
-        <TableCell align="center">{row.protein}</TableCell>
+        <TableCell align="center">
+          <Checkbox value={row.add} />
+        </TableCell>
+        <TableCell align="center">
+          <Checkbox value={row.view} />
+        </TableCell>
+        <TableCell align="center">
+          <Checkbox value={row.edit} />
+        </TableCell>
+        <TableCell align="center">
+          <Checkbox value={row.edit_own} />
+        </TableCell>
+        <TableCell align="center">
+          <Checkbox value={row.delete} />
+        </TableCell>
+        <TableCell align="center">
+          <Checkbox value={row.delete_own} />
+        </TableCell>
       </TableRow>
       <TableRow>
         <TableCell style={{ padding: 0, borderBottom: 0 }} colSpan={8}>
