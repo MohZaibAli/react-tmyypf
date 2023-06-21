@@ -43,7 +43,7 @@ const deepMap = (obj: Object, depth = 1): Permission[] =>
     permission: {
       add: true,
       view: false,
-      edit: false,
+      edit: true,
       edit_own: false,
       delete: false,
       delete_own: false,
@@ -77,22 +77,22 @@ function Row(props: { row: Permission }) {
           {row.name}
         </TableCell>
         <TableCell align="center">
-          <Checkbox value={row.add} />
+          <Checkbox checked={row.permission.add} />
         </TableCell>
         <TableCell align="center">
-          <Checkbox value={row.view} />
+          <Checkbox checked={row.permission.view} />
         </TableCell>
         <TableCell align="center">
-          <Checkbox value={row.edit} />
+          <Checkbox checked={row.permission.edit} />
         </TableCell>
         <TableCell align="center">
-          <Checkbox value={row.edit_own} />
+          <Checkbox checked={row.permission.edit_own} />
         </TableCell>
         <TableCell align="center">
-          <Checkbox value={row.delete} />
+          <Checkbox checked={row.permission.delete} />
         </TableCell>
         <TableCell align="center">
-          <Checkbox value={row.delete_own} />
+          <Checkbox checked={row.permission.delete_own} />
         </TableCell>
       </TableRow>
       {row?.children?.length && (
