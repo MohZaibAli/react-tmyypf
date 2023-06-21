@@ -34,7 +34,21 @@ type Permission = {
   };
 };
 
-const deepMap = (obj, depth = 1) => Object.entries(obj).map([oK, oV]);
+const deepMap = (obj: Object, depth = 1): Permission[] =>
+  Object.entries(obj).map(([oK, oV]: any) => ({
+    depth,
+    id: oV.id,
+    name: oV.name || oK,
+    ...(!oV.permission && { children: deepMap(oV, depth + 1) }),
+    permission: {
+      add: false,
+      view: false,
+      edit: false,
+      edit_own: false,
+      delete: false,
+      delete_own: false,
+    },
+  }));
 
 function Row(props: { row: Permission }) {
   const { row } = props;
@@ -55,20 +69,22 @@ function Row(props: { row: Permission }) {
         <TableCell component="th" scope="row">
           {row.name}
         </TableCell>
-        <TableCell align="right">{row.calories}</TableCell>
-        <TableCell align="right">{row.fat}</TableCell>
-        <TableCell align="right">{row.carbs}</TableCell>
-        <TableCell align="right">{row.protein}</TableCell>
-        <TableCell align="right">{row.protein}</TableCell>
-        <TableCell align="right">{row.protein}</TableCell>
+        <TableCell align="center">{row.name}</TableCell>
+        <TableCell align="center">{row.fat}</TableCell>
+        <TableCell align="center">{row.carbs}</TableCell>
+        <TableCell align="center">{row.protein}</TableCell>
+        <TableCell align="center">{row.protein}</TableCell>
+        <TableCell align="center">{row.protein}</TableCell>
+        <TableCell align="center">{row.protein}</TableCell>
+        <TableCell align="center">{row.protein}</TableCell>
       </TableRow>
       <TableRow>
         <TableCell style={{ padding: 0, borderBottom: 0 }} colSpan={8}>
           <Collapse in={open} timeout="auto" unmountOnExit>
             <Table aria-label="collapsible table">
               <TableBody>
-                {rows.map((row) => (
-                  <Row key={row.name} row={row} />
+                {row?.children?.map((permission, i) => (
+                  <Row key={i} row={permission} />
                 ))}
               </TableBody>
             </Table>
@@ -89,6 +105,7 @@ export default function CollapsibleTable() {
       .then((data) => data.json())
       .then((response) => {
         let Permissions = deepMap(response);
+        setPermissions(Permissions);
         console.log(Permissions);
       });
   }, []);
