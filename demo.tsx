@@ -15,49 +15,28 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { styled } from '@mui/system';
 
-let request = new Request('./data.json');
-fetch(request)
-.then((data) => data.json())
-.then((res) => console.log(res));
-
 const TableCell = styled(MuiTableCell)({
   width: '12.5%',
 });
 
-function createData(
-  name: string,
-  calories: number,
-  fat: number,
-  carbs: number,
-  protein: number,
-  price: number
-) {
-  return {
-    name,
-    calories,
-    fat,
-    carbs,
-    protein,
-    price,
-    history: [
-      {
-        date: '2020-01-05',
-        customerId: '11091700',
-        amount: 3,
-      },
-      {
-        date: '2020-01-02',
-        customerId: 'Anonymous',
-        amount: 1,
-      },
-    ],
+type Permission = {
+  id: string;
+  depth: number;
+  name: string;
+  children?: Permission[];
+  permission: {
+    add: boolean;
+    view: boolean;
+    edit: boolean;
+    edit_own: boolean;
+    delete: boolean;
+    delete_own: boolean;
   };
-}
+};
 
-let data = [];
-Object;
+const deepMap = (obj, depth = 1) => Object.entries(obj).map([oK, oV]);
 
-function Row(props: { row: ReturnType<typeof createData> }) {
+function Row(props: { row: Permission }) {
   const { row } = props;
   const [open, setOpen] = React.useState(false);
 
@@ -100,15 +79,19 @@ function Row(props: { row: ReturnType<typeof createData> }) {
   );
 }
 
-const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0, 3.99),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3, 4.99),
-  createData('Eclair', 262, 16.0, 24, 6.0, 3.79),
-  createData('Cupcake', 305, 3.7, 67, 4.3, 2.5),
-  createData('Gingerbread', 356, 16.0, 49, 3.9, 1.5),
-];
-
 export default function CollapsibleTable() {
+  const [permissions, setPermissions] = React.useState<Permission[]>([]);
+
+  React.useEffect(() => {
+    fetch(
+      'https://raw.githubusercontent.com/MohZaibAli/react-tmyypf/main/data.json'
+    )
+      .then((data) => data.json())
+      .then((response) => {
+        let Permissions = deepMap(response);
+        console.log(Permissions);
+      });
+  }, []);
   return (
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
@@ -125,8 +108,8 @@ export default function CollapsibleTable() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <Row key={row.name} row={row} />
+          {permissions.map((permission, i) => (
+            <Row key={i} row={permission} />
           ))}
         </TableBody>
       </Table>
