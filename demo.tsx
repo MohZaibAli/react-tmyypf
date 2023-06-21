@@ -41,7 +41,7 @@ const deepMap = (obj: Object, depth = 1): Permission[] =>
     name: oV.name || oK,
     ...(!oV.permission && { children: deepMap(oV, depth + 1) }),
     permission: {
-      add: false,
+      add: true,
       view: false,
       edit: false,
       edit_own: false,
@@ -57,20 +57,25 @@ function Row(props: { row: Permission }) {
   return (
     <React.Fragment>
       <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
-        <TableCell style={{ paddingLeft: 10 }}>
-          <IconButton
-            aria-label="expand row"
-            size="small"
-            onClick={() => setOpen(!open)}
+        {row?.children?.length ? (
+          <TableCell
+            sx={{ width: '5%' }}
+            style={{ paddingLeft: row.depth * 15 }}
           >
-            {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
-          </IconButton>
-        </TableCell>
+            <IconButton
+              aria-label="expand row"
+              size="small"
+              onClick={() => setOpen(!open)}
+            >
+              {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+            </IconButton>
+          </TableCell>
+        ) : (
+          <TableCell sx={{ width: '5%' }} />
+        )}
         <TableCell component="th" scope="row">
           {row.name}
         </TableCell>
-        <TableCell align="center">{row.name}</TableCell>
-        <TableCell align="center">{row.fat}</TableCell>
         <TableCell align="center">
           <Checkbox value={row.add} />
         </TableCell>
@@ -90,19 +95,21 @@ function Row(props: { row: Permission }) {
           <Checkbox value={row.delete_own} />
         </TableCell>
       </TableRow>
-      <TableRow>
-        <TableCell style={{ padding: 0, borderBottom: 0 }} colSpan={8}>
-          <Collapse in={open} timeout="auto" unmountOnExit>
-            <Table aria-label="collapsible table">
-              <TableBody>
-                {row?.children?.map((permission, i) => (
-                  <Row key={i} row={permission} />
-                ))}
-              </TableBody>
-            </Table>
-          </Collapse>
-        </TableCell>
-      </TableRow>
+      {row?.children?.length && (
+        <TableRow>
+          <TableCell style={{ padding: 0, borderBottom: 0 }} colSpan={8}>
+            <Collapse in={open} timeout="auto" unmountOnExit>
+              <Table aria-label="collapsible table">
+                <TableBody>
+                  {row?.children?.map((permission, i) => (
+                    <Row key={i} row={permission} />
+                  ))}
+                </TableBody>
+              </Table>
+            </Collapse>
+          </TableCell>
+        </TableRow>
+      )}
     </React.Fragment>
   );
 }
@@ -126,8 +133,8 @@ export default function CollapsibleTable() {
       <Table aria-label="collapsible table">
         <TableHead>
           <TableRow>
-            <TableCell />
-            <TableCell>Dessert (100g serving)</TableCell>
+            <TableCell sx={{ width: '5%' }} />
+            <TableCell>Name</TableCell>
             <TableCell align="center">Add</TableCell>
             <TableCell align="center">View</TableCell>
             <TableCell align="center">Edit</TableCell>
