@@ -38,7 +38,7 @@ const deepMap = (obj: Object, depth = 1): Permission[] =>
   Object.entries(obj).map(([oK, oV]: any) => ({
     depth,
     id: oV.id,
-    name: oV.name || oK,
+    name: oV.name || oK.replace(/([a-z])([A-Z])/g, '$1 $2'),
     ...(!oV.permission && { children: deepMap(oV, depth + 1) }),
     permission: {
       add: true,
