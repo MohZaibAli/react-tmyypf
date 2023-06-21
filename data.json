@@ -1,0 +1,4070 @@
+{
+  "Dashboard": {
+    "id": "dashboard",
+    "name": "Dashboard",
+    "permission": {
+      "add": true,
+      "view": true,
+      "edit": true,
+      "edit_own": true,
+      "delete": true,
+      "delete_own": true
+    }
+  },
+  "FosterCarer": {
+    "PersonalInfo": {
+      "InitialEnquiry": {
+        "id": "foster_carer.personal_info.initial_enquiry",
+        "name": "Initial Enquiry",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ApplicationForm": {
+        "id": "foster_carer.personal_info.application_form",
+        "name": "Application Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FormF": {
+        "id": "foster_carer.personal_info.form_f",
+        "name": "Form F",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "InitialHomeVisit": {
+        "id": "foster_carer.personal_info.initial_home_visit",
+        "name": "Initial Home Visit",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CarerChronologyOfEvents": {
+        "id": "foster_carer.personal_info.carer_chronology_of_events",
+        "name": "Carer Chronology of Events",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CarerFamilyOrSupportNetwork": {
+        "id": "foster_carer.personal_info.carer_family_support_network",
+        "name": "Carer Family / Support Network",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AddressHistory": {
+        "id": "foster_carer.personal_info.address_history",
+        "name": "Address History",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PetQuestionnaire": {
+        "id": "foster_carer.personal_info.pet_questionnaire",
+        "name": "Pet Questionnaire",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "InterviewRecordAndAnalysis": {
+        "id": "foster_carer.personal_info.interview_record_analysis",
+        "name": "Interview Record and Analysis",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SocialMediaLinks": {
+        "id": "foster_carer.personal_info.social_media_links",
+        "name": "Social Media Links",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "BackgroundChecks": {
+      "StatutoryChecksList": {
+        "id": "foster_carer.background_checks.statutory_checks_list",
+        "name": "Statutory Checks List",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "MedicalHistory": {
+      "HealthAndSafety": {
+        "id": "foster_carer.medical_history.health_safety",
+        "name": "Health and Safety",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Immunisations": {
+        "id": "foster_carer.medical_history.immunisations",
+        "name": "Immunisations",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "EmploymentHistory": {
+      "EmploymentDetails": {
+        "id": "foster_carer.employment_history.employment_details",
+        "name": "Employment Details",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "TrainingProfiles": {
+      "TrainingProfile": {
+        "id": "foster_carer.training_profiles.training_profile",
+        "name": "Training Profile",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "OtherInformation": {
+      "NextOfKin": {
+        "id": "foster_carer.other_information.next_of_kin",
+        "name": "Next of Kin",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "BankAccountDetails": {
+        "id": "foster_carer.other_information.bank_account_details",
+        "name": "Bank Account Details",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SubstituteCares": {
+      "BackupCarer": {
+        "id": "foster_carer.substitute_cares.backup_carer",
+        "name": "Backup Carer",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SwapCarer": {
+        "id": "foster_carer.substitute_cares.swap_carer",
+        "name": "Swap Carer",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RespiteCarer": {
+        "id": "foster_carer.substitute_cares.respite_carer",
+        "name": "Respite Carer",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "FosterCarerRecruitment": {
+    "EnquiryStage": {
+      "InitialContact": {
+        "id": "foster_carer_recruitment.enquiry_stage.initial_contact",
+        "name": "Initial Contact",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "InitialEnquiryStage": {
+        "id": "foster_carer_recruitment.enquiry_stage.initial_enquiry_stage",
+        "name": "Initial Enquiry Stage",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "DigitalInfoPack": {
+        "id": "foster_carer_recruitment.enquiry_stage.digital_info_pack",
+        "name": "Digital Info Pack",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "InitialHomeVisit": {
+        "id": "foster_carer_recruitment.enquiry_stage.initial_home_visit",
+        "name": "Initial Home Visit",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SocialWorkerAssessment": {
+        "id": "foster_carer_recruitment.enquiry_stage.social_worker_assessment",
+        "name": "Social Worker Assessment",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "AssessmentStage1": {
+      "RegularAssessmentMeeting": {
+        "id": "foster_carer_recruitment.assessment_stage_1.regular_assessment_meeting",
+        "name": "Regular Assessment Meeting",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "StatutoryChecksVerification": {
+        "id": "foster_carer_recruitment.assessment_stage_1.statutory_checks_verification",
+        "name": "Statutory Checks Verification",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TrainingVerification": {
+        "id": "foster_carer_recruitment.assessment_stage_1.training_verification",
+        "name": "Training Verification",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Stage1Approval": {
+        "id": "foster_carer_recruitment.assessment_stage_1.stage_1_approval",
+        "name": "Stage 1 Approval",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "AssessmentStage2": {
+      "FosteringPanelAssessmentOrInterview": {
+        "id": "foster_carer_recruitment.assessment_stage_2.fostering_panel_assessment_interview",
+        "name": "Fostering Panel Assessment/ Interview",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosteringPanelRecommendation": {
+        "id": "foster_carer_recruitment.assessment_stage_2.fostering_panel_recommendation",
+        "name": "Fostering Panel Recommendation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AgencyDecision": {
+        "id": "foster_carer_recruitment.assessment_stage_2.agency_decision",
+        "name": "Agency Decision",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SignOffApproval": {
+        "id": "foster_carer_recruitment.assessment_stage_2.sign_off_approval",
+        "name": "Sign off Approval",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ContractsAndDeclarations": {
+      "AgencyPolicy": {
+        "id": "foster_carer_recruitment.contracts_declarations.agency_policy",
+        "name": "Agency Policy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FinanceAgreement": {
+        "id": "foster_carer_recruitment.contracts_declarations.finance_agreement",
+        "name": "Finance Agreement",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AgencySafeguardPolicy": {
+        "id": "foster_carer_recruitment.contracts_declarations.agency_safeguard_policy",
+        "name": "Agency Safeguard Policy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RecruitmentAndAssessmentPolicy": {
+        "id": "foster_carer_recruitment.contracts_declarations.recruitment_assessment_policy",
+        "name": "Recruitment and Assessment Policy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RecordingKeepingPolicy": {
+        "id": "foster_carer_recruitment.contracts_declarations.recording_keeping_policy",
+        "name": "Recording Keeping Policy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Declarations": {
+        "id": "foster_carer_recruitment.contracts_declarations.declarations",
+        "name": "Declarations",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ReadyForPlacement": {
+      "PolicyReceipts": {
+        "id": "foster_carer_recruitment.ready_for_placement.policy_receipts",
+        "name": "Policy Receipts",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingMeasures(beforeChildPlacement)": {
+        "id": "foster_carer_recruitment.ready_for_placement.safeguarding_measures_before_child_placement",
+        "name": "Safeguarding Measures (Before Child Placement)",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "MandatoryTraining": {
+        "id": "foster_carer_recruitment.ready_for_placement.mandatory_training",
+        "name": "Mandatory Training",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RiskAssessments": {
+        "id": "foster_carer_recruitment.ready_for_placement.risk_assessments",
+        "name": "Risk Assessments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PlacementPreference": {
+        "id": "foster_carer_recruitment.ready_for_placement.placement_preference",
+        "name": "Placement Preference",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AwaitingPlacement": {
+        "id": "foster_carer_recruitment.ready_for_placement.awaiting_placement",
+        "name": "Awaiting Placement",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "FosterChild": {
+    "ChildBackgroundInfo": {
+      "ChildChronologyOfEvents": {
+        "id": "foster_child.child_background_info.child_chronology_of_events",
+        "name": "Child Chronology of Events",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CLADocumentation": {
+        "id": "foster_child.child_background_info.cla_documentation",
+        "name": "CLA Documentation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FamilyOrPersonsAndOrgInvolved": {
+        "id": "foster_child.child_background_info.family_persons_org_involved",
+        "name": "Family/Persons & Org Involved",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CarerDetails": {
+        "id": "foster_child.child_background_info.carer_details",
+        "name": "Carer Details",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "HealthOrMedicalHistory": {
+      "BehaviouralInfo": {
+        "id": "foster_child.health_medical_history.behavioural_info",
+        "name": "Behavioural Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "HospitalInfoList": {
+        "id": "foster_child.health_medical_history.hospital_info_list",
+        "name": "Hospital Info List",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Hospitalisation": {
+        "id": "foster_child.health_medical_history.hospitalisation",
+        "name": "Hospitalisation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Immunisation": {
+        "id": "foster_child.health_medical_history.immunisation",
+        "name": "Immunisation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "MedicalAppointments": {
+        "id": "foster_child.health_medical_history.medical_appointments",
+        "name": "Medical Appointments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildMedicationInfo": {
+        "id": "foster_child.health_medical_history.child_medication_info",
+        "name": "Child Medication Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "StatutoryMedicalList": {
+        "id": "foster_child.health_medical_history.statutory_medical_list",
+        "name": "Statutory Medical List",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TherapyInfo": {
+        "id": "foster_child.health_medical_history.therapy_info",
+        "name": "Therapy Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "GPDetails": {
+        "id": "foster_child.health_medical_history.gp_details",
+        "name": "GP Details",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "EducationRecords": {
+      "SchoolDetailInfo": {
+        "id": "foster_child.education_records.school_detail_info",
+        "name": "School Detail Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AbsenceInfo": {
+        "id": "foster_child.education_records.absence_info",
+        "name": "Absence Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildEducationInfo": {
+        "id": "foster_child.education_records.child_education_info",
+        "name": "Child Education Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildExclusionInfo": {
+        "id": "foster_child.education_records.child_exclusion_info",
+        "name": "Child Exclusion Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "OutOfSchoolActivity": {
+        "id": "foster_child.education_records.out_of_school_activity",
+        "name": "Out of School Activity",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PersonalEducationPlan": {
+        "id": "foster_child.education_records.personal_education_plan",
+        "name": "Personal Education Plan",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SatsOrExamOrGradeDetails": {
+        "id": "foster_child.education_records.sa_ts_exam_grade_details",
+        "name": "SATs / Exam / Grade Details",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "StudySupportInfo": {
+        "id": "foster_child.education_records.study_support_info",
+        "name": "Study Support Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "VocationalCourseInfo": {
+        "id": "foster_child.education_records.vocational_course_info",
+        "name": "Vocational Course Info",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "LeisureActivitiesOrHobby": {
+        "id": "foster_child.education_records.leisure_activities_hobby",
+        "name": "Leisure activities / Hobby",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "IndependencePacksLifeSkillAssessment": {
+        "id": "foster_child.education_records.independence_packs_life_skill_assessment",
+        "name": "Independence Packs - Life Skill Assessment",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildActivityDirectory": {
+        "id": "foster_child.education_records.child_activity_directory",
+        "name": "Child's Activity Directory",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ChildGoalsAndPathway": {
+      "ChildPathwayPlan": {
+        "id": "foster_child.child_goals_pathway.child_pathway_plan",
+        "name": "Child Pathway Plan",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildPersonalGoals": {
+        "id": "foster_child.child_goals_pathway.child_personal_goals",
+        "name": "Child Personal Goals",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SocialWorkerDetails": {
+      "SupervisingSocialWorker": {
+        "id": "foster_child.social_worker_details.supervising_social_worker",
+        "name": "Supervising Social Worker",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "LASocialWorker": {
+        "id": "foster_child.social_worker_details.la_social_worker",
+        "name": "LA Social Worker",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "Referrals": {
+      "ChildReferral": {
+        "id": "foster_child.referrals.child_referral",
+        "name": "Child Referral",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "OriginalReferral": {
+        "id": "foster_child.referrals.original_referral",
+        "name": "Original Referral",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ChildDayLog": {
+      "DayLogOrJournalEntries": {
+        "id": "foster_child.child_day_log.day_log_journal_entries",
+        "name": "Day Log/Journal Entries",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "DiaryRecordings": {
+        "id": "foster_child.child_day_log.diary_recordings",
+        "name": "Diary Recordings",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildHolidayPreference": {
+        "id": "foster_child.child_day_log.child_holiday_preference",
+        "name": "Child Holiday Preference",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "OtherInformation": {
+      "SafeCarePolicy": {
+        "id": "foster_child.other_information.safe_care_policy",
+        "name": "Safe Care Policy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PlacementAndDischargeHistory": {
+        "id": "foster_child.other_information.placement_discharge_history",
+        "name": "Placement and Discharge History",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CLAReview": {
+        "id": "foster_child.other_information.cla_review",
+        "name": "CLA Review",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SanctionDetails": {
+        "id": "foster_child.other_information.sanction_details",
+        "name": "Sanction Details",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RiskAssessment": {
+        "id": "foster_child.other_information.risk_assessment",
+        "name": "Risk Assessment",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "IFAParticipationPolicyForChild": {
+        "id": "foster_child.other_information.ifa_participation_policy_for_child",
+        "name": "IFA Participation Policy for Child",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "EventsAndNotification": {
+      "ChildExploitation": {
+        "id": "foster_child.events_notification.child_exploitation",
+        "name": "Child Exploitation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Allegation": {
+        "id": "foster_child.events_notification.allegation",
+        "name": "Allegation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildMissingPlacement": {
+        "id": "foster_child.events_notification.child_missing_placement",
+        "name": "Child Missing Placement",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Complaints": {
+        "id": "foster_child.events_notification.complaints",
+        "name": "Complaints",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Incident": {
+        "id": "foster_child.events_notification.incident",
+        "name": "Incident",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "OfstedNotification": {
+        "id": "foster_child.events_notification.ofsted_notification",
+        "name": "Ofsted Notification",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ChildReports": {
+      "ChildLivingInTheHouseholdComments": {
+        "id": "foster_child.child_reports.child_living_in_the_household_comments",
+        "name": "Child living in the household's comments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "YoungPersonLivingInTheHouseholdComments": {
+        "id": "foster_child.child_reports.young_person_living_in_the_household_comments",
+        "name": "Young person living in the household's comments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildRegisterReportFosteredChildComments": {
+        "id": "foster_child.child_reports.child_register_report_fostered_child_comments",
+        "name": "Child register report fostered child's comments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosteredYoungPersonComments": {
+        "id": "foster_child.child_reports.fostered_young_person_comments",
+        "name": "Fostered young person's comments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildSocialWorkerReport": {
+        "id": "foster_child.child_reports.child_social_worker_report",
+        "name": "Child's social worker report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildAdditionalReports": {
+        "id": "foster_child.child_reports.child_additional_reports",
+        "name": "Child additional reports",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ReviewingOfficerReport": {
+        "id": "foster_child.child_reports.reviewing_officer_report",
+        "name": "Reviewing officer report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosteringServiceManagerReport": {
+        "id": "foster_child.child_reports.fostering_service_manager_report",
+        "name": "Fostering service manager report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildAllegationsReport": {
+        "id": "foster_child.child_reports.child_allegations_report",
+        "name": "Child allegations report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildComplaintsReport": {
+        "id": "foster_child.child_reports.child_complaints_report",
+        "name": "Child complaints report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildOOHReport": {
+        "id": "foster_child.child_reports.child_ooh_report",
+        "name": "Child OOH report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildCriticalIncidentsReport": {
+        "id": "foster_child.child_reports.child_critical_incidents_report",
+        "name": "Child critical incidents report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildPlacementsReport": {
+        "id": "foster_child.child_reports.child_placements_report",
+        "name": "Child placements report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildDayLogEventsReport": {
+        "id": "foster_child.child_reports.child_day_log_events_report",
+        "name": "Child day log events report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "EducationKeyStageReport": {
+        "id": "foster_child.child_reports.education_key_stage_report",
+        "name": "Education key stage report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildImmunisationDetailsReport": {
+        "id": "foster_child.child_reports.child_immunisation_details_report",
+        "name": "Child immunisation details report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildMedicationDetailsReport": {
+        "id": "foster_child.child_reports.child_medication_details_report",
+        "name": "Child medication details report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ChildMissingPlacementsReport": {
+        "id": "foster_child.child_reports.child_missing_placements_report",
+        "name": "Child missing placements report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SupervisoryHomeVisit": {
+        "id": "foster_child.child_reports.supervisory_home_visit",
+        "name": "Supervisory Home Visit",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CLADocumentationReport": {
+        "id": "foster_child.child_reports.cla_documentation_report",
+        "name": "CLA documentation report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "Matching": {
+    "id": "matching",
+    "name": "Matching",
+    "permission": {
+      "add": true,
+      "view": true,
+      "edit": true,
+      "edit_own": true,
+      "delete": true,
+      "delete_own": true
+    }
+  },
+  "Placement": {
+    "PlacementStatus": {
+      "id": "placement.placement_status",
+      "name": "Placement Status",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "MakePlacement": {
+      "id": "placement.make_placement",
+      "name": "Make Placement",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "TransferPlacement": {
+      "id": "placement.transfer_placement",
+      "name": "Transfer Placement",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "RespitePlacement": {
+      "id": "placement.respite_placement",
+      "name": "Respite Placement",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "DischargePlacement": {
+      "id": "placement.discharge_placement",
+      "name": "Discharge Placement",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "EndPlacement": {
+      "id": "placement.end_placement",
+      "name": "End Placement",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "Rejections": {
+      "id": "placement.rejections",
+      "name": "Rejections",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "PlacementChecklist": {
+      "id": "placement.placement_checklist",
+      "name": "Placement Checklist",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "PlacementMeetingRecord": {
+      "id": "placement.placement_meeting_record",
+      "name": "Placement Meeting Record",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "DeRegisterFosterCarer": {
+    "DeRegInitialRequest": {
+      "InitialRequestForDeRegistration": {
+        "id": "deregister_foster_carer.de_reg_initial_request.initial_request_for_de_registration",
+        "name": "Initial Request for De-Registration",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SocialWorkerInitialAssessment": {
+        "id": "deregister_foster_carer.de_reg_initial_request.social_worker_initial_assessment",
+        "name": "Social worker Initial Assessment",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FinalOutcome": {
+        "id": "deregister_foster_carer.de_reg_initial_request.final_outcome",
+        "name": "Final Outcome",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "DeRegAssessmentStage1": {
+      "ConsultationWithFosterCarer": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_1.consultation_with_foster_carer",
+        "name": "Consultation with Foster Carer",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FormalReviewMeeting": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_1.formal_review_meeting",
+        "name": "Formal Review Meeting",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FinalOutcome": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_1.final_outcome",
+        "name": "Final Outcome",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "DeRegAssessmentStage2": {
+      "FosteringPanelAssessmentOrInterview": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.fostering_panel_assessment_interview",
+        "name": "Fostering Panel Assessment/interview",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosteringPanelRecommendation": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.fostering_panel_recommendation",
+        "name": "Fostering Panel Recommendation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RepresentationsOrReviewProcedure": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.representations_review_procedure",
+        "name": "Representations/Review Procedure",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ProposalToTerminate": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.proposal_to_terminate",
+        "name": "Proposal to Terminate",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ProposalToRevise": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.proposal_to_revise",
+        "name": "Proposal to Revise",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "StatutoryChecks": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.statutory_checks",
+        "name": "Statutory Checks",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FinalOutcome": {
+        "id": "deregister_foster_carer.de_reg_assessment_stage_2.final_outcome",
+        "name": "Final Outcome",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "DeRegContractsAndAgreements": {
+      "FinalFinanceSettlements": {
+        "id": "deregister_foster_carer.de_reg_contracts_agreements.final_finance_settlements",
+        "name": "Final Finance Settlements",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AgencyPolicyAgreements": {
+        "id": "deregister_foster_carer.de_reg_contracts_agreements.agency_policy_agreements",
+        "name": "Agency Policy Agreements",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "WrittenNoticeOfTheProposal": {
+        "id": "deregister_foster_carer.de_reg_contracts_agreements.written_notice_of_the_proposal",
+        "name": "Written notice of the proposal",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TermsOfApproval": {
+        "id": "deregister_foster_carer.de_reg_contracts_agreements.terms_of_approval",
+        "name": "Terms of approval",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ConsentForm": {
+        "id": "deregister_foster_carer.de_reg_contracts_agreements.consent_form",
+        "name": "Consent Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "FinalDeRegistration": {
+      "AgencyDecision": {
+        "id": "deregister_foster_carer.final_de_registration.agency_decision",
+        "name": "Agency Decision",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ResignationByFosterCarers": {
+        "id": "deregister_foster_carer.final_de_registration.resignation_by_foster_carers",
+        "name": "Resignation by Foster Carers",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "MovedToDeRegisterStatus": {
+        "id": "deregister_foster_carer.final_de_registration.moved_to_de_register_status",
+        "name": "Moved to De-register status",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "Safeguarding": {
+    "ChildProtectionAndSafeguarding": {
+      "ChildAbuseAndExploitationManagement": {
+        "id": "safeguarding.child_protection_safeguarding.child_abuse_exploitation_management",
+        "name": "Child Abuse and Exploitation Management",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AllegationManagement": {
+        "id": "safeguarding.child_protection_safeguarding.allegation_management",
+        "name": "Allegation Management",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "IncidentManagement": {
+        "id": "safeguarding.child_protection_safeguarding.incident_management",
+        "name": "Incident Management",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AgencySafeguardingOfficerOrContact": {
+        "id": "safeguarding.child_protection_safeguarding.agency_safeguarding_officer_contact",
+        "name": "Agency Safeguarding Officer / Contact",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingChildAdvocacy": {
+        "id": "safeguarding.child_protection_safeguarding.safeguarding_child_advocacy",
+        "name": "Safeguarding - Child Advocacy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ContextualSafeguardingOperationalGroupInformationForm": {
+        "id": "safeguarding.child_protection_safeguarding.contextual_safeguarding_operational_group_information_form",
+        "name": "Contextual Safeguarding Operational Group Information Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SafeguardingTools": {
+      "SafeguardingAssessmentTool": {
+        "id": "safeguarding.safeguarding_tools.safeguarding_assessment_tool",
+        "name": "Safeguarding Assessment Tool",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingChecklist": {
+        "id": "safeguarding.safeguarding_tools.safeguarding_checklist",
+        "name": "Safeguarding Checklist",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingMeasuresToBeTakenBeforeAChildIsPlaced": {
+        "id": "safeguarding.safeguarding_tools.safeguarding_measures_to_be_taken_before_a_child_is_placed",
+        "name": "Safeguarding Measures to be Taken Before a Child is Placed",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingMeasuresWhenAChildIsPlaced": {
+        "id": "safeguarding.safeguarding_tools.safeguarding_measures_when_a_child_is_placed",
+        "name": "Safeguarding Measures When a Child is Placed",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingMeetingsOrPolicyRevisionMeetings": {
+        "id": "safeguarding.safeguarding_tools.safeguarding_meetings_policy_revision_meetings",
+        "name": "Safeguarding Meetings / Policy Revision Meetings",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingTraining": {
+        "id": "safeguarding.safeguarding_tools.safeguarding_training",
+        "name": "Safeguarding Training",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SafeguardingPolicyGuideTemplates": {
+      "AgencySafeguardingPolicy": {
+        "id": "safeguarding.safeguarding_policy_guide_templates.agency_safeguarding_policy",
+        "name": "Agency Safeguarding Policy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingTemplates": {
+        "id": "safeguarding.safeguarding_policy_guide_templates.safeguarding_templates",
+        "name": "Safeguarding Templates",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeCaringPolicyForLookedAfterChildren": {
+        "id": "safeguarding.safeguarding_policy_guide_templates.safe_caring_policy_for_looked_after_children",
+        "name": "Safe Caring Policy for Looked After Children",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SupportForCarers(parentalGuide)": {
+        "id": "safeguarding.safeguarding_policy_guide_templates.support_for_carers_parental_guide",
+        "name": "Support for Carers (Parental Guide)",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SafeguardingLegislation": {
+        "id": "safeguarding.safeguarding_policy_guide_templates.safeguarding_legislation",
+        "name": "Safeguarding Legislation",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SafeguardingThirdParties": {
+      "Barnardo": {
+        "id": "safeguarding.safeguarding_third_parties.barnardo_s",
+        "name": "Barnardo's",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosterTalk": {
+        "id": "safeguarding.safeguarding_third_parties.foster_talk",
+        "name": "Foster Talk",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CoramVoice": {
+        "id": "safeguarding.safeguarding_third_parties.coram_voice",
+        "name": "Coram Voice",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "EmergencyDutyTeam": {
+        "id": "safeguarding.safeguarding_third_parties.emergency_duty_team",
+        "name": "Emergency duty team",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "NSPCCNationalSocietyForThePreventionOfCrueltyToChildren": {
+        "id": "safeguarding.safeguarding_third_parties.nspcc_national_society_for_the_prevention_of_cruelty_to_children",
+        "name": "NSPCC - National society for the Prevention of Cruelty to Children",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "Referrals": {
+    "ReferralDetails": {
+      "ReferralList": {
+        "id": "referrals.referral_details.referral_list",
+        "name": "Referral list",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ReferralHistory": {
+        "id": "referrals.referral_details.referral_history",
+        "name": "Referral History",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "OriginalChildReferral": {
+        "id": "referrals.referral_details.original_child_referral",
+        "name": "Original Child Referral",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "MoveToCurrentReferral": {
+        "id": "referrals.referral_details.move_to_current_referral",
+        "name": "Move to current referral",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ReferralRequestForms": {
+      "FosterCarerRequestForm": {
+        "id": "referrals.referral_request_forms.foster_carer_request_form",
+        "name": "Foster Carer Request Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosterChildRequestForm": {
+        "id": "referrals.referral_request_forms.foster_child_request_form",
+        "name": "Foster Child Request Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SocialWorkerRequestForm": {
+        "id": "referrals.referral_request_forms.social_worker_request_form",
+        "name": "Social Worker Request Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ReferralScheme": {
+        "id": "referrals.referral_request_forms.referral_scheme",
+        "name": "Referral Scheme",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "Panel": {
+    "PanelTools": {
+      "PanelCalendar": {
+        "id": "panel.panel_tools.panel_calendar",
+        "name": "Panel Calendar",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelSetup": {
+        "id": "panel.panel_tools.panel_setup",
+        "name": "Panel Setup",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelActionsOrComments": {
+        "id": "panel.panel_tools.panel_actions_comments",
+        "name": "Panel Actions/Comments",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelAgenda": {
+        "id": "panel.panel_tools.panel_agenda",
+        "name": "Panel Agenda",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelMinutesAdministrator": {
+        "id": "panel.panel_tools.panel_minutes_administrator",
+        "name": "Panel Minutes - Administrator",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelMinutesChair": {
+        "id": "panel.panel_tools.panel_minutes_chair",
+        "name": "Panel Minutes - Chair",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelMinutesADMApproval": {
+        "id": "panel.panel_tools.panel_minutes_adm_approval",
+        "name": "Panel Minutes - ADM Approval",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelChecklist": {
+        "id": "panel.panel_tools.panel_checklist",
+        "name": "Panel Checklist",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "PanelEvaluationForms": {
+      "PanelMemberSelfEvaluationForm": {
+        "id": "panel.panel_evaluation_forms.panel_member_self_evaluation_form",
+        "name": "Panel Member Self-Evaluation Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelMemberReviewForm": {
+        "id": "panel.panel_evaluation_forms.panel_member_review_form",
+        "name": "Panel Member Review Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelChairSelfEvaluationForm": {
+        "id": "panel.panel_evaluation_forms.panel_chair_self_evaluation_form",
+        "name": "Panel Chair Self-Evaluation Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelChairReviewForm": {
+        "id": "panel.panel_evaluation_forms.panel_chair_review_form",
+        "name": "Panel Chair Review Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PanelMemberQuestionnaire": {
+        "id": "panel.panel_evaluation_forms.panel_member_questionnaire",
+        "name": "Panel Member Questionnaire",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "Training": {
+    "ManageCourses": {
+      "CourseResourcePool": {
+        "id": "training.manage_courses.course_resource_pool",
+        "name": "Course Resource Pool",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CertificateManagement": {
+        "id": "training.manage_courses.certificate_management",
+        "name": "Certificate Management",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SearchCourse": {
+        "id": "training.manage_courses.search_course",
+        "name": "Search Course",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ArchiveCourse": {
+        "id": "training.manage_courses.archive_course",
+        "name": "Archive Course",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TrainingClockEngine": {
+        "id": "training.manage_courses.training_clock_engine",
+        "name": "Training Clock Engine",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PendingForApproval": {
+        "id": "training.manage_courses.pending_for_approval",
+        "name": "Pending For Approval",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ManageTrainees": {
+      "TraineeList": {
+        "id": "training.manage_trainees.trainee_list",
+        "name": "Trainee List",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "DelegateCertificates": {
+        "id": "training.manage_trainees.delegate_certificates",
+        "name": "Delegate Certificates",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CourseEvaluationForm": {
+        "id": "training.manage_trainees.course_evaluation_form",
+        "name": "Course Evaluation Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Notifications": {
+        "id": "training.manage_trainees.notifications",
+        "name": "Notifications",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ManageTrainers": {
+      "TrainerRegistrations": {
+        "id": "training.manage_trainers.trainer_registrations",
+        "name": "Trainer Registrations",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TrainingSessions": {
+        "id": "training.manage_trainers.training_sessions",
+        "name": "Training Sessions",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TrainerEvaluationForms": {
+        "id": "training.manage_trainers.trainer_evaluation_forms",
+        "name": "Trainer Evaluation Forms",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "LocalAuthority": {
+    "LocalAuthority": {
+      "ViewAllLocalAuthority": {
+        "id": "local_authority.local_authority.view_all_local_authority",
+        "name": "View all Local Authority",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ViewChildrenList": {
+        "id": "local_authority.local_authority.view_children_list",
+        "name": "View Children List",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RequestForSecureDataExchange": {
+        "id": "local_authority.local_authority.request_for_secure_data_exchange",
+        "name": "Request for Secure Data Exchange",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "LAEmployees": {
+      "LAEmployeeDirectory": {
+        "id": "local_authority.la_employees.la_employee_directory",
+        "name": "LA Employee Directory",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    }
+  },
+  "Audits": {
+    "AssignAnAudit": {
+      "id": "audits.assign_an_audit",
+      "name": "Assign an Audit",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "TotalAssignedAudits": {
+      "id": "audits.total_assigned_audits",
+      "name": "Total Assigned Audits",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "CompletedAudits": {
+      "id": "audits.completed_audits",
+      "name": "Completed Audits",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "ChildrenGuides": {
+    "id": "children_guides",
+    "name": "Children's Guides",
+    "permission": {
+      "add": true,
+      "view": true,
+      "edit": true,
+      "edit_own": true,
+      "delete": true,
+      "delete_own": true
+    }
+  },
+  "Advocacy": {
+    "CarerAdvocacy": {
+      "ViewAllAdvocacy": {
+        "id": "advocacy.carer_advocacy.view_all_advocacy",
+        "name": "View All Advocacy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RecentlyAccessedAdvocacy": {
+        "id": "advocacy.carer_advocacy.recently_accessed_advocacy",
+        "name": "Recently Accessed Advocacy",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CarersSelfAdvocacyToolkit": {
+        "id": "advocacy.carer_advocacy.carers_self_advocacy_toolkit",
+        "name": "Carers Self Advocacy Toolkit",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ListOfAdvocates": {
+        "id": "advocacy.carer_advocacy.list_of_advocates",
+        "name": "List of Advocates",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosterTalk": {
+        "id": "advocacy.carer_advocacy.foster_talk",
+        "name": "Foster Talk",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "UpcomingMeetings": {
+        "id": "advocacy.carer_advocacy.upcoming_meetings",
+        "name": "Upcoming Meetings",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ChildAdvocacy": {
+      "AdvocacyFormToBeFilledByTheChild": {
+        "id": "advocacy.child_advocacy.advocacy_form_to_be_filled_by_the_child",
+        "name": "Advocacy Form to be Filled by the Child",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AdvocacyFormRaisedByTheChildViaVoiceMemo": {
+        "id": "advocacy.child_advocacy.advocacy_form_raised_by_the_child_via_voice_memo",
+        "name": "Advocacy Form raised by the Child via Voice Memo",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AdvocacyFormFilledBySomeoneElse": {
+        "id": "advocacy.child_advocacy.advocacy_form_filled_by_someone_else",
+        "name": "Advocacy Form Filled by Someone Else",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ViewAdvocacyHistory": {
+        "id": "advocacy.child_advocacy.view_advocacy_history",
+        "name": "View Advocacy History",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AdvocacyMeetings": {
+        "id": "advocacy.child_advocacy.advocacy_meetings",
+        "name": "Advocacy Meetings",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "AdvocateDirectory": {
+      "id": "advocacy.advocate_directory",
+      "name": "Advocate Directory",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "ComplianceManagement": {
+    "id": "compliance_management",
+    "name": "Compliance Management",
+    "permission": {
+      "add": true,
+      "view": true,
+      "edit": true,
+      "edit_own": true,
+      "delete": true,
+      "delete_own": true
+    }
+  },
+  "Reports": {
+    "IFAReports": {
+      "FRA2019": {
+        "id": "reports.ifa_reports.fr_a_2019",
+        "name": "FR-A-2019",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRB2019": {
+        "id": "reports.ifa_reports.fr_b_2019",
+        "name": "FR-B-2019",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRC1": {
+        "id": "reports.ifa_reports.fr_c_1",
+        "name": "FR-C1",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRC2": {
+        "id": "reports.ifa_reports.fr_c_2",
+        "name": "FR-C2",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRD1": {
+        "id": "reports.ifa_reports.fr_d_1",
+        "name": "FR-D1",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRD2": {
+        "id": "reports.ifa_reports.fr_d_2",
+        "name": "FR-D2",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRE": {
+        "id": "reports.ifa_reports.fr_e",
+        "name": "FR-E",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRF1": {
+        "id": "reports.ifa_reports.fr_f_1",
+        "name": "FR-F1",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRF2": {
+        "id": "reports.ifa_reports.fr_f_2",
+        "name": "FR-F2",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRF3": {
+        "id": "reports.ifa_reports.fr_f_3",
+        "name": "FR-F3",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRF4": {
+        "id": "reports.ifa_reports.fr_f_4",
+        "name": "FR-F4",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRG": {
+        "id": "reports.ifa_reports.fr_g",
+        "name": "FR-G",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRH": {
+        "id": "reports.ifa_reports.fr_h",
+        "name": "FR-H",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FRI": {
+        "id": "reports.ifa_reports.fr_i",
+        "name": "FR-I",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SupervisoryHomeVisit": {
+        "id": "reports.ifa_reports.supervisory_home_visit",
+        "name": "Supervisory Home Visit",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "UnannouncedHomeVisit": {
+        "id": "reports.ifa_reports.unannounced_home_visit",
+        "name": "Unannounced Home Visit",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CarerFeedbackForEmployeesAppraisal": {
+        "id": "reports.ifa_reports.carer_feedback_for_employees_appraisal",
+        "name": "Carer Feedback For Employees Appraisal",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RiskAssessmentForm": {
+        "id": "reports.ifa_reports.risk_assessment_form",
+        "name": "Risk Assessment Form",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TrainingReport": {
+        "id": "reports.ifa_reports.training_report",
+        "name": "Training Report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "UserLogHistoryReport": {
+        "id": "reports.ifa_reports.user_log_history_report",
+        "name": "User Log History Report",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "CarerReports": {
+      "id": "reports.carer_reports",
+      "name": "Carer Reports",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ChildReports": {
+      "id": "reports.child_reports",
+      "name": "Child Reports",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "ContactDirectory": {
+    "id": "contact_directory",
+    "name": "Contact Directory",
+    "permission": {
+      "add": true,
+      "view": true,
+      "edit": true,
+      "edit_own": true,
+      "delete": true,
+      "delete_own": true
+    }
+  },
+  "SystemAdmin": {
+    "UserManagement": {
+      "ManageUsers": {
+        "id": "system_admin.user_management.manage_users",
+        "name": "Manage Users",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "GenerateLogin": {
+        "id": "system_admin.user_management.generate_login",
+        "name": "Generate Login",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ManageUserRoles": {
+        "id": "system_admin.user_management.manage_user_roles",
+        "name": "Manage User Roles",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ManageAccessLevels": {
+        "id": "system_admin.user_management.manage_access_levels",
+        "name": "Manage Access Levels",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ManageAlerts": {
+      "id": "system_admin.manage_alerts",
+      "name": "Manage Alerts",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "AreaOfficeSetup": {
+      "id": "system_admin.area_office_setup",
+      "name": "Area office Setup",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ReferenceDataManagement": {
+      "id": "system_admin.reference_data_management",
+      "name": "Reference Data Management",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "SystemConfiguration": {
+      "id": "system_admin.system_configuration",
+      "name": "System Configuration",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "DigitalSignatureManagement": {
+      "id": "system_admin.digital_signature_management",
+      "name": "Digital Signature Management",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ManageLetterTemplates": {
+      "id": "system_admin.manage_letter_templates",
+      "name": "Manage Letter Templates",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "APIInventory": {
+      "id": "system_admin.api_inventory",
+      "name": "API Inventory",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ManageThirdPartyLicenses": {
+      "id": "system_admin.manage_third_party_licenses",
+      "name": "Manage Third Party Licenses",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "BackupAndArchiveSettings": {
+      "id": "system_admin.backup_archive_settings",
+      "name": "Backup and Archive Settings",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "BCPOrDR": {
+      "BusinessContinuityPlan": {
+        "id": "system_admin.bcp_dr.business_continuity_plan",
+        "name": "Business Continuity Plan",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "BCPHistory": {
+        "id": "system_admin.bcp_dr.bcp_history",
+        "name": "BCP History",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ManageOrSendNewsLetters": {
+      "id": "system_admin.manage_send_news_letters",
+      "name": "Manage / Send News Letters",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ManageSocialMediaContent": {
+      "id": "system_admin.manage_social_media_content",
+      "name": "Manage Social Media Content",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ManageRatingsOrFeedbacks": {
+      "id": "system_admin.manage_ratings_feedbacks",
+      "name": "Manage Ratings / Feedbacks",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "DistributionListManagement": {
+      "EmailGroup": {
+        "id": "system_admin.distribution_list_management.email_group",
+        "name": "Email Group",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "WhatsappGroup": {
+        "id": "system_admin.distribution_list_management.whats_app_group",
+        "name": "WhatsApp Group",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "AuditTrailsAndAuditLogs": {
+      "CustomViews": {
+        "id": "system_admin.audit_trails_audit_logs.custom_views",
+        "name": "Custom Views",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "WindowsLogs": {
+        "id": "system_admin.audit_trails_audit_logs.windows_logs",
+        "name": "Windows Logs",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ApplicationsAndServices": {
+        "id": "system_admin.audit_trails_audit_logs.applications_services",
+        "name": "Applications and Services",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Subscription": {
+        "id": "system_admin.audit_trails_audit_logs.subscription",
+        "name": "Subscription",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "TransactionHistory": {
+        "id": "system_admin.audit_trails_audit_logs.transaction_history",
+        "name": "Transaction History",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SystemPerformanceMonitoring": {
+      "MonitoringSystemPerformance": {
+        "id": "system_admin.system_performance_monitoring.monitoring_system_performance",
+        "name": "Monitoring System Performance",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AuditTrailsAndAuditLogs": {
+        "id": "system_admin.system_performance_monitoring.audit_trails_audit_logs",
+        "name": "Audit Trails and Audit logs",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CloudAndAWSMonitoring": {
+        "id": "system_admin.system_performance_monitoring.cloud_aws_monitoring",
+        "name": "Cloud & AWS Monitoring",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "UserExperienceAndBusinessAnalytics": {
+        "id": "system_admin.system_performance_monitoring.user_experience_business_analytics",
+        "name": "User Experience and Business Analytics",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "DatabaseMonitoring": {
+        "id": "system_admin.system_performance_monitoring.database_monitoring",
+        "name": "Database Monitoring",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "MarketingAnalytics": {
+        "id": "system_admin.system_performance_monitoring.marketing_analytics",
+        "name": "Marketing Analytics",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SystemSecurity": {
+        "id": "system_admin.system_performance_monitoring.system_security",
+        "name": "System security",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "QuickAccess": {
+        "id": "system_admin.system_performance_monitoring.quick_access",
+        "name": "Quick Access",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ServerHealthCheckUp": {
+        "id": "system_admin.system_performance_monitoring.server_health_check_up",
+        "name": "Server health check-up",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "RemindersOrAlerts": {
+        "id": "system_admin.system_performance_monitoring.reminders_alerts",
+        "name": "Reminders / Alerts",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "MobileAppsAnalytics": {
+        "id": "system_admin.system_performance_monitoring.mobile_apps_analytics",
+        "name": "Mobile Apps Analytics",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "BulkOperations": {
+      "id": "system_admin.bulk_operations",
+      "name": "Bulk Operations",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ManageFaqs": {
+      "FosterChild": {
+        "id": "system_admin.manage_fa_qs.foster_child",
+        "name": "Foster Child",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "FosterCarer": {
+        "id": "system_admin.manage_fa_qs.foster_carer",
+        "name": "Foster Carer",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "SocialWorker": {
+        "id": "system_admin.manage_fa_qs.social_worker",
+        "name": "Social Worker",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "IFA": {
+        "id": "system_admin.manage_fa_qs.ifa",
+        "name": "IFA",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "NotificationManagement": {
+      "ChildNotification": {
+        "id": "system_admin.notification_management.child_notification",
+        "name": "Child Notification",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "CarerNotification": {
+        "id": "system_admin.notification_management.carer_notification",
+        "name": "Carer Notification",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "HRNotification": {
+        "id": "system_admin.notification_management.hr_notification",
+        "name": "HR Notification",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "ManageContactDirectory": {
+      "id": "system_admin.manage_contact_directory",
+      "name": "Manage Contact Directory",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ManageUserDashboard": {
+      "id": "system_admin.manage_user_dashboard",
+      "name": "Manage User Dashboard",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "SafeguardingNotificationSettings": {
+      "id": "system_admin.safeguarding_notification_settings",
+      "name": "Safeguarding Notification Settings",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "SessionSettings": {
+      "id": "system_admin.session_settings",
+      "name": "Session Settings",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "PoliciesAndGuidelines": {
+    "OrganisationalPolicies": {
+      "id": "policies_guidelines.organisational_policies",
+      "name": "Organisational Policies",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "AgencyGuidelines": {
+      "id": "policies_guidelines.agency_guidelines",
+      "name": "Agency Guidelines",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "GovLegislationAndRegulations": {
+      "id": "policies_guidelines.gov_legislation_regulations",
+      "name": "Gov. Legislation and Regulations",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "Handbooks": {
+      "id": "policies_guidelines.handbooks",
+      "name": "Handbooks",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "Templates": {
+      "id": "policies_guidelines.templates",
+      "name": "Templates",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "Checklists": {
+      "id": "policies_guidelines.checklists",
+      "name": "Checklists",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "CyberEssentials": {
+      "id": "policies_guidelines.cyber_essentials",
+      "name": "Cyber Essentials",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "OtherPolicies": {
+      "id": "policies_guidelines.other_policies",
+      "name": "Other Policies",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "UserManual": {
+    "id": "user_manual",
+    "name": "User Manual",
+    "permission": {
+      "add": true,
+      "view": true,
+      "edit": true,
+      "edit_own": true,
+      "delete": true,
+      "delete_own": true
+    }
+  },
+  "ITHelpDesk": {
+    "AllTickets": {
+      "id": "it_help_desk.all_tickets",
+      "name": "All Tickets",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "OnholdTickets": {
+      "id": "it_help_desk.onhold_tickets",
+      "name": "Onhold Tickets",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "PendingTickets": {
+      "id": "it_help_desk.pending_tickets",
+      "name": "Pending Tickets",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "ResolvedTickets": {
+      "id": "it_help_desk.resolved_tickets",
+      "name": "Resolved Tickets",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  },
+  "Marketing": {
+    "MarketingCampaigns": {
+      "Campaigns": {
+        "id": "marketing.marketing_campaigns.campaigns",
+        "name": "Campaigns",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "AdSets": {
+        "id": "marketing.marketing_campaigns.ad_sets",
+        "name": "Ad Sets",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Results": {
+        "id": "marketing.marketing_campaigns.results",
+        "name": "Results",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "EventMarketing": {
+      "Events": {
+        "id": "marketing.event_marketing.events",
+        "name": "Events",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "EventCalendar": {
+        "id": "marketing.event_marketing.event_calendar",
+        "name": "Event Calendar",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Vips": {
+        "id": "marketing.event_marketing.vi_ps",
+        "name": "VIPs",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Attendance": {
+        "id": "marketing.event_marketing.attendance",
+        "name": "Attendance",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Venues": {
+        "id": "marketing.event_marketing.venues",
+        "name": "Venues",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "MarketingStrategyOrPlan": {
+      "id": "marketing.marketing_strategy_plan",
+      "name": "Marketing Strategy / Plan",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "SocialMediaMarketing": {
+      "ScheduleContent": {
+        "id": "marketing.social_media_marketing.schedule_content",
+        "name": "Schedule Content",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Results": {
+        "id": "marketing.social_media_marketing.results",
+        "name": "Results",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "PitchesAndRequests": {
+        "id": "marketing.social_media_marketing.pitches_requests",
+        "name": "Pitches and Requests",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "EmailMarketing": {
+      "Emails": {
+        "id": "marketing.email_marketing.emails",
+        "name": "Emails",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Branch": {
+        "id": "marketing.email_marketing.branch",
+        "name": "Branch",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Lists": {
+        "id": "marketing.email_marketing.lists",
+        "name": "Lists",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "PersonaFocusedContentMarketing": {
+      "Editorial": {
+        "id": "marketing.persona_focused_content_marketing.editorial",
+        "name": "Editorial",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Personas": {
+        "id": "marketing.persona_focused_content_marketing.personas",
+        "name": "Personas",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Verticals": {
+        "id": "marketing.persona_focused_content_marketing.verticals",
+        "name": "Verticals",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "ContentIdeas": {
+        "id": "marketing.persona_focused_content_marketing.content_ideas",
+        "name": "Content Ideas",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      },
+      "Published": {
+        "id": "marketing.persona_focused_content_marketing.published",
+        "name": "Published",
+        "permission": {
+          "add": true,
+          "view": true,
+          "edit": true,
+          "edit_own": true,
+          "delete": true,
+          "delete_own": true
+        }
+      }
+    },
+    "SWOTAnalysis": {
+      "id": "marketing.swot_analysis",
+      "name": "SWOT Analysis",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "MarketingPlanMeetings": {
+      "id": "marketing.marketing_plan_meetings",
+      "name": "Marketing Plan Meetings",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    },
+    "MarketGapAnalysis": {
+      "id": "marketing.market_gap_analysis",
+      "name": "Market Gap Analysis",
+      "permission": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "edit_own": true,
+        "delete": true,
+        "delete_own": true
+      }
+    }
+  }
+}
