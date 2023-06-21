@@ -128,6 +128,7 @@ export default function CollapsibleTable() {
         console.log(Permissions);
       });
   }, []);
+  
   return (
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
