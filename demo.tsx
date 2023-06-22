@@ -64,11 +64,13 @@ const deepUpdate = (
   let depths: string[] = id.split('.');
   let operation = depths.splice(-1, 1).toString();
   let oK: any;
+  let found;
   for (oK in permissions) {
     let oV = permissions[oK];
     let depthId = depths.slice(0, oV.depth).join('.');
     console.log(oV.id, parentI);
-    if (oV.id === depthId || oV.id.startsWith(`${depthId}.`)) {
+    found = oV.id === depthId || oV.id.startsWith(`${depthId}.`);
+    if (found) {
       updatedPermissions[oK].permission[
         operation as keyof Permission['permission']
       ] = status;
@@ -80,9 +82,9 @@ const deepUpdate = (
           oK
         );
       }
-    } else if (parentI == undefined) {
-      console.log(depthId, oV.id, parentI);
-      break;
+      if (parentI == undefined) {
+        break;
+      }
     }
   }
   return updatedPermissions;
