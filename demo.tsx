@@ -52,26 +52,26 @@ const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
     },
   }));
 
-const subUpdate = (
-  permissions: Permission[],
-  id: string,
-  status: boolean
-): Permission[] => {
-  let updatedPermissions = structuredClone(permissions);
-  let depths = id.split('.');
-  let operation = depths.splice(-1, 1).toString();
-  depths.forEach((depth) => {
-    Object.entries(permissions).find(([pK, pV]: any) => {
-      if (pV.id === depth) {
-        updatedPermissions[pK].permission[operation] = status;
-        if (updatedPermissions[pK].children.length) {
-          console.log(updatedPermissions[pK]);
-        }
-      }
-    });
-  });
-  return updatedPermissions;
-};
+// const subUpdate = (
+//   permissions: Permission[],
+//   id: string,
+//   status: boolean
+// ): Permission[] => {
+//   let updatedPermissions = structuredClone(permissions);
+//   let depths = id.split('.');
+//   let operation = depths.splice(-1, 1).toString();
+//   depths.forEach((depth) => {
+//     Object.entries(permissions).find(([pK, pV]: any) => {
+//       if (pV.id === depth) {
+//         updatedPermissions[pK].permission[operation] = status;
+//         if (updatedPermissions[pK].children.length) {
+//           console.log(updatedPermissions[pK]);
+//         }
+//       }
+//     });
+//   });
+//   return updatedPermissions;
+// };
 
 const deepUpdate = (
   permissions: Permission[],
@@ -84,10 +84,10 @@ const deepUpdate = (
   depths.forEach((depth) => {
     Object.entries(permissions).find(([pK, pV]: any) => {
       if (pV.id === depth) {
-        updatedPermissions[pK].permission[operation] = status;
-        if (updatedPermissions[pK].children.length) {
-          console.log(updatedPermissions[pK]);
+        updatedPermissions[pK].permission[operation] = status as any;
+        if (updatedPermissions[pK].children?.length) {
         }
+        console.log(updatedPermissions[pK]);
       }
     });
   });
