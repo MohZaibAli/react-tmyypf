@@ -45,9 +45,9 @@ const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
       children: deepMap(oV, depth + 1, parentId ? `${parentId}.${oK}` : oK),
     }),
     permission: {
-      add: true,
+      add: false,
       view: false,
-      edit: true,
+      edit: false,
       edit_own: false,
       delete: false,
       delete_own: false,
@@ -62,7 +62,9 @@ const deepUpdate = (
 ): Permission[] => {
   let updatedPermissions = structuredClone(permissions);
   let depths: string[] = id.split('.');
-  let operation = depths.splice(-1, 1).toString();
+  let operation: keyof Permission['permission'] = depths
+    .splice(-1, 1)
+    .toString() as any;
   let oK: any;
   let found;
   for (oK in permissions) {
@@ -77,27 +79,19 @@ const deepUpdate = (
           status,
           oK
         );
-        if (
-          status === true &&
-          permissions[oK].children
-            .map((c) => c.permission[operation])
+        console.log(
+          depthId,
+          status,
+          updatedPermissions[oK].children?.map((c) => c.permission[operation]),
+          updatedPermissions[oK]
+            .children!.map((c) => c.permission[operation])
             .every((s) => s === status)
-        ) {
-          console.log(
-            updatedPermissions[oK].children.map((c) => c.permission[operation])
-          );
-          updatedPermissions[oK].permission[
-            operation as keyof Permission['permission']
-          ] = status;
-        } else {
-          updatedPermissions[oK].permission[
-            operation as keyof Permission['permission']
-          ] = status;
-        }
+        );
+        updatedPermissions[oK].permission[operation] = updatedPermissions[oK]
+          .children!.map((c) => c.permission[operation])
+          .every((s) => s === status);
       } else {
-        updatedPermissions[oK].permission[
-          operation as keyof Permission['permission']
-        ] = status;
+        updatedPermissions[oK].permission[operation] = status;
       }
       if (parentI == undefined) {
         break;
