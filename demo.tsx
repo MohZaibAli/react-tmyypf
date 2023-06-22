@@ -71,18 +71,29 @@ const deepUpdate = (
     found = oV.id === depthId || oV.id.startsWith(`${depthId}.`);
     if (found) {
       if (oV.children) {
-        // check before update parent
-        // permissions[oK].children.map((pC) => )
         updatedPermissions[oK].children = deepUpdate(
           oV.children,
           id,
           status,
           oK
         );
-
-        updatedPermissions[oK].permission[
-          operation as keyof Permission['permission']
-        ] = status;
+        if (
+          status === true &&
+          permissions[oK].children
+            .map((c) => c.permission[operation])
+            .every((s) => s === status)
+        ) {
+          console.log(
+            updatedPermissions[oK].children.map((c) => c.permission[operation])
+          );
+          updatedPermissions[oK].permission[
+            operation as keyof Permission['permission']
+          ] = status;
+        } else {
+          updatedPermissions[oK].permission[
+            operation as keyof Permission['permission']
+          ] = status;
+        }
       } else {
         updatedPermissions[oK].permission[
           operation as keyof Permission['permission']
