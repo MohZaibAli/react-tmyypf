@@ -1,23 +1,16 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
-import { TableCell as MuiTableCell } from '@mui/material';
+import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Checkbox from '@mui/material/Checkbox';
-import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import { styled } from '@mui/system';
-
-const TableCell = styled(MuiTableCell)({
-  width: '12.5%',
-});
 
 type Permission = {
   id: string;
@@ -79,17 +72,11 @@ const deepUpdate = (
           status,
           oK
         );
-        console.log(
-          depthId,
-          status,
-          updatedPermissions[oK].children?.map((c) => c.permission[operation]),
-          updatedPermissions[oK]
-            .children!.map((c) => c.permission[operation])
-            .every((s) => s === status)
-        );
         updatedPermissions[oK].permission[operation] = updatedPermissions[oK]
           .children!.map((c) => c.permission[operation])
-          .every((s) => s === status);
+          .every((s) => s === status)
+          ? status
+          : false;
       } else {
         updatedPermissions[oK].permission[operation] = status;
       }
@@ -110,8 +97,14 @@ function Row(props: { row: Permission; handleChange: any }) {
       <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
         {row?.children?.length ? (
           <TableCell
-            sx={{ width: '5%' }}
-            style={{ paddingLeft: row.depth * 15 }}
+            sx={{
+              '&': {
+                width: '5%',
+                paddingLeft: {
+                  md: `${row.depth * 15}px`,
+                },
+              },
+            }}
           >
             <IconButton
               aria-label="expand row"
@@ -122,47 +115,47 @@ function Row(props: { row: Permission; handleChange: any }) {
             </IconButton>
           </TableCell>
         ) : (
-          <TableCell sx={{ width: '5%' }} />
+          <TableCell style={{ width: '5%' }} />
         )}
         <TableCell component="th" scope="row">
           {row.name}
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="center" style={{ width: '10%' }}>
           <Checkbox
             id={`${row.id}.add`}
             onChange={handleChange}
             checked={row.permission.add}
           />
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="center" style={{ width: '10%' }}>
           <Checkbox
             id={`${row.id}.view`}
             onChange={handleChange}
             checked={row.permission.view}
           />
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="center" style={{ width: '10%' }}>
           <Checkbox
             id={`${row.id}.edit`}
             onChange={handleChange}
             checked={row.permission.edit}
           />
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="center" style={{ width: '10%' }}>
           <Checkbox
             id={`${row.id}.edit_own`}
             onChange={handleChange}
             checked={row.permission.edit_own}
           />
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="center" style={{ width: '10%' }}>
           <Checkbox
             id={`${row.id}.delete`}
             onChange={handleChange}
             checked={row.permission.delete}
           />
         </TableCell>
-        <TableCell align="center">
+        <TableCell align="center" style={{ width: '10%' }}>
           <Checkbox
             id={`${row.id}.delete_own`}
             onChange={handleChange}
@@ -213,18 +206,30 @@ export default function CollapsibleTable() {
   };
 
   return (
-    <TableContainer component={Paper}>
-      <Table aria-label="collapsible table">
+    <TableContainer sx={{ maxHeight: '98vh' }} component={Paper}>
+      <Table stickyHeader aria-label="collapsible table">
         <TableHead>
           <TableRow>
             <TableCell sx={{ width: '5%' }} />
             <TableCell>Name</TableCell>
-            <TableCell align="center">Add</TableCell>
-            <TableCell align="center">View</TableCell>
-            <TableCell align="center">Edit</TableCell>
-            <TableCell align="center">Edit Own</TableCell>
-            <TableCell align="center">Delete</TableCell>
-            <TableCell align="center">Delete Own</TableCell>
+            <TableCell align="center" style={{ width: '10%' }}>
+              Add
+            </TableCell>
+            <TableCell align="center" style={{ width: '10%' }}>
+              View
+            </TableCell>
+            <TableCell align="center" style={{ width: '10%' }}>
+              Edit
+            </TableCell>
+            <TableCell align="center" style={{ width: '10%' }}>
+              Edit Own
+            </TableCell>
+            <TableCell align="center" style={{ width: '10%' }}>
+              Delete
+            </TableCell>
+            <TableCell align="center" style={{ width: '10%' }}>
+              Delete Own
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
