@@ -67,30 +67,23 @@ const deepUpdate = (
   for (oK in permissions) {
     let oV = permissions[oK];
     let depthId = depths.slice(0, oV.depth).join('.');
-    console.log(depthId, oV.id);
-    if (depthId == oV.id) {
-      console.log(
-        parentI,
-        oK,
-        oV.id,
-        oV.children && deepUpdate(oV.children, id, status, oK),
-        oV.depth
-      );
-      break;
+    if (oV.id === depthId || oV.id.startsWith(`${depthId}.`)) {
+      console.log(oV.id);
+      updatedPermissions[oK].permission[
+        operation as keyof Permission['permission']
+      ] = status;
+      if (oV.children) {
+        updatedPermissions[oK].children = deepUpdate(
+          oV.children,
+          id,
+          status,
+          oK
+        );
+      } else {
+        break;
+      }
     }
-    // id: parentId ? `${parentId}.${oK}` : oK,
-    //   ...(!oV.permission && { children: deepMap(oV, depth + 1, oK) }),
   }
-  // depths.forEach((depth) => {
-  //   Object.entries(permissions).find(([pK, pV]: any) => {
-  //     if (pV.id === depth) {
-  //       updatedPermissions[pK].permission[operation] = status as any;
-  //       if (updatedPermissions[pK].children?.length) {
-  //       }
-  //       console.log(updatedPermissions[pK]);
-  //     }
-  //   });
-  // });
   return updatedPermissions;
 };
 
@@ -202,6 +195,7 @@ export default function CollapsibleTable() {
       e.target.id,
       e.target.checked
     );
+    setPermissions(updatedPermissions);
   };
 
   return (
