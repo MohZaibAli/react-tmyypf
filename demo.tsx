@@ -28,6 +28,8 @@ type Permission = {
   };
 };
 
+let permissionIds = [];
+
 const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
   Object.entries(obj).map(([oK, oV]: any) => ({
     depth,
@@ -48,20 +50,20 @@ const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
   }));
 
 const deepUpdate = (
-  permissions: Permission[],
+  _permissions: Permission[],
   id: string,
   status: boolean,
   parentI?: number
 ): Permission[] => {
-  let updatedPermissions = structuredClone(permissions);
+  let updatedPermissions = structuredClone(_permissions);
   let depths: string[] = id.split('.');
   let operation: keyof Permission['permission'] = depths
     .splice(-1, 1)
     .toString() as any;
   let oK: any;
   let found;
-  for (oK in permissions) {
-    let oV = permissions[oK];
+  for (oK in _permissions) {
+    let oV = _permissions[oK];
     let depthId = depths.slice(0, oV.depth).join('.');
     found = oV.id === depthId || oV.id.startsWith(`${depthId}.`);
     if (found) {
@@ -77,8 +79,16 @@ const deepUpdate = (
           .every((s) => s === status)
           ? status
           : false;
+        updatedPermissions[oK].permissionId &&
+          permissionIds.push(
+            `${updatedPermissions[oK].permissionId}.${operation}`
+          );
       } else {
         updatedPermissions[oK].permission[operation] = status;
+        updatedPermissions[oK].permissionId &&
+          permissionIds.push(
+            `${updatedPermissions[oK].permissionId}.${operation}`
+          );
       }
       if (parentI == undefined) {
         break;
@@ -197,12 +207,14 @@ export default function CollapsibleTable() {
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    permissionIds = [];
     let updatedPermissions = deepUpdate(
       permissions,
       e.target.id,
       e.target.checked
     );
     setPermissions(updatedPermissions);
+    console.log(permissionIds);
   };
 
   return (
