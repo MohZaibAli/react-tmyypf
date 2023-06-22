@@ -21,6 +21,7 @@ const TableCell = styled(MuiTableCell)({
 
 type Permission = {
   id: string;
+  permissionId: string;
   depth: number;
   name: string;
   children?: Permission[];
@@ -34,12 +35,13 @@ type Permission = {
   };
 };
 
-const deepMap = (obj: Object, depth = 1): Permission[] =>
+const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
   Object.entries(obj).map(([oK, oV]: any) => ({
     depth,
-    id: oV.id,
+    id: parentId ? `${parentId}.${oK}` : oK,
+    ...(oV.id && { permissionId: oV.id }),
     name: oV.name || oK.replace(/([a-z])([A-Z])/g, '$1 $2'),
-    ...(!oV.permission && { children: deepMap(oV, depth + 1) }),
+    ...(!oV.permission && { children: deepMap(oV, depth + 1, oK) }),
     permission: {
       add: true,
       view: false,
@@ -50,8 +52,50 @@ const deepMap = (obj: Object, depth = 1): Permission[] =>
     },
   }));
 
-function Row(props: { row: Permission }) {
-  const { row } = props;
+const subUpdate = (
+  permissions: Permission[],
+  id: string,
+  status: boolean
+): Permission[] => {
+  let updatedPermissions = structuredClone(permissions);
+  let depths = id.split('.');
+  let operation = depths.splice(-1, 1).toString();
+  depths.forEach((depth) => {
+    Object.entries(permissions).find(([pK, pV]: any) => {
+      if (pV.id === depth) {
+        updatedPermissions[pK].permission[operation] = status;
+        if (updatedPermissions[pK].children.length) {
+          console.log(updatedPermissions[pK]);
+        }
+      }
+    });
+  });
+  return updatedPermissions;
+};
+
+const deepUpdate = (
+  permissions: Permission[],
+  id: string,
+  status: boolean
+): Permission[] => {
+  let updatedPermissions = structuredClone(permissions);
+  let depths = id.split('.');
+  let operation = depths.splice(-1, 1).toString();
+  depths.forEach((depth) => {
+    Object.entries(permissions).find(([pK, pV]: any) => {
+      if (pV.id === depth) {
+        updatedPermissions[pK].permission[operation] = status;
+        if (updatedPermissions[pK].children.length) {
+          console.log(updatedPermissions[pK]);
+        }
+      }
+    });
+  });
+  return updatedPermissions;
+};
+
+function Row(props: { row: Permission; handleChange: any }) {
+  const { row, handleChange } = props;
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -77,22 +121,46 @@ function Row(props: { row: Permission }) {
           {row.name}
         </TableCell>
         <TableCell align="center">
-          <Checkbox checked={row.permission.add} />
+          <Checkbox
+            id={`${row.id}.add`}
+            onChange={handleChange}
+            checked={row.permission.add}
+          />
         </TableCell>
         <TableCell align="center">
-          <Checkbox checked={row.permission.view} />
+          <Checkbox
+            id={`${row.id}.view`}
+            onChange={handleChange}
+            checked={row.permission.view}
+          />
         </TableCell>
         <TableCell align="center">
-          <Checkbox checked={row.permission.edit} />
+          <Checkbox
+            id={`${row.id}.edit`}
+            onChange={handleChange}
+            checked={row.permission.edit}
+          />
         </TableCell>
         <TableCell align="center">
-          <Checkbox checked={row.permission.edit_own} />
+          <Checkbox
+            id={`${row.id}.edit_own`}
+            onChange={handleChange}
+            checked={row.permission.edit_own}
+          />
         </TableCell>
         <TableCell align="center">
-          <Checkbox checked={row.permission.delete} />
+          <Checkbox
+            id={`${row.id}.delete`}
+            onChange={handleChange}
+            checked={row.permission.delete}
+          />
         </TableCell>
         <TableCell align="center">
-          <Checkbox checked={row.permission.delete_own} />
+          <Checkbox
+            id={`${row.id}.delete_own`}
+            onChange={handleChange}
+            checked={row.permission.delete_own}
+          />
         </TableCell>
       </TableRow>
       {row?.children?.length && (
@@ -102,7 +170,7 @@ function Row(props: { row: Permission }) {
               <Table aria-label="collapsible table">
                 <TableBody>
                   {row?.children?.map((permission, i) => (
-                    <Row key={i} row={permission} />
+                    <Row key={i} row={permission} handleChange={handleChange} />
                   ))}
                 </TableBody>
               </Table>
@@ -125,10 +193,17 @@ export default function CollapsibleTable() {
       .then((response) => {
         let Permissions = deepMap(response);
         setPermissions(Permissions);
-        console.log(Permissions);
       });
   }, []);
-  
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let updatedPermissions = deepUpdate(
+      permissions,
+      e.target.id,
+      e.target.checked
+    );
+  };
+
   return (
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
@@ -146,7 +221,7 @@ export default function CollapsibleTable() {
         </TableHead>
         <TableBody>
           {permissions.map((permission, i) => (
-            <Row key={i} row={permission} />
+            <Row key={i} row={permission} handleChange={handleChange} />
           ))}
         </TableBody>
       </Table>
