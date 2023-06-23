@@ -34,7 +34,7 @@ let permissionIds: string[] = [];
 const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
   Object.entries(obj).map(([oK, oV]: any) => {
     let children: Permission[] | undefined;
-    let permissionObj = {
+    let permissionObj: Permission['permission'] = {
       add: oV.permission?.add || false,
       view: oV.permission?.view || false,
       edit: oV.permission?.edit || false,
@@ -45,11 +45,9 @@ const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
 
     if (!oV.permission) {
       children = deepMap(oV, depth + 1, parentId ? `${parentId}.${oK}` : oK);
-      Object.keys(permissionObj).forEach(
-        (pK: keyof Permission['permission']) => {
-          permissionObj[pK] = children.every((c) => c.permission[pK] === true);
-        }
-      );
+      Object.keys(permissionObj).forEach((pK) => {
+        permissionObj[pK] = children.every((c) => c.permission[pK] === true);
+      });
     }
     return {
       depth,

@@ -3,12 +3,12 @@
     "id": "dashboard",
     "name": "Dashboard",
     "permission": {
-      "add": true,
-      "view": true,
-      "edit": true,
-      "edit_own": true,
-      "delete": true,
-      "delete_own": true
+      "add": false,
+      "view": false,
+      "edit": false,
+      "edit_own": false,
+      "delete": false,
+      "delete_own": false
     }
   },
   "FosterCarer": {
@@ -17,120 +17,120 @@
         "id": "foster_carer.personal_info.initial_enquiry",
         "name": "Initial Enquiry",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ApplicationForm": {
         "id": "foster_carer.personal_info.application_form",
         "name": "Application Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FormF": {
         "id": "foster_carer.personal_info.form_f",
         "name": "Form F",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "InitialHomeVisit": {
         "id": "foster_carer.personal_info.initial_home_visit",
         "name": "Initial Home Visit",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CarerChronologyOfEvents": {
         "id": "foster_carer.personal_info.carer_chronology_of_events",
         "name": "Carer Chronology of Events",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CarerFamilyOrSupportNetwork": {
         "id": "foster_carer.personal_info.carer_family_support_network",
         "name": "Carer Family / Support Network",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AddressHistory": {
         "id": "foster_carer.personal_info.address_history",
         "name": "Address History",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PetQuestionnaire": {
         "id": "foster_carer.personal_info.pet_questionnaire",
         "name": "Pet Questionnaire",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "InterviewRecordAndAnalysis": {
         "id": "foster_carer.personal_info.interview_record_analysis",
         "name": "Interview Record and Analysis",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SocialMediaLinks": {
         "id": "foster_carer.personal_info.social_media_links",
         "name": "Social Media Links",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -139,12 +139,12 @@
         "id": "foster_carer.background_checks.statutory_checks_list",
         "name": "Statutory Checks List",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -153,24 +153,24 @@
         "id": "foster_carer.medical_history.health_safety",
         "name": "Health and Safety",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Immunisations": {
         "id": "foster_carer.medical_history.immunisations",
         "name": "Immunisations",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -179,12 +179,12 @@
         "id": "foster_carer.employment_history.employment_details",
         "name": "Employment Details",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -193,12 +193,12 @@
         "id": "foster_carer.training_profiles.training_profile",
         "name": "Training Profile",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -207,24 +207,24 @@
         "id": "foster_carer.other_information.next_of_kin",
         "name": "Next of Kin",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "BankAccountDetails": {
         "id": "foster_carer.other_information.bank_account_details",
         "name": "Bank Account Details",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -233,36 +233,36 @@
         "id": "foster_carer.substitute_cares.backup_carer",
         "name": "Backup Carer",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SwapCarer": {
         "id": "foster_carer.substitute_cares.swap_carer",
         "name": "Swap Carer",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RespiteCarer": {
         "id": "foster_carer.substitute_cares.respite_carer",
         "name": "Respite Carer",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -273,60 +273,60 @@
         "id": "foster_carer_recruitment.enquiry_stage.initial_contact",
         "name": "Initial Contact",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "InitialEnquiryStage": {
         "id": "foster_carer_recruitment.enquiry_stage.initial_enquiry_stage",
         "name": "Initial Enquiry Stage",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "DigitalInfoPack": {
         "id": "foster_carer_recruitment.enquiry_stage.digital_info_pack",
         "name": "Digital Info Pack",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "InitialHomeVisit": {
         "id": "foster_carer_recruitment.enquiry_stage.initial_home_visit",
         "name": "Initial Home Visit",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SocialWorkerAssessment": {
         "id": "foster_carer_recruitment.enquiry_stage.social_worker_assessment",
         "name": "Social Worker Assessment",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -335,48 +335,48 @@
         "id": "foster_carer_recruitment.assessment_stage_1.regular_assessment_meeting",
         "name": "Regular Assessment Meeting",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "StatutoryChecksVerification": {
         "id": "foster_carer_recruitment.assessment_stage_1.statutory_checks_verification",
         "name": "Statutory Checks Verification",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TrainingVerification": {
         "id": "foster_carer_recruitment.assessment_stage_1.training_verification",
         "name": "Training Verification",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Stage1Approval": {
         "id": "foster_carer_recruitment.assessment_stage_1.stage_1_approval",
         "name": "Stage 1 Approval",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -385,48 +385,48 @@
         "id": "foster_carer_recruitment.assessment_stage_2.fostering_panel_assessment_interview",
         "name": "Fostering Panel Assessment/ Interview",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosteringPanelRecommendation": {
         "id": "foster_carer_recruitment.assessment_stage_2.fostering_panel_recommendation",
         "name": "Fostering Panel Recommendation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AgencyDecision": {
         "id": "foster_carer_recruitment.assessment_stage_2.agency_decision",
         "name": "Agency Decision",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SignOffApproval": {
         "id": "foster_carer_recruitment.assessment_stage_2.sign_off_approval",
         "name": "Sign off Approval",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -435,72 +435,72 @@
         "id": "foster_carer_recruitment.contracts_declarations.agency_policy",
         "name": "Agency Policy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FinanceAgreement": {
         "id": "foster_carer_recruitment.contracts_declarations.finance_agreement",
         "name": "Finance Agreement",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AgencySafeguardPolicy": {
         "id": "foster_carer_recruitment.contracts_declarations.agency_safeguard_policy",
         "name": "Agency Safeguard Policy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RecruitmentAndAssessmentPolicy": {
         "id": "foster_carer_recruitment.contracts_declarations.recruitment_assessment_policy",
         "name": "Recruitment and Assessment Policy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RecordingKeepingPolicy": {
         "id": "foster_carer_recruitment.contracts_declarations.recording_keeping_policy",
         "name": "Recording Keeping Policy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Declarations": {
         "id": "foster_carer_recruitment.contracts_declarations.declarations",
         "name": "Declarations",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -509,72 +509,72 @@
         "id": "foster_carer_recruitment.ready_for_placement.policy_receipts",
         "name": "Policy Receipts",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingMeasures(beforeChildPlacement)": {
         "id": "foster_carer_recruitment.ready_for_placement.safeguarding_measures_before_child_placement",
         "name": "Safeguarding Measures (Before Child Placement)",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "MandatoryTraining": {
         "id": "foster_carer_recruitment.ready_for_placement.mandatory_training",
         "name": "Mandatory Training",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RiskAssessments": {
         "id": "foster_carer_recruitment.ready_for_placement.risk_assessments",
         "name": "Risk Assessments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PlacementPreference": {
         "id": "foster_carer_recruitment.ready_for_placement.placement_preference",
         "name": "Placement Preference",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AwaitingPlacement": {
         "id": "foster_carer_recruitment.ready_for_placement.awaiting_placement",
         "name": "Awaiting Placement",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -585,48 +585,48 @@
         "id": "foster_child.child_background_info.child_chronology_of_events",
         "name": "Child Chronology of Events",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CLADocumentation": {
         "id": "foster_child.child_background_info.cla_documentation",
         "name": "CLA Documentation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FamilyOrPersonsAndOrgInvolved": {
         "id": "foster_child.child_background_info.family_persons_org_involved",
         "name": "Family/Persons & Org Involved",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CarerDetails": {
         "id": "foster_child.child_background_info.carer_details",
         "name": "Carer Details",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -635,108 +635,108 @@
         "id": "foster_child.health_medical_history.behavioural_info",
         "name": "Behavioural Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "HospitalInfoList": {
         "id": "foster_child.health_medical_history.hospital_info_list",
         "name": "Hospital Info List",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Hospitalisation": {
         "id": "foster_child.health_medical_history.hospitalisation",
         "name": "Hospitalisation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Immunisation": {
         "id": "foster_child.health_medical_history.immunisation",
         "name": "Immunisation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "MedicalAppointments": {
         "id": "foster_child.health_medical_history.medical_appointments",
         "name": "Medical Appointments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildMedicationInfo": {
         "id": "foster_child.health_medical_history.child_medication_info",
         "name": "Child Medication Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "StatutoryMedicalList": {
         "id": "foster_child.health_medical_history.statutory_medical_list",
         "name": "Statutory Medical List",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TherapyInfo": {
         "id": "foster_child.health_medical_history.therapy_info",
         "name": "Therapy Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "GPDetails": {
         "id": "foster_child.health_medical_history.gp_details",
         "name": "GP Details",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -745,144 +745,144 @@
         "id": "foster_child.education_records.school_detail_info",
         "name": "School Detail Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AbsenceInfo": {
         "id": "foster_child.education_records.absence_info",
         "name": "Absence Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildEducationInfo": {
         "id": "foster_child.education_records.child_education_info",
         "name": "Child Education Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildExclusionInfo": {
         "id": "foster_child.education_records.child_exclusion_info",
         "name": "Child Exclusion Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "OutOfSchoolActivity": {
         "id": "foster_child.education_records.out_of_school_activity",
         "name": "Out of School Activity",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PersonalEducationPlan": {
         "id": "foster_child.education_records.personal_education_plan",
         "name": "Personal Education Plan",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SatsOrExamOrGradeDetails": {
         "id": "foster_child.education_records.sa_ts_exam_grade_details",
         "name": "SATs / Exam / Grade Details",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "StudySupportInfo": {
         "id": "foster_child.education_records.study_support_info",
         "name": "Study Support Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "VocationalCourseInfo": {
         "id": "foster_child.education_records.vocational_course_info",
         "name": "Vocational Course Info",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "LeisureActivitiesOrHobby": {
         "id": "foster_child.education_records.leisure_activities_hobby",
         "name": "Leisure activities / Hobby",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "IndependencePacksLifeSkillAssessment": {
         "id": "foster_child.education_records.independence_packs_life_skill_assessment",
         "name": "Independence Packs - Life Skill Assessment",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildActivityDirectory": {
         "id": "foster_child.education_records.child_activity_directory",
         "name": "Child's Activity Directory",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -891,24 +891,24 @@
         "id": "foster_child.child_goals_pathway.child_pathway_plan",
         "name": "Child Pathway Plan",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildPersonalGoals": {
         "id": "foster_child.child_goals_pathway.child_personal_goals",
         "name": "Child Personal Goals",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -917,24 +917,24 @@
         "id": "foster_child.social_worker_details.supervising_social_worker",
         "name": "Supervising Social Worker",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "LASocialWorker": {
         "id": "foster_child.social_worker_details.la_social_worker",
         "name": "LA Social Worker",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -943,24 +943,24 @@
         "id": "foster_child.referrals.child_referral",
         "name": "Child Referral",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "OriginalReferral": {
         "id": "foster_child.referrals.original_referral",
         "name": "Original Referral",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -969,36 +969,36 @@
         "id": "foster_child.child_day_log.day_log_journal_entries",
         "name": "Day Log/Journal Entries",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "DiaryRecordings": {
         "id": "foster_child.child_day_log.diary_recordings",
         "name": "Diary Recordings",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildHolidayPreference": {
         "id": "foster_child.child_day_log.child_holiday_preference",
         "name": "Child Holiday Preference",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1007,72 +1007,72 @@
         "id": "foster_child.other_information.safe_care_policy",
         "name": "Safe Care Policy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PlacementAndDischargeHistory": {
         "id": "foster_child.other_information.placement_discharge_history",
         "name": "Placement and Discharge History",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CLAReview": {
         "id": "foster_child.other_information.cla_review",
         "name": "CLA Review",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SanctionDetails": {
         "id": "foster_child.other_information.sanction_details",
         "name": "Sanction Details",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RiskAssessment": {
         "id": "foster_child.other_information.risk_assessment",
         "name": "Risk Assessment",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "IFAParticipationPolicyForChild": {
         "id": "foster_child.other_information.ifa_participation_policy_for_child",
         "name": "IFA Participation Policy for Child",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1081,72 +1081,72 @@
         "id": "foster_child.events_notification.child_exploitation",
         "name": "Child Exploitation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Allegation": {
         "id": "foster_child.events_notification.allegation",
         "name": "Allegation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildMissingPlacement": {
         "id": "foster_child.events_notification.child_missing_placement",
         "name": "Child Missing Placement",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Complaints": {
         "id": "foster_child.events_notification.complaints",
         "name": "Complaints",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Incident": {
         "id": "foster_child.events_notification.incident",
         "name": "Incident",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "OfstedNotification": {
         "id": "foster_child.events_notification.ofsted_notification",
         "name": "Ofsted Notification",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1155,240 +1155,240 @@
         "id": "foster_child.child_reports.child_living_in_the_household_comments",
         "name": "Child living in the household's comments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "YoungPersonLivingInTheHouseholdComments": {
         "id": "foster_child.child_reports.young_person_living_in_the_household_comments",
         "name": "Young person living in the household's comments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildRegisterReportFosteredChildComments": {
         "id": "foster_child.child_reports.child_register_report_fostered_child_comments",
         "name": "Child register report fostered child's comments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosteredYoungPersonComments": {
         "id": "foster_child.child_reports.fostered_young_person_comments",
         "name": "Fostered young person's comments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildSocialWorkerReport": {
         "id": "foster_child.child_reports.child_social_worker_report",
         "name": "Child's social worker report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildAdditionalReports": {
         "id": "foster_child.child_reports.child_additional_reports",
         "name": "Child additional reports",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ReviewingOfficerReport": {
         "id": "foster_child.child_reports.reviewing_officer_report",
         "name": "Reviewing officer report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosteringServiceManagerReport": {
         "id": "foster_child.child_reports.fostering_service_manager_report",
         "name": "Fostering service manager report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildAllegationsReport": {
         "id": "foster_child.child_reports.child_allegations_report",
         "name": "Child allegations report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildComplaintsReport": {
         "id": "foster_child.child_reports.child_complaints_report",
         "name": "Child complaints report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildOOHReport": {
         "id": "foster_child.child_reports.child_ooh_report",
         "name": "Child OOH report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildCriticalIncidentsReport": {
         "id": "foster_child.child_reports.child_critical_incidents_report",
         "name": "Child critical incidents report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildPlacementsReport": {
         "id": "foster_child.child_reports.child_placements_report",
         "name": "Child placements report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildDayLogEventsReport": {
         "id": "foster_child.child_reports.child_day_log_events_report",
         "name": "Child day log events report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "EducationKeyStageReport": {
         "id": "foster_child.child_reports.education_key_stage_report",
         "name": "Education key stage report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildImmunisationDetailsReport": {
         "id": "foster_child.child_reports.child_immunisation_details_report",
         "name": "Child immunisation details report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildMedicationDetailsReport": {
         "id": "foster_child.child_reports.child_medication_details_report",
         "name": "Child medication details report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ChildMissingPlacementsReport": {
         "id": "foster_child.child_reports.child_missing_placements_report",
         "name": "Child missing placements report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SupervisoryHomeVisit": {
         "id": "foster_child.child_reports.supervisory_home_visit",
         "name": "Supervisory Home Visit",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CLADocumentationReport": {
         "id": "foster_child.child_reports.cla_documentation_report",
         "name": "CLA documentation report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -1397,12 +1397,12 @@
     "id": "matching",
     "name": "Matching",
     "permission": {
-      "add": true,
-      "view": true,
-      "edit": true,
-      "edit_own": true,
-      "delete": true,
-      "delete_own": true
+      "add": false,
+      "view": false,
+      "edit": false,
+      "edit_own": false,
+      "delete": false,
+      "delete_own": false
     }
   },
   "Placement": {
@@ -1410,108 +1410,108 @@
       "id": "placement.placement_status",
       "name": "Placement Status",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "MakePlacement": {
       "id": "placement.make_placement",
       "name": "Make Placement",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "TransferPlacement": {
       "id": "placement.transfer_placement",
       "name": "Transfer Placement",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "RespitePlacement": {
       "id": "placement.respite_placement",
       "name": "Respite Placement",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "DischargePlacement": {
       "id": "placement.discharge_placement",
       "name": "Discharge Placement",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "EndPlacement": {
       "id": "placement.end_placement",
       "name": "End Placement",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "Rejections": {
       "id": "placement.rejections",
       "name": "Rejections",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "PlacementChecklist": {
       "id": "placement.placement_checklist",
       "name": "Placement Checklist",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "PlacementMeetingRecord": {
       "id": "placement.placement_meeting_record",
       "name": "Placement Meeting Record",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -1521,36 +1521,36 @@
         "id": "deregister_foster_carer.de_reg_initial_request.initial_request_for_de_registration",
         "name": "Initial Request for De-Registration",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SocialWorkerInitialAssessment": {
         "id": "deregister_foster_carer.de_reg_initial_request.social_worker_initial_assessment",
         "name": "Social worker Initial Assessment",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FinalOutcome": {
         "id": "deregister_foster_carer.de_reg_initial_request.final_outcome",
         "name": "Final Outcome",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1559,36 +1559,36 @@
         "id": "deregister_foster_carer.de_reg_assessment_stage_1.consultation_with_foster_carer",
         "name": "Consultation with Foster Carer",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FormalReviewMeeting": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_1.formal_review_meeting",
         "name": "Formal Review Meeting",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FinalOutcome": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_1.final_outcome",
         "name": "Final Outcome",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1597,84 +1597,84 @@
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.fostering_panel_assessment_interview",
         "name": "Fostering Panel Assessment/interview",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosteringPanelRecommendation": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.fostering_panel_recommendation",
         "name": "Fostering Panel Recommendation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RepresentationsOrReviewProcedure": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.representations_review_procedure",
         "name": "Representations/Review Procedure",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ProposalToTerminate": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.proposal_to_terminate",
         "name": "Proposal to Terminate",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ProposalToRevise": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.proposal_to_revise",
         "name": "Proposal to Revise",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "StatutoryChecks": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.statutory_checks",
         "name": "Statutory Checks",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FinalOutcome": {
         "id": "deregister_foster_carer.de_reg_assessment_stage_2.final_outcome",
         "name": "Final Outcome",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1683,60 +1683,60 @@
         "id": "deregister_foster_carer.de_reg_contracts_agreements.final_finance_settlements",
         "name": "Final Finance Settlements",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AgencyPolicyAgreements": {
         "id": "deregister_foster_carer.de_reg_contracts_agreements.agency_policy_agreements",
         "name": "Agency Policy Agreements",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "WrittenNoticeOfTheProposal": {
         "id": "deregister_foster_carer.de_reg_contracts_agreements.written_notice_of_the_proposal",
         "name": "Written notice of the proposal",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TermsOfApproval": {
         "id": "deregister_foster_carer.de_reg_contracts_agreements.terms_of_approval",
         "name": "Terms of approval",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ConsentForm": {
         "id": "deregister_foster_carer.de_reg_contracts_agreements.consent_form",
         "name": "Consent Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1745,36 +1745,36 @@
         "id": "deregister_foster_carer.final_de_registration.agency_decision",
         "name": "Agency Decision",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ResignationByFosterCarers": {
         "id": "deregister_foster_carer.final_de_registration.resignation_by_foster_carers",
         "name": "Resignation by Foster Carers",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "MovedToDeRegisterStatus": {
         "id": "deregister_foster_carer.final_de_registration.moved_to_de_register_status",
         "name": "Moved to De-register status",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -1785,72 +1785,72 @@
         "id": "safeguarding.child_protection_safeguarding.child_abuse_exploitation_management",
         "name": "Child Abuse and Exploitation Management",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AllegationManagement": {
         "id": "safeguarding.child_protection_safeguarding.allegation_management",
         "name": "Allegation Management",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "IncidentManagement": {
         "id": "safeguarding.child_protection_safeguarding.incident_management",
         "name": "Incident Management",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AgencySafeguardingOfficerOrContact": {
         "id": "safeguarding.child_protection_safeguarding.agency_safeguarding_officer_contact",
         "name": "Agency Safeguarding Officer / Contact",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingChildAdvocacy": {
         "id": "safeguarding.child_protection_safeguarding.safeguarding_child_advocacy",
         "name": "Safeguarding - Child Advocacy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ContextualSafeguardingOperationalGroupInformationForm": {
         "id": "safeguarding.child_protection_safeguarding.contextual_safeguarding_operational_group_information_form",
         "name": "Contextual Safeguarding Operational Group Information Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1859,72 +1859,72 @@
         "id": "safeguarding.safeguarding_tools.safeguarding_assessment_tool",
         "name": "Safeguarding Assessment Tool",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingChecklist": {
         "id": "safeguarding.safeguarding_tools.safeguarding_checklist",
         "name": "Safeguarding Checklist",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingMeasuresToBeTakenBeforeAChildIsPlaced": {
         "id": "safeguarding.safeguarding_tools.safeguarding_measures_to_be_taken_before_a_child_is_placed",
         "name": "Safeguarding Measures to be Taken Before a Child is Placed",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingMeasuresWhenAChildIsPlaced": {
         "id": "safeguarding.safeguarding_tools.safeguarding_measures_when_a_child_is_placed",
         "name": "Safeguarding Measures When a Child is Placed",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingMeetingsOrPolicyRevisionMeetings": {
         "id": "safeguarding.safeguarding_tools.safeguarding_meetings_policy_revision_meetings",
         "name": "Safeguarding Meetings / Policy Revision Meetings",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingTraining": {
         "id": "safeguarding.safeguarding_tools.safeguarding_training",
         "name": "Safeguarding Training",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1933,60 +1933,60 @@
         "id": "safeguarding.safeguarding_policy_guide_templates.agency_safeguarding_policy",
         "name": "Agency Safeguarding Policy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingTemplates": {
         "id": "safeguarding.safeguarding_policy_guide_templates.safeguarding_templates",
         "name": "Safeguarding Templates",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeCaringPolicyForLookedAfterChildren": {
         "id": "safeguarding.safeguarding_policy_guide_templates.safe_caring_policy_for_looked_after_children",
         "name": "Safe Caring Policy for Looked After Children",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SupportForCarers(parentalGuide)": {
         "id": "safeguarding.safeguarding_policy_guide_templates.support_for_carers_parental_guide",
         "name": "Support for Carers (Parental Guide)",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SafeguardingLegislation": {
         "id": "safeguarding.safeguarding_policy_guide_templates.safeguarding_legislation",
         "name": "Safeguarding Legislation",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -1995,60 +1995,60 @@
         "id": "safeguarding.safeguarding_third_parties.barnardo_s",
         "name": "Barnardo's",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosterTalk": {
         "id": "safeguarding.safeguarding_third_parties.foster_talk",
         "name": "Foster Talk",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CoramVoice": {
         "id": "safeguarding.safeguarding_third_parties.coram_voice",
         "name": "Coram Voice",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "EmergencyDutyTeam": {
         "id": "safeguarding.safeguarding_third_parties.emergency_duty_team",
         "name": "Emergency duty team",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "NSPCCNationalSocietyForThePreventionOfCrueltyToChildren": {
         "id": "safeguarding.safeguarding_third_parties.nspcc_national_society_for_the_prevention_of_cruelty_to_children",
         "name": "NSPCC - National society for the Prevention of Cruelty to Children",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -2059,48 +2059,48 @@
         "id": "referrals.referral_details.referral_list",
         "name": "Referral list",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ReferralHistory": {
         "id": "referrals.referral_details.referral_history",
         "name": "Referral History",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "OriginalChildReferral": {
         "id": "referrals.referral_details.original_child_referral",
         "name": "Original Child Referral",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "MoveToCurrentReferral": {
         "id": "referrals.referral_details.move_to_current_referral",
         "name": "Move to current referral",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2109,48 +2109,48 @@
         "id": "referrals.referral_request_forms.foster_carer_request_form",
         "name": "Foster Carer Request Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosterChildRequestForm": {
         "id": "referrals.referral_request_forms.foster_child_request_form",
         "name": "Foster Child Request Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SocialWorkerRequestForm": {
         "id": "referrals.referral_request_forms.social_worker_request_form",
         "name": "Social Worker Request Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ReferralScheme": {
         "id": "referrals.referral_request_forms.referral_scheme",
         "name": "Referral Scheme",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -2161,96 +2161,96 @@
         "id": "panel.panel_tools.panel_calendar",
         "name": "Panel Calendar",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelSetup": {
         "id": "panel.panel_tools.panel_setup",
         "name": "Panel Setup",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelActionsOrComments": {
         "id": "panel.panel_tools.panel_actions_comments",
         "name": "Panel Actions/Comments",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelAgenda": {
         "id": "panel.panel_tools.panel_agenda",
         "name": "Panel Agenda",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelMinutesAdministrator": {
         "id": "panel.panel_tools.panel_minutes_administrator",
         "name": "Panel Minutes - Administrator",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelMinutesChair": {
         "id": "panel.panel_tools.panel_minutes_chair",
         "name": "Panel Minutes - Chair",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelMinutesADMApproval": {
         "id": "panel.panel_tools.panel_minutes_adm_approval",
         "name": "Panel Minutes - ADM Approval",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelChecklist": {
         "id": "panel.panel_tools.panel_checklist",
         "name": "Panel Checklist",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2259,60 +2259,60 @@
         "id": "panel.panel_evaluation_forms.panel_member_self_evaluation_form",
         "name": "Panel Member Self-Evaluation Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelMemberReviewForm": {
         "id": "panel.panel_evaluation_forms.panel_member_review_form",
         "name": "Panel Member Review Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelChairSelfEvaluationForm": {
         "id": "panel.panel_evaluation_forms.panel_chair_self_evaluation_form",
         "name": "Panel Chair Self-Evaluation Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelChairReviewForm": {
         "id": "panel.panel_evaluation_forms.panel_chair_review_form",
         "name": "Panel Chair Review Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PanelMemberQuestionnaire": {
         "id": "panel.panel_evaluation_forms.panel_member_questionnaire",
         "name": "Panel Member Questionnaire",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -2323,72 +2323,72 @@
         "id": "training.manage_courses.course_resource_pool",
         "name": "Course Resource Pool",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CertificateManagement": {
         "id": "training.manage_courses.certificate_management",
         "name": "Certificate Management",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SearchCourse": {
         "id": "training.manage_courses.search_course",
         "name": "Search Course",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ArchiveCourse": {
         "id": "training.manage_courses.archive_course",
         "name": "Archive Course",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TrainingClockEngine": {
         "id": "training.manage_courses.training_clock_engine",
         "name": "Training Clock Engine",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PendingForApproval": {
         "id": "training.manage_courses.pending_for_approval",
         "name": "Pending For Approval",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2397,48 +2397,48 @@
         "id": "training.manage_trainees.trainee_list",
         "name": "Trainee List",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "DelegateCertificates": {
         "id": "training.manage_trainees.delegate_certificates",
         "name": "Delegate Certificates",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CourseEvaluationForm": {
         "id": "training.manage_trainees.course_evaluation_form",
         "name": "Course Evaluation Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Notifications": {
         "id": "training.manage_trainees.notifications",
         "name": "Notifications",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2447,36 +2447,36 @@
         "id": "training.manage_trainers.trainer_registrations",
         "name": "Trainer Registrations",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TrainingSessions": {
         "id": "training.manage_trainers.training_sessions",
         "name": "Training Sessions",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TrainerEvaluationForms": {
         "id": "training.manage_trainers.trainer_evaluation_forms",
         "name": "Trainer Evaluation Forms",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -2487,36 +2487,36 @@
         "id": "local_authority.local_authority.view_all_local_authority",
         "name": "View all Local Authority",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ViewChildrenList": {
         "id": "local_authority.local_authority.view_children_list",
         "name": "View Children List",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RequestForSecureDataExchange": {
         "id": "local_authority.local_authority.request_for_secure_data_exchange",
         "name": "Request for Secure Data Exchange",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2525,12 +2525,12 @@
         "id": "local_authority.la_employees.la_employee_directory",
         "name": "LA Employee Directory",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     }
@@ -2540,36 +2540,36 @@
       "id": "audits.assign_an_audit",
       "name": "Assign an Audit",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "TotalAssignedAudits": {
       "id": "audits.total_assigned_audits",
       "name": "Total Assigned Audits",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "CompletedAudits": {
       "id": "audits.completed_audits",
       "name": "Completed Audits",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -2577,12 +2577,12 @@
     "id": "children_guides",
     "name": "Children's Guides",
     "permission": {
-      "add": true,
-      "view": true,
-      "edit": true,
-      "edit_own": true,
-      "delete": true,
-      "delete_own": true
+      "add": false,
+      "view": false,
+      "edit": false,
+      "edit_own": false,
+      "delete": false,
+      "delete_own": false
     }
   },
   "Advocacy": {
@@ -2591,72 +2591,72 @@
         "id": "advocacy.carer_advocacy.view_all_advocacy",
         "name": "View All Advocacy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RecentlyAccessedAdvocacy": {
         "id": "advocacy.carer_advocacy.recently_accessed_advocacy",
         "name": "Recently Accessed Advocacy",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CarersSelfAdvocacyToolkit": {
         "id": "advocacy.carer_advocacy.carers_self_advocacy_toolkit",
         "name": "Carers Self Advocacy Toolkit",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ListOfAdvocates": {
         "id": "advocacy.carer_advocacy.list_of_advocates",
         "name": "List of Advocates",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosterTalk": {
         "id": "advocacy.carer_advocacy.foster_talk",
         "name": "Foster Talk",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "UpcomingMeetings": {
         "id": "advocacy.carer_advocacy.upcoming_meetings",
         "name": "Upcoming Meetings",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2665,60 +2665,60 @@
         "id": "advocacy.child_advocacy.advocacy_form_to_be_filled_by_the_child",
         "name": "Advocacy Form to be Filled by the Child",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AdvocacyFormRaisedByTheChildViaVoiceMemo": {
         "id": "advocacy.child_advocacy.advocacy_form_raised_by_the_child_via_voice_memo",
         "name": "Advocacy Form raised by the Child via Voice Memo",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AdvocacyFormFilledBySomeoneElse": {
         "id": "advocacy.child_advocacy.advocacy_form_filled_by_someone_else",
         "name": "Advocacy Form Filled by Someone Else",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ViewAdvocacyHistory": {
         "id": "advocacy.child_advocacy.view_advocacy_history",
         "name": "View Advocacy History",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AdvocacyMeetings": {
         "id": "advocacy.child_advocacy.advocacy_meetings",
         "name": "Advocacy Meetings",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2726,12 +2726,12 @@
       "id": "advocacy.advocate_directory",
       "name": "Advocate Directory",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -2739,12 +2739,12 @@
     "id": "compliance_management",
     "name": "Compliance Management",
     "permission": {
-      "add": true,
-      "view": true,
-      "edit": true,
-      "edit_own": true,
-      "delete": true,
-      "delete_own": true
+      "add": false,
+      "view": false,
+      "edit": false,
+      "edit_own": false,
+      "delete": false,
+      "delete_own": false
     }
   },
   "Reports": {
@@ -2753,240 +2753,240 @@
         "id": "reports.ifa_reports.fr_a_2019",
         "name": "FR-A-2019",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRB2019": {
         "id": "reports.ifa_reports.fr_b_2019",
         "name": "FR-B-2019",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRC1": {
         "id": "reports.ifa_reports.fr_c_1",
         "name": "FR-C1",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRC2": {
         "id": "reports.ifa_reports.fr_c_2",
         "name": "FR-C2",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRD1": {
         "id": "reports.ifa_reports.fr_d_1",
         "name": "FR-D1",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRD2": {
         "id": "reports.ifa_reports.fr_d_2",
         "name": "FR-D2",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRE": {
         "id": "reports.ifa_reports.fr_e",
         "name": "FR-E",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRF1": {
         "id": "reports.ifa_reports.fr_f_1",
         "name": "FR-F1",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRF2": {
         "id": "reports.ifa_reports.fr_f_2",
         "name": "FR-F2",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRF3": {
         "id": "reports.ifa_reports.fr_f_3",
         "name": "FR-F3",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRF4": {
         "id": "reports.ifa_reports.fr_f_4",
         "name": "FR-F4",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRG": {
         "id": "reports.ifa_reports.fr_g",
         "name": "FR-G",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRH": {
         "id": "reports.ifa_reports.fr_h",
         "name": "FR-H",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FRI": {
         "id": "reports.ifa_reports.fr_i",
         "name": "FR-I",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SupervisoryHomeVisit": {
         "id": "reports.ifa_reports.supervisory_home_visit",
         "name": "Supervisory Home Visit",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "UnannouncedHomeVisit": {
         "id": "reports.ifa_reports.unannounced_home_visit",
         "name": "Unannounced Home Visit",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CarerFeedbackForEmployeesAppraisal": {
         "id": "reports.ifa_reports.carer_feedback_for_employees_appraisal",
         "name": "Carer Feedback For Employees Appraisal",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RiskAssessmentForm": {
         "id": "reports.ifa_reports.risk_assessment_form",
         "name": "Risk Assessment Form",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TrainingReport": {
         "id": "reports.ifa_reports.training_report",
         "name": "Training Report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "UserLogHistoryReport": {
         "id": "reports.ifa_reports.user_log_history_report",
         "name": "User Log History Report",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -2994,24 +2994,24 @@
       "id": "reports.carer_reports",
       "name": "Carer Reports",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ChildReports": {
       "id": "reports.child_reports",
       "name": "Child Reports",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -3019,12 +3019,12 @@
     "id": "contact_directory",
     "name": "Contact Directory",
     "permission": {
-      "add": true,
-      "view": true,
-      "edit": true,
-      "edit_own": true,
-      "delete": true,
-      "delete_own": true
+      "add": false,
+      "view": false,
+      "edit": false,
+      "edit_own": false,
+      "delete": false,
+      "delete_own": false
     }
   },
   "SystemAdmin": {
@@ -3033,48 +3033,48 @@
         "id": "system_admin.user_management.manage_users",
         "name": "Manage Users",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "GenerateLogin": {
         "id": "system_admin.user_management.generate_login",
         "name": "Generate Login",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ManageUserRoles": {
         "id": "system_admin.user_management.manage_user_roles",
         "name": "Manage User Roles",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ManageAccessLevels": {
         "id": "system_admin.user_management.manage_access_levels",
         "name": "Manage Access Levels",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3082,108 +3082,108 @@
       "id": "system_admin.manage_alerts",
       "name": "Manage Alerts",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "AreaOfficeSetup": {
       "id": "system_admin.area_office_setup",
       "name": "Area office Setup",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ReferenceDataManagement": {
       "id": "system_admin.reference_data_management",
       "name": "Reference Data Management",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "SystemConfiguration": {
       "id": "system_admin.system_configuration",
       "name": "System Configuration",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "DigitalSignatureManagement": {
       "id": "system_admin.digital_signature_management",
       "name": "Digital Signature Management",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ManageLetterTemplates": {
       "id": "system_admin.manage_letter_templates",
       "name": "Manage Letter Templates",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "APIInventory": {
       "id": "system_admin.api_inventory",
       "name": "API Inventory",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ManageThirdPartyLicenses": {
       "id": "system_admin.manage_third_party_licenses",
       "name": "Manage Third Party Licenses",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "BackupAndArchiveSettings": {
       "id": "system_admin.backup_archive_settings",
       "name": "Backup and Archive Settings",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "BCPOrDR": {
@@ -3191,24 +3191,24 @@
         "id": "system_admin.bcp_dr.business_continuity_plan",
         "name": "Business Continuity Plan",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "BCPHistory": {
         "id": "system_admin.bcp_dr.bcp_history",
         "name": "BCP History",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3216,36 +3216,36 @@
       "id": "system_admin.manage_send_news_letters",
       "name": "Manage / Send News Letters",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ManageSocialMediaContent": {
       "id": "system_admin.manage_social_media_content",
       "name": "Manage Social Media Content",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ManageRatingsOrFeedbacks": {
       "id": "system_admin.manage_ratings_feedbacks",
       "name": "Manage Ratings / Feedbacks",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "DistributionListManagement": {
@@ -3253,24 +3253,24 @@
         "id": "system_admin.distribution_list_management.email_group",
         "name": "Email Group",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "WhatsappGroup": {
         "id": "system_admin.distribution_list_management.whats_app_group",
         "name": "WhatsApp Group",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3279,60 +3279,60 @@
         "id": "system_admin.audit_trails_audit_logs.custom_views",
         "name": "Custom Views",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "WindowsLogs": {
         "id": "system_admin.audit_trails_audit_logs.windows_logs",
         "name": "Windows Logs",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ApplicationsAndServices": {
         "id": "system_admin.audit_trails_audit_logs.applications_services",
         "name": "Applications and Services",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Subscription": {
         "id": "system_admin.audit_trails_audit_logs.subscription",
         "name": "Subscription",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "TransactionHistory": {
         "id": "system_admin.audit_trails_audit_logs.transaction_history",
         "name": "Transaction History",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3341,132 +3341,132 @@
         "id": "system_admin.system_performance_monitoring.monitoring_system_performance",
         "name": "Monitoring System Performance",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AuditTrailsAndAuditLogs": {
         "id": "system_admin.system_performance_monitoring.audit_trails_audit_logs",
         "name": "Audit Trails and Audit logs",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CloudAndAWSMonitoring": {
         "id": "system_admin.system_performance_monitoring.cloud_aws_monitoring",
         "name": "Cloud & AWS Monitoring",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "UserExperienceAndBusinessAnalytics": {
         "id": "system_admin.system_performance_monitoring.user_experience_business_analytics",
         "name": "User Experience and Business Analytics",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "DatabaseMonitoring": {
         "id": "system_admin.system_performance_monitoring.database_monitoring",
         "name": "Database Monitoring",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "MarketingAnalytics": {
         "id": "system_admin.system_performance_monitoring.marketing_analytics",
         "name": "Marketing Analytics",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SystemSecurity": {
         "id": "system_admin.system_performance_monitoring.system_security",
         "name": "System security",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "QuickAccess": {
         "id": "system_admin.system_performance_monitoring.quick_access",
         "name": "Quick Access",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ServerHealthCheckUp": {
         "id": "system_admin.system_performance_monitoring.server_health_check_up",
         "name": "Server health check-up",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "RemindersOrAlerts": {
         "id": "system_admin.system_performance_monitoring.reminders_alerts",
         "name": "Reminders / Alerts",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "MobileAppsAnalytics": {
         "id": "system_admin.system_performance_monitoring.mobile_apps_analytics",
         "name": "Mobile Apps Analytics",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3474,12 +3474,12 @@
       "id": "system_admin.bulk_operations",
       "name": "Bulk Operations",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ManageFaqs": {
@@ -3487,48 +3487,48 @@
         "id": "system_admin.manage_fa_qs.foster_child",
         "name": "Foster Child",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "FosterCarer": {
         "id": "system_admin.manage_fa_qs.foster_carer",
         "name": "Foster Carer",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "SocialWorker": {
         "id": "system_admin.manage_fa_qs.social_worker",
         "name": "Social Worker",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "IFA": {
         "id": "system_admin.manage_fa_qs.ifa",
         "name": "IFA",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3537,36 +3537,36 @@
         "id": "system_admin.notification_management.child_notification",
         "name": "Child Notification",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "CarerNotification": {
         "id": "system_admin.notification_management.carer_notification",
         "name": "Carer Notification",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "HRNotification": {
         "id": "system_admin.notification_management.hr_notification",
         "name": "HR Notification",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3574,48 +3574,48 @@
       "id": "system_admin.manage_contact_directory",
       "name": "Manage Contact Directory",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ManageUserDashboard": {
       "id": "system_admin.manage_user_dashboard",
       "name": "Manage User Dashboard",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "SafeguardingNotificationSettings": {
       "id": "system_admin.safeguarding_notification_settings",
       "name": "Safeguarding Notification Settings",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "SessionSettings": {
       "id": "system_admin.session_settings",
       "name": "Session Settings",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -3624,96 +3624,96 @@
       "id": "policies_guidelines.organisational_policies",
       "name": "Organisational Policies",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "AgencyGuidelines": {
       "id": "policies_guidelines.agency_guidelines",
       "name": "Agency Guidelines",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "GovLegislationAndRegulations": {
       "id": "policies_guidelines.gov_legislation_regulations",
       "name": "Gov. Legislation and Regulations",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "Handbooks": {
       "id": "policies_guidelines.handbooks",
       "name": "Handbooks",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "Templates": {
       "id": "policies_guidelines.templates",
       "name": "Templates",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "Checklists": {
       "id": "policies_guidelines.checklists",
       "name": "Checklists",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "CyberEssentials": {
       "id": "policies_guidelines.cyber_essentials",
       "name": "Cyber Essentials",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "OtherPolicies": {
       "id": "policies_guidelines.other_policies",
       "name": "Other Policies",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -3721,12 +3721,12 @@
     "id": "user_manual",
     "name": "User Manual",
     "permission": {
-      "add": true,
-      "view": true,
-      "edit": true,
-      "edit_own": true,
-      "delete": true,
-      "delete_own": true
+      "add": false,
+      "view": false,
+      "edit": false,
+      "edit_own": false,
+      "delete": false,
+      "delete_own": false
     }
   },
   "ITHelpDesk": {
@@ -3734,48 +3734,48 @@
       "id": "it_help_desk.all_tickets",
       "name": "All Tickets",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "OnholdTickets": {
       "id": "it_help_desk.onhold_tickets",
       "name": "Onhold Tickets",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "PendingTickets": {
       "id": "it_help_desk.pending_tickets",
       "name": "Pending Tickets",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "ResolvedTickets": {
       "id": "it_help_desk.resolved_tickets",
       "name": "Resolved Tickets",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   },
@@ -3785,36 +3785,36 @@
         "id": "marketing.marketing_campaigns.campaigns",
         "name": "Campaigns",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "AdSets": {
         "id": "marketing.marketing_campaigns.ad_sets",
         "name": "Ad Sets",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Results": {
         "id": "marketing.marketing_campaigns.results",
         "name": "Results",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3823,60 +3823,60 @@
         "id": "marketing.event_marketing.events",
         "name": "Events",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "EventCalendar": {
         "id": "marketing.event_marketing.event_calendar",
         "name": "Event Calendar",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Vips": {
         "id": "marketing.event_marketing.vi_ps",
         "name": "VIPs",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Attendance": {
         "id": "marketing.event_marketing.attendance",
         "name": "Attendance",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Venues": {
         "id": "marketing.event_marketing.venues",
         "name": "Venues",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3884,12 +3884,12 @@
       "id": "marketing.marketing_strategy_plan",
       "name": "Marketing Strategy / Plan",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "SocialMediaMarketing": {
@@ -3897,36 +3897,36 @@
         "id": "marketing.social_media_marketing.schedule_content",
         "name": "Schedule Content",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Results": {
         "id": "marketing.social_media_marketing.results",
         "name": "Results",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "PitchesAndRequests": {
         "id": "marketing.social_media_marketing.pitches_requests",
         "name": "Pitches and Requests",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3935,36 +3935,36 @@
         "id": "marketing.email_marketing.emails",
         "name": "Emails",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Branch": {
         "id": "marketing.email_marketing.branch",
         "name": "Branch",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Lists": {
         "id": "marketing.email_marketing.lists",
         "name": "Lists",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -3973,60 +3973,60 @@
         "id": "marketing.persona_focused_content_marketing.editorial",
         "name": "Editorial",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Personas": {
         "id": "marketing.persona_focused_content_marketing.personas",
         "name": "Personas",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Verticals": {
         "id": "marketing.persona_focused_content_marketing.verticals",
         "name": "Verticals",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "ContentIdeas": {
         "id": "marketing.persona_focused_content_marketing.content_ideas",
         "name": "Content Ideas",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       },
       "Published": {
         "id": "marketing.persona_focused_content_marketing.published",
         "name": "Published",
         "permission": {
-          "add": true,
-          "view": true,
-          "edit": true,
-          "edit_own": true,
-          "delete": true,
-          "delete_own": true
+          "add": false,
+          "view": false,
+          "edit": false,
+          "edit_own": false,
+          "delete": false,
+          "delete_own": false
         }
       }
     },
@@ -4034,36 +4034,36 @@
       "id": "marketing.swot_analysis",
       "name": "SWOT Analysis",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "MarketingPlanMeetings": {
       "id": "marketing.marketing_plan_meetings",
       "name": "Marketing Plan Meetings",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     },
     "MarketGapAnalysis": {
       "id": "marketing.market_gap_analysis",
       "name": "Market Gap Analysis",
       "permission": {
-        "add": true,
-        "view": true,
-        "edit": true,
-        "edit_own": true,
-        "delete": true,
-        "delete_own": true
+        "add": false,
+        "view": false,
+        "edit": false,
+        "edit_own": false,
+        "delete": false,
+        "delete_own": false
       }
     }
   }
