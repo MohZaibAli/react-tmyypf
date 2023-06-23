@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState, useEffect, useCallback, ChangeEvent } from 'react';
 import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Table from '@mui/material/Table';
@@ -56,52 +56,53 @@ const deepUpdate = (
   status: boolean,
   parentI?: number
 ): Permission[] => {
-  let updatedPermissions = structuredClone(_permissions);
-  let depths: string[] = id.split('.');
-  let operation: keyof Permission['permission'] = depths
+  const updatedPermissions = [..._permissions];
+  const depths: string[] = id.split('.');
+  const operation: keyof Permission['permission'] = depths
     .splice(-1, 1)
     .toString() as any;
-  let oK: any;
-  let found;
-  for (oK in _permissions) {
-    let oV = _permissions[oK];
-    let depthId = depths.slice(0, oV.depth).join('.');
+
+  let found = false;
+  for (let i = 0; i < updatedPermissions.length; i++) {
+    const oV = updatedPermissions[i];
+    const depthId = depths.slice(0, oV.depth).join('.');
     found = oV.id === depthId || oV.id.startsWith(`${depthId}.`);
+
     if (found) {
       if (oV.children) {
-        updatedPermissions[oK].children = deepUpdate(
-          oV.children,
-          id,
-          status,
-          oK
-        );
-        updatedPermissions[oK].permission[operation] = updatedPermissions[oK]
-          .children!.map((c) => c.permission[operation])
-          .every((s) => s === status)
-          ? status
-          : false;
-        updatedPermissions[oK].permissionId &&
-          permissionIds.push(
-            `${updatedPermissions[oK].permissionId}.${operation}`
-          );
+        updatedPermissions[i].children = deepUpdate(oV.children, id, status, i);
+        updatedPermissions[i].permission[operation] =
+          updatedPermissions[i].children!.every(
+            (c) => c.permission[operation] === status
+          ) && status;
       } else {
-        updatedPermissions[oK].permission[operation] = status;
-        updatedPermissions[oK].permissionId &&
-          permissionIds.push(
-            `${updatedPermissions[oK].permissionId}.${operation}`
-          );
+        updatedPermissions[i].permission[operation] = status;
       }
-      if (parentI == undefined) {
+
+      if (updatedPermissions[i].permissionId) {
+        const permissionId = `${updatedPermissions[i].permissionId}.${operation}`;
+        // if (status) {
+        permissionIds.push(permissionId);
+        // } else {
+        //   const index = permissionIds.indexOf(permissionId);
+        //   if (index !== -1) {
+        //     permissionIds.splice(index, 1);
+        //   }
+        // }
+      }
+
+      if (parentI === undefined) {
         break;
       }
     }
   }
+
   return updatedPermissions;
 };
 
 function Row(props: { row: Permission; handleChange: any }) {
   const { row, handleChange } = props;
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <React.Fragment>
@@ -181,7 +182,11 @@ function Row(props: { row: Permission; handleChange: any }) {
               <Table aria-label="collapsible table">
                 <TableBody>
                   {row?.children?.map((permission, i) => (
-                    <Row key={i} row={permission} handleChange={handleChange} />
+                    <Row
+                      key={permission.id}
+                      row={permission}
+                      handleChange={handleChange}
+                    />
                   ))}
                 </TableBody>
               </Table>
@@ -194,42 +199,44 @@ function Row(props: { row: Permission; handleChange: any }) {
 }
 
 export default function CollapsibleTable() {
-  const [permissions, setPermissions] = React.useState<Permission[]>([]);
-
-  React.useEffect(() => {
-    fetch(
-      'https://raw.githubusercontent.com/MohZaibAli/react-tmyypf/main/data.json'
-    )
-      .then((data) => data.json())
-      .then((response) => {
-        let Permissions = deepMap(response);
+  const [permissions, setPermissions] = useState<Permission[]>([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          'https://raw.githubusercontent.com/MohZaibAli/react-tmyypf/main/data.json'
+        );
+        const data = await response.json();
+        const Permissions = deepMap(data);
         setPermissions(Permissions);
-      });
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
-    React.useCallback(
-      debounce((event) => {
-        permissionIds = [];
-        let updatedPermissions = deepUpdate(
-          permissions,
-          e.target.id,
-          e.target.checked
-        );
-        setPermissions(updatedPermissions);
-        console.log(permissionIds);
-      }, 500),
-      []
-    );
-  {
-  }
+  const handleChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      permissionIds = [];
+      const updatedPermissions = deepUpdate(
+        permissions,
+        e.target.id,
+        e.target.checked
+      );
+      setPermissions(updatedPermissions);
+      console.log(permissionIds);
+    },
+    [permissions]
+  );
 
   return (
     <TableContainer sx={{ maxHeight: '98vh' }} component={Paper}>
       <Table stickyHeader aria-label="collapsible table">
         <TableHead>
           <TableRow>
-            <TableCell sx={{ width: '5%' }} />
+            <TableCell style={{ width: '5%' }} />
             <TableCell>Name</TableCell>
             <TableCell align="center" style={{ width: '10%' }}>
               Add
@@ -252,8 +259,12 @@ export default function CollapsibleTable() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {permissions.map((permission, i) => (
-            <Row key={i} row={permission} handleChange={handleChange} />
+          {permissions.map((permission) => (
+            <Row
+              key={permission.id}
+              row={permission}
+              handleChange={handleChange}
+            />
           ))}
         </TableBody>
       </Table>
