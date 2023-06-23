@@ -32,23 +32,34 @@ type Permission = {
 let permissionIds: string[] = [];
 
 const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
-  Object.entries(obj).map(([oK, oV]: any) => ({
-    depth,
-    id: parentId ? `${parentId}.${oK}` : oK,
-    ...(oV.id && { permissionId: oV.id }),
-    name: oV.name || oK.replace(/([a-z])([A-Z])/g, '$1 $2'),
-    ...(!oV.permission && {
-      children: deepMap(oV, depth + 1, parentId ? `${parentId}.${oK}` : oK),
-    }),
-    permission: {
-      add: false,
-      view: false,
-      edit: false,
-      edit_own: false,
-      delete: false,
-      delete_own: false,
-    },
-  }));
+  Object.entries(obj).map(([oK, oV]: any) => {
+    let children;
+    let permissionObj = {
+      add: oV.permission?.add || false,
+      view: oV.permission?.view || false,
+      edit: oV.permission?.edit || false,
+      edit_own: oV.permission?.edit_own || false,
+      delete: oV.permission?.delete || false,
+      delete_own: oV.permission?.delete_own || false,
+    };
+
+    if (!oV.permission) {
+      children = deepMap(oV, depth + 1, parentId ? `${parentId}.${oK}` : oK);
+      Object.keys(permissionObj).forEach((pK) => {
+        permissionObj[pK] = children.every((c) => c.permission[pK] === true);
+      });
+    }
+    return {
+      depth,
+      id: parentId ? `${parentId}.${oK}` : oK,
+      ...(oV.id && { permissionId: oV.id }),
+      name: oV.name || oK.replace(/([a-z])([A-Z])/g, '$1 $2'),
+      ...(children && {
+        children,
+      }),
+      permission: permissionObj,
+    };
+  });
 
 const deepUpdate = (
   _permissions: Permission[],
