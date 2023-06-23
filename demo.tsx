@@ -11,6 +11,7 @@ import Checkbox from '@mui/material/Checkbox';
 import Paper from '@mui/material/Paper';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { debounce } from './utils';
 
 type Permission = {
   id: string;
@@ -28,7 +29,7 @@ type Permission = {
   };
 };
 
-let permissionIds = [];
+let permissionIds: string[] = [];
 
 const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
   Object.entries(obj).map(([oK, oV]: any) => ({
@@ -206,16 +207,22 @@ export default function CollapsibleTable() {
       });
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    permissionIds = [];
-    let updatedPermissions = deepUpdate(
-      permissions,
-      e.target.id,
-      e.target.checked
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
+    React.useCallback(
+      debounce((event) => {
+        permissionIds = [];
+        let updatedPermissions = deepUpdate(
+          permissions,
+          e.target.id,
+          e.target.checked
+        );
+        setPermissions(updatedPermissions);
+        console.log(permissionIds);
+      }, 500),
+      []
     );
-    setPermissions(updatedPermissions);
-    console.log(permissionIds);
-  };
+  {
+  }
 
   return (
     <TableContainer sx={{ maxHeight: '98vh' }} component={Paper}>
