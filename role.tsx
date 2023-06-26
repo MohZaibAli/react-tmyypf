@@ -4,7 +4,7 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material';
+import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
@@ -249,9 +249,9 @@ export default function CollapsibleTable() {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    permissionIds.length && setLoading(false);
-  }, [loading]);
+  // useEffect(() => {
+  //   permissionIds.length && setLoading(false);
+  // }, [loading]);
 
   const handleChange = useCallback(
     async (e: ChangeEvent<HTMLInputElement>) => {
@@ -262,6 +262,7 @@ export default function CollapsibleTable() {
         e.target.id,
         e.target.checked
       );
+      e.target.disabled = true;
       setPermissions(updatedPermissions);
     },
     [permissions]
