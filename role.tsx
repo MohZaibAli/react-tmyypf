@@ -1,16 +1,21 @@
 import React, { useState, useEffect, useCallback, ChangeEvent } from 'react';
-import Collapse from '@mui/material/Collapse';
-import IconButton from '@mui/material/IconButton';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Checkbox from '@mui/material/Checkbox';
-import Paper from '@mui/material/Paper';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import {
+  Collapse,
+  IconButton,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Checkbox,
+  Paper,
+  CircularProgress,
+} from '@mui/material';
+import {
+  KeyboardArrowUpIcon,
+  KeyboardArrowDownIcon,
+} from '@mui/icons-material';
 import { debounce } from './utils';
 
 type Permission = {
@@ -248,7 +253,7 @@ export default function CollapsibleTable() {
   }, []);
 
   useEffect(() => {
-    
+    permissionIds.length && setLoading(false);
   }, [loading]);
 
   const handleChange = useCallback(
@@ -261,7 +266,6 @@ export default function CollapsibleTable() {
         e.target.checked
       );
       setPermissions(updatedPermissions);
-      console.log(permissionIds);
     },
     [permissions]
   );
@@ -293,15 +297,19 @@ export default function CollapsibleTable() {
             </TableCell>
           </TableRow>
         </TableHead>
-        <TableBody>
-          {permissions.map((permission) => (
-            <Row
-              key={permission.id}
-              row={permission}
-              handleChange={handleChange}
-            />
-          ))}
-        </TableBody>
+        {!loading ? (
+          <TableBody>
+            {permissions.map((permission) => (
+              <Row
+                key={permission.id}
+                row={permission}
+                handleChange={handleChange}
+              />
+            ))}
+          </TableBody>
+        ) : (
+          <CircularProgress />
+        )}
       </Table>
     </TableContainer>
   );
