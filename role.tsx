@@ -31,44 +31,54 @@ type Permission = {
 
 let permissionIds: string[] = [];
 
-const deepMap = (obj: Object, depth = 1, parentId?: string): Permission[] =>
-  Object.entries(obj).map(([oK, oV]: any) => {
-    let children: Permission[] | undefined;
-    let permissionObj: Permission['permission'] = {
-      add: oV.permission?.add || false,
-      view: oV.permission?.view || false,
-      edit: oV.permission?.edit || false,
-      edit_own: oV.permission?.edit_own || false,
-      delete: oV.permission?.delete || false,
-      delete_own: oV.permission?.delete_own || false,
-    };
+const deepMap = async (
+  obj: Object,
+  depth = 1,
+  parentId?: string
+): Promise<Permission[]> =>
+  await Promise.all(
+    Object.entries(obj).map(async ([oK, oV]: any) => {
+      let children: Permission[] | undefined;
+      let permissionObj: Permission['permission'] = {
+        add: oV.permission?.add || false,
+        view: oV.permission?.view || false,
+        edit: oV.permission?.edit || false,
+        edit_own: oV.permission?.edit_own || false,
+        delete: oV.permission?.delete || false,
+        delete_own: oV.permission?.delete_own || false,
+      };
 
-    if (!oV.permission) {
-      children = deepMap(oV, depth + 1, parentId ? `${parentId}.${oK}` : oK);
-      Object.keys(permissionObj).forEach((pK) => {
-        permissionObj[pK as keyof Permission['permission']] = children!.every(
-          (c) => c.permission[pK as keyof Permission['permission']] === true
+      if (!oV.permission) {
+        children = await deepMap(
+          oV,
+          depth + 1,
+          parentId ? `${parentId}.${oK}` : oK
         );
-      });
-    }
-    return {
-      depth,
-      id: parentId ? `${parentId}.${oK}` : oK,
-      ...(oV.id && { permissionId: oV.id }),
-      name: oV.name || oK.replace(/([a-z])([A-Z])/g, '$1 $2'),
-      ...(children && {
-        children,
-      }),
-      permission: permissionObj,
-    };
-  });
+        Object.keys(permissionObj).forEach((pK) => {
+          permissionObj[pK as keyof Permission['permission']] = children!.every(
+            (c) => c.permission[pK as keyof Permission['permission']] === true
+          );
+        });
+      }
+      return {
+        depth,
+        id: parentId ? `${parentId}.${oK}` : oK,
+        ...(oV.id && { permissionId: oV.id }),
+        name: oV.name || oK.replace(/([a-z])([A-Z])/g, '$1 $2'),
+        ...(children && {
+          children,
+        }),
+        permission: permissionObj,
+      };
+    })
+  );
 
-const deepUpdate = (
+const deepUpdate = async (
   _permissions: Permission[],
   id: string,
   status: boolean,
   parentI?: number
-): Permission[] => {
+): Promise<Permission[]> => {
   const updatedPermissions = [..._permissions];
   const depths: string[] = id.split('.');
   const operation: keyof Permission['permission'] = depths
@@ -83,7 +93,12 @@ const deepUpdate = (
 
     if (found) {
       if (oV.children) {
-        updatedPermissions[i].children = deepUpdate(oV.children, id, status, i);
+        updatedPermissions[i].children = await deepUpdate(
+          oV.children,
+          id,
+          status,
+          i
+        );
         updatedPermissions[i].permission[operation] =
           updatedPermissions[i].children!.every(
             (c) => c.permission[operation] === status
@@ -213,6 +228,7 @@ function Row(props: { row: Permission; handleChange: any }) {
 
 export default function CollapsibleTable() {
   const [permissions, setPermissions] = useState<Permission[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -220,8 +236,9 @@ export default function CollapsibleTable() {
           'https://raw.githubusercontent.com/MohZaibAli/react-tmyypf/main/data.json'
         );
         const data = await response.json();
-        const Permissions = deepMap(data);
+        const Permissions = await deepMap(data);
         setPermissions(Permissions);
+        setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -230,10 +247,15 @@ export default function CollapsibleTable() {
     fetchData();
   }, []);
 
+  useEffect(() => {
+    
+  }, [loading]);
+
   const handleChange = useCallback(
-    (e: ChangeEvent<HTMLInputElement>) => {
+    async (e: ChangeEvent<HTMLInputElement>) => {
       permissionIds = [];
-      const updatedPermissions = deepUpdate(
+      setLoading(true);
+      const updatedPermissions = await deepUpdate(
         permissions,
         e.target.id,
         e.target.checked
