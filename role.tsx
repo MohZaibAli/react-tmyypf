@@ -297,7 +297,7 @@ export default function CollapsibleTable() {
             </TableCell>
           </TableRow>
         </TableHead>
-        {!loading ? (
+        {!loading && permissions ? (
           <TableBody>
             {permissions.map((permission) => (
               <Row
