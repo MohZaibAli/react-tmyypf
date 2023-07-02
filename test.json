@@ -4672,54 +4672,54 @@
         }
       },
       "ManageFaqs": {
-        "id": "system_admin.manage_fa_qs",
+        "id": "system_admin.manage_faqs",
         "name": "Manage FAQs",
         "FosterChild": {
-          "id": "system_admin.manage_fa_qs.foster_child",
+          "id": "system_admin.manage_faqs.foster_child",
           "name": "Foster Child",
           "permission": {
-            "add": "system_admin.manage_fa_qs.foster_child.add",
-            "view": "system_admin.manage_fa_qs.foster_child.view",
-            "edit": "system_admin.manage_fa_qs.foster_child.edit",
-            "edit_own": "system_admin.manage_fa_qs.foster_child.edit_own",
-            "delete": "system_admin.manage_fa_qs.foster_child.delete",
-            "delete_own": "system_admin.manage_fa_qs.foster_child.delete_own"
+            "add": "system_admin.manage_faqs.foster_child.add",
+            "view": "system_admin.manage_faqs.foster_child.view",
+            "edit": "system_admin.manage_faqs.foster_child.edit",
+            "edit_own": "system_admin.manage_faqs.foster_child.edit_own",
+            "delete": "system_admin.manage_faqs.foster_child.delete",
+            "delete_own": "system_admin.manage_faqs.foster_child.delete_own"
           }
         },
         "FosterCarer": {
-          "id": "system_admin.manage_fa_qs.foster_carer",
+          "id": "system_admin.manage_faqs.foster_carer",
           "name": "Foster Carer",
           "permission": {
-            "add": "system_admin.manage_fa_qs.foster_carer.add",
-            "view": "system_admin.manage_fa_qs.foster_carer.view",
-            "edit": "system_admin.manage_fa_qs.foster_carer.edit",
-            "edit_own": "system_admin.manage_fa_qs.foster_carer.edit_own",
-            "delete": "system_admin.manage_fa_qs.foster_carer.delete",
-            "delete_own": "system_admin.manage_fa_qs.foster_carer.delete_own"
+            "add": "system_admin.manage_faqs.foster_carer.add",
+            "view": "system_admin.manage_faqs.foster_carer.view",
+            "edit": "system_admin.manage_faqs.foster_carer.edit",
+            "edit_own": "system_admin.manage_faqs.foster_carer.edit_own",
+            "delete": "system_admin.manage_faqs.foster_carer.delete",
+            "delete_own": "system_admin.manage_faqs.foster_carer.delete_own"
           }
         },
         "SocialWorker": {
-          "id": "system_admin.manage_fa_qs.social_worker",
+          "id": "system_admin.manage_faqs.social_worker",
           "name": "Social Worker",
           "permission": {
-            "add": "system_admin.manage_fa_qs.social_worker.add",
-            "view": "system_admin.manage_fa_qs.social_worker.view",
-            "edit": "system_admin.manage_fa_qs.social_worker.edit",
-            "edit_own": "system_admin.manage_fa_qs.social_worker.edit_own",
-            "delete": "system_admin.manage_fa_qs.social_worker.delete",
-            "delete_own": "system_admin.manage_fa_qs.social_worker.delete_own"
+            "add": "system_admin.manage_faqs.social_worker.add",
+            "view": "system_admin.manage_faqs.social_worker.view",
+            "edit": "system_admin.manage_faqs.social_worker.edit",
+            "edit_own": "system_admin.manage_faqs.social_worker.edit_own",
+            "delete": "system_admin.manage_faqs.social_worker.delete",
+            "delete_own": "system_admin.manage_faqs.social_worker.delete_own"
           }
         },
         "IFA": {
-          "id": "system_admin.manage_fa_qs.ifa",
+          "id": "system_admin.manage_faqs.ifa",
           "name": "IFA",
           "permission": {
-            "add": "system_admin.manage_fa_qs.ifa.add",
-            "view": "system_admin.manage_fa_qs.ifa.view",
-            "edit": "system_admin.manage_fa_qs.ifa.edit",
-            "edit_own": "system_admin.manage_fa_qs.ifa.edit_own",
-            "delete": "system_admin.manage_fa_qs.ifa.delete",
-            "delete_own": "system_admin.manage_fa_qs.ifa.delete_own"
+            "add": "system_admin.manage_faqs.ifa.add",
+            "view": "system_admin.manage_faqs.ifa.view",
+            "edit": "system_admin.manage_faqs.ifa.edit",
+            "edit_own": "system_admin.manage_faqs.ifa.edit_own",
+            "delete": "system_admin.manage_faqs.ifa.delete",
+            "delete_own": "system_admin.manage_faqs.ifa.delete_own"
           }
         }
       },
