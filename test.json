@@ -1,5 +1,4 @@
 {
-  "IFA": {
     "Dashboard": {
       "id": "dashboard",
       "name": "Dashboard",
@@ -1918,7 +1917,7 @@
             "delete_own": "safeguarding.safeguarding_tools.safeguarding_checklist.delete_own"
           }
         },
-        "SafeguardingMeasuresToBeTakenBeforechildIsPlaced": {
+        "SafeguardingMeasuresToBeTakenBeforeChildIsPlaced": {
           "id": "safeguarding.safeguarding_tools.safeguarding_measures_to_be_taken_before_child_is_placed",
           "name": "Safeguarding Measures to be Taken Before a Child is Placed",
           "permission": {
@@ -1930,7 +1929,7 @@
             "delete_own": "safeguarding.safeguarding_tools.safeguarding_measures_to_be_taken_before_child_is_placed.delete_own"
           }
         },
-        "SafeguardingMeasuresWhenchildIsPlaced": {
+        "SafeguardingMeasuresWhenChildIsPlaced": {
           "id": "safeguarding.safeguarding_tools.safeguarding_measures_when_child_is_placed",
           "name": "Safeguarding Measures When a Child is Placed",
           "permission": {
@@ -2542,6 +2541,54 @@
             "delete_own": "training.manage_trainers.trainer_evaluation_forms.delete_own"
           }
         }
+      },
+      "ViewCourses": {
+        "id": "training.view_courses",
+        "name": "View Courses",
+        "permission": {
+          "add": "training.view_courses.add",
+          "view": "training.view_courses.view",
+          "edit": "training.view_courses.edit",
+          "edit_own": "training.view_courses.edit_own",
+          "delete": "training.view_courses.delete",
+          "delete_own": "training.view_courses.delete_own"
+        }
+      },
+      "MyCourses": {
+        "id": "training.my_courses",
+        "name": "My Courses",
+        "permission": {
+          "add": "training.my_courses.add",
+          "view": "training.my_courses.view",
+          "edit": "training.my_courses.edit",
+          "edit_own": "training.my_courses.edit_own",
+          "delete": "training.my_courses.delete",
+          "delete_own": "training.my_courses.delete_own"
+        }
+      },
+      "MyNotes": {
+        "id": "training.my_notes",
+        "name": "My Notes",
+        "permission": {
+          "add": "training.my_notes.add",
+          "view": "training.my_notes.view",
+          "edit": "training.my_notes.edit",
+          "edit_own": "training.my_notes.edit_own",
+          "delete": "training.my_notes.delete",
+          "delete_own": "training.my_notes.delete_own"
+        }
+      },
+      "MyResults": {
+        "id": "training.my_results",
+        "name": "My Results",
+        "permission": {
+          "add": "training.my_results.add",
+          "view": "training.my_results.view",
+          "edit": "training.my_results.edit",
+          "edit_own": "training.my_results.edit_own",
+          "delete": "training.my_results.delete",
+          "delete_own": "training.my_results.delete_own"
+        }
       }
     },
     "LocalAuthority": {
@@ -2710,7 +2757,7 @@
             "delete_own": "advocacy.carer_advocacy.list_of_advocates.delete_own"
           }
         },
-        "RaisenewAdvocacy": {
+        "RaiseNewAdvocacy": {
           "id": "advocacy.carer_advocacy.raise_new_advocacy",
           "name": "Raise a New Advocacy",
           "permission": {
@@ -2802,7 +2849,7 @@
     },
     "ComplianceManagement": {
       "id": "compliance_management",
-      "name": "(Compliance Management)",
+      "name": "Compliance Management",
       "Administration": {
         "id": "compliance_management.administration",
         "name": "Administration",
@@ -3534,7 +3581,7 @@
       "IFAReports": {
         "id": "reports.ifa_reports",
         "name": "IFA Reports",
-        "FRA2019": {
+        "FrA2019": {
           "id": "reports.ifa_reports.fr_a_2019",
           "name": "FR-A-2019",
           "permission": {
@@ -3546,7 +3593,7 @@
             "delete_own": "reports.ifa_reports.fr_a_2019.delete_own"
           }
         },
-        "FRB2019": {
+        "FrB2019": {
           "id": "reports.ifa_reports.fr_b_2019",
           "name": "FR-B-2019",
           "permission": {
@@ -3558,7 +3605,7 @@
             "delete_own": "reports.ifa_reports.fr_b_2019.delete_own"
           }
         },
-        "FRC1": {
+        "FrC1": {
           "id": "reports.ifa_reports.fr_c_1",
           "name": "FR-C1",
           "permission": {
@@ -3570,7 +3617,7 @@
             "delete_own": "reports.ifa_reports.fr_c_1.delete_own"
           }
         },
-        "FRC2": {
+        "FrC2": {
           "id": "reports.ifa_reports.fr_c_2",
           "name": "FR-C2",
           "permission": {
@@ -3582,7 +3629,7 @@
             "delete_own": "reports.ifa_reports.fr_c_2.delete_own"
           }
         },
-        "FRD1": {
+        "FrD1": {
           "id": "reports.ifa_reports.fr_d_1",
           "name": "FR-D1",
           "permission": {
@@ -3594,7 +3641,7 @@
             "delete_own": "reports.ifa_reports.fr_d_1.delete_own"
           }
         },
-        "FRD2": {
+        "FrD2": {
           "id": "reports.ifa_reports.fr_d_2",
           "name": "FR-D2",
           "permission": {
@@ -3606,7 +3653,7 @@
             "delete_own": "reports.ifa_reports.fr_d_2.delete_own"
           }
         },
-        "FRE": {
+        "FrE": {
           "id": "reports.ifa_reports.fr_e",
           "name": "FR-E",
           "permission": {
@@ -3618,7 +3665,7 @@
             "delete_own": "reports.ifa_reports.fr_e.delete_own"
           }
         },
-        "FRF1": {
+        "FrF1": {
           "id": "reports.ifa_reports.fr_f_1",
           "name": "FR-F1",
           "permission": {
@@ -3630,7 +3677,7 @@
             "delete_own": "reports.ifa_reports.fr_f_1.delete_own"
           }
         },
-        "FRF2": {
+        "FrF2": {
           "id": "reports.ifa_reports.fr_f_2",
           "name": "FR-F2",
           "permission": {
@@ -3642,7 +3689,7 @@
             "delete_own": "reports.ifa_reports.fr_f_2.delete_own"
           }
         },
-        "FRF3": {
+        "FrF3": {
           "id": "reports.ifa_reports.fr_f_3",
           "name": "FR-F3",
           "permission": {
@@ -3654,7 +3701,7 @@
             "delete_own": "reports.ifa_reports.fr_f_3.delete_own"
           }
         },
-        "FRF4": {
+        "FrF4": {
           "id": "reports.ifa_reports.fr_f_4",
           "name": "FR-F4",
           "permission": {
@@ -3666,7 +3713,7 @@
             "delete_own": "reports.ifa_reports.fr_f_4.delete_own"
           }
         },
-        "FRG": {
+        "FrG": {
           "id": "reports.ifa_reports.fr_g",
           "name": "FR-G",
           "permission": {
@@ -3678,7 +3725,7 @@
             "delete_own": "reports.ifa_reports.fr_g.delete_own"
           }
         },
-        "FRH": {
+        "FrH": {
           "id": "reports.ifa_reports.fr_h",
           "name": "FR-H",
           "permission": {
@@ -3690,7 +3737,7 @@
             "delete_own": "reports.ifa_reports.fr_h.delete_own"
           }
         },
-        "FRI": {
+        "FrI": {
           "id": "reports.ifa_reports.fr_i",
           "name": "FR-I",
           "permission": {
@@ -3702,7 +3749,7 @@
             "delete_own": "reports.ifa_reports.fr_i.delete_own"
           }
         },
-        "SUPERVISORYHOMEVISIT": {
+        "SupervisoryHomeVisit": {
           "id": "reports.ifa_reports.supervisory_home_visit",
           "name": "SUPERVISORY HOME VISIT",
           "permission": {
@@ -3714,7 +3761,7 @@
             "delete_own": "reports.ifa_reports.supervisory_home_visit.delete_own"
           }
         },
-        "UNANNOUNCEDHOMEVISIT": {
+        "UnannouncedHomeVisit": {
           "id": "reports.ifa_reports.unannounced_home_visit",
           "name": "UNANNOUNCED HOME VISIT",
           "permission": {
@@ -3726,7 +3773,7 @@
             "delete_own": "reports.ifa_reports.unannounced_home_visit.delete_own"
           }
         },
-        "CARERFEEDBACKFOREMPLOYEESAPPRAISAL": {
+        "CarerFeedbackForEmployeesAppraisal": {
           "id": "reports.ifa_reports.carer_feedback_for_employees_appraisal",
           "name": "CARER FEEDBACK FOR EMPLOYEES APPRAISAL",
           "permission": {
@@ -3738,7 +3785,7 @@
             "delete_own": "reports.ifa_reports.carer_feedback_for_employees_appraisal.delete_own"
           }
         },
-        "RISKASSESSMENTFORM": {
+        "RiskAssessmentForm": {
           "id": "reports.ifa_reports.risk_assessment_form",
           "name": "RISK ASSESSMENT FORM",
           "permission": {
@@ -3750,7 +3797,7 @@
             "delete_own": "reports.ifa_reports.risk_assessment_form.delete_own"
           }
         },
-        "TRAININGREPORT": {
+        "TrainingReport": {
           "id": "reports.ifa_reports.training_report",
           "name": "TRAINING REPORT",
           "permission": {
@@ -3762,7 +3809,7 @@
             "delete_own": "reports.ifa_reports.training_report.delete_own"
           }
         },
-        "USERLOGHISTORYREPORT": {
+        "UserLogHistoryReport": {
           "id": "reports.ifa_reports.user_log_history_report",
           "name": "USER LOG HISTORY REPORT",
           "permission": {
@@ -3778,7 +3825,7 @@
       "CarerReports": {
         "id": "reports.carer_reports",
         "name": "Carer Reports",
-        "DIARYRECORDINGSBYCARER": {
+        "DiaryRecordingsByCarer": {
           "id": "reports.carer_reports.diary_recordings_by_carer",
           "name": "DIARY RECORDINGS BY CARER",
           "permission": {
@@ -3790,7 +3837,7 @@
             "delete_own": "reports.carer_reports.diary_recordings_by_carer.delete_own"
           }
         },
-        "ACTIVECARERSCONTACTSREPORTS": {
+        "ActiveCarersContactsReports": {
           "id": "reports.carer_reports.active_carers_contacts_reports",
           "name": "ACTIVE CARERS CONTACTS REPORTS",
           "permission": {
@@ -3802,7 +3849,7 @@
             "delete_own": "reports.carer_reports.active_carers_contacts_reports.delete_own"
           }
         },
-        "PARENTANDCHILDREPORTS": {
+        "ParentAndChildReports": {
           "id": "reports.carer_reports.parent_child_reports",
           "name": "PARENT AND CHILD REPORTS",
           "permission": {
@@ -3814,7 +3861,7 @@
             "delete_own": "reports.carer_reports.parent_child_reports.delete_own"
           }
         },
-        "PERMANENTFOSTERINGREPORTS": {
+        "PermanentFosteringReports": {
           "id": "reports.carer_reports.permanent_fostering_reports",
           "name": "PERMANENT FOSTERING REPORTS",
           "permission": {
@@ -3826,7 +3873,7 @@
             "delete_own": "reports.carer_reports.permanent_fostering_reports.delete_own"
           }
         },
-        "SECONDOPINIONREPORTS": {
+        "SecondOpinionReports": {
           "id": "reports.carer_reports.second_opinion_reports",
           "name": "SECOND OPINION REPORTS",
           "permission": {
@@ -3838,7 +3885,7 @@
             "delete_own": "reports.carer_reports.second_opinion_reports.delete_own"
           }
         },
-        "ANNUALREVIEWDATEREPORTS": {
+        "AnnualReviewDateReports": {
           "id": "reports.carer_reports.annual_review_date_reports",
           "name": "ANNUAL REVIEW DATE REPORTS",
           "permission": {
@@ -3850,7 +3897,7 @@
             "delete_own": "reports.carer_reports.annual_review_date_reports.delete_own"
           }
         },
-        "FOSTERCARERRECORDOFCRITICALINCIDENTSREPORTS": {
+        "FosterCarerRecordOfCriticalIncidentsReports": {
           "id": "reports.carer_reports.foster_carer_record_of_critical_incidents_reports",
           "name": "FOSTER CARER RECORD OF CRITICAL INCIDENTS REPORTS",
           "permission": {
@@ -3862,7 +3909,7 @@
             "delete_own": "reports.carer_reports.foster_carer_record_of_critical_incidents_reports.delete_own"
           }
         },
-        "CARERPLACEMENTREPORTS": {
+        "CarerPlacementReports": {
           "id": "reports.carer_reports.carer_placement_reports",
           "name": "CARER PLACEMENT REPORTS",
           "permission": {
@@ -3874,7 +3921,7 @@
             "delete_own": "reports.carer_reports.carer_placement_reports.delete_own"
           }
         },
-        "CARERIMMUNISATIONDETAILREPORTS": {
+        "CarerImmunisationDetailReports": {
           "id": "reports.carer_reports.carer_immunisation_detail_reports",
           "name": "CARER IMMUNISATION DETAIL REPORTS",
           "permission": {
@@ -3886,7 +3933,7 @@
             "delete_own": "reports.carer_reports.carer_immunisation_detail_reports.delete_own"
           }
         },
-        "CARERREFERENCECHECKSREPORTS": {
+        "CarerReferenceChecksReports": {
           "id": "reports.carer_reports.carer_reference_checks_reports",
           "name": "CARER REFERENCE CHECKS REPORTS",
           "permission": {
@@ -3898,7 +3945,7 @@
             "delete_own": "reports.carer_reports.carer_reference_checks_reports.delete_own"
           }
         },
-        "CARERREGISTERREPORTS": {
+        "CarerRegisterReports": {
           "id": "reports.carer_reports.carer_register_reports",
           "name": "CARER REGISTER REPORTS",
           "permission": {
@@ -3910,7 +3957,7 @@
             "delete_own": "reports.carer_reports.carer_register_reports.delete_own"
           }
         },
-        "CARERTRAININGREPORTS": {
+        "CarerTrainingReports": {
           "id": "reports.carer_reports.carer_training_reports",
           "name": "CARER TRAINING REPORTS",
           "permission": {
@@ -3922,7 +3969,7 @@
             "delete_own": "reports.carer_reports.carer_training_reports.delete_own"
           }
         },
-        "CARERVACANCYREPORTS": {
+        "CarerVacancyReports": {
           "id": "reports.carer_reports.carer_vacancy_reports",
           "name": "CARER VACANCY REPORTS",
           "permission": {
@@ -3934,7 +3981,7 @@
             "delete_own": "reports.carer_reports.carer_vacancy_reports.delete_own"
           }
         },
-        "DAYLOGEVENTSREPORTS": {
+        "DayLogEventsReports": {
           "id": "reports.carer_reports.day_log_events_reports",
           "name": "DAY LOG EVENTS REPORTS",
           "permission": {
@@ -3950,7 +3997,7 @@
       "ChildReports": {
         "id": "reports.child_reports",
         "name": "Child Reports",
-        "CHILDLIVINGINTHEHOUSEHOLD'SCOMMENTS": {
+        "ChildLivingInTheHousehold'sComments": {
           "id": "reports.child_reports.child_living_in_the_household_comments",
           "name": "CHILD LIVING IN THE HOUSEHOLD'S COMMENTS",
           "permission": {
@@ -3962,7 +4009,7 @@
             "delete_own": "reports.child_reports.child_living_in_the_household_comments.delete_own"
           }
         },
-        "YOUNGPERSONLIVINGINTHEHOUSEHOLD'SCOMMENTS": {
+        "YoungPersonLivingInTheHousehold'sComments": {
           "id": "reports.child_reports.young_person_living_in_the_household_comments",
           "name": "YOUNG PERSON LIVING IN THE HOUSEHOLD'S COMMENTS",
           "permission": {
@@ -3974,7 +4021,7 @@
             "delete_own": "reports.child_reports.young_person_living_in_the_household_comments.delete_own"
           }
         },
-        "CHILDREGISTERREPORTFOSTEREDCHILD'SCOMMENTS": {
+        "ChildRegisterReportFosteredChild'sComments": {
           "id": "reports.child_reports.child_register_report_fostered_child_comments",
           "name": "CHILD REGISTER REPORT FOSTERED CHILD'S COMMENTS",
           "permission": {
@@ -3986,7 +4033,7 @@
             "delete_own": "reports.child_reports.child_register_report_fostered_child_comments.delete_own"
           }
         },
-        "FOSTEREDYOUNGPERSON'SCOMMENTS": {
+        "FosteredYoungPerson'sComments": {
           "id": "reports.child_reports.fostered_young_person_comments",
           "name": "FOSTERED YOUNG PERSON'S COMMENTS",
           "permission": {
@@ -3998,7 +4045,7 @@
             "delete_own": "reports.child_reports.fostered_young_person_comments.delete_own"
           }
         },
-        "CHILD'SSOCIALWORKERREPORT": {
+        "Child'sSocialWorkerReport": {
           "id": "reports.child_reports.child_social_worker_report",
           "name": "CHILD'S SOCIAL WORKER REPORT",
           "permission": {
@@ -4010,7 +4057,7 @@
             "delete_own": "reports.child_reports.child_social_worker_report.delete_own"
           }
         },
-        "CHILDADDITIONALREPORTS": {
+        "ChildAdditionalReports": {
           "id": "reports.child_reports.child_additional_reports",
           "name": "CHILD ADDITIONAL REPORTS",
           "permission": {
@@ -4022,7 +4069,7 @@
             "delete_own": "reports.child_reports.child_additional_reports.delete_own"
           }
         },
-        "REVIEWINGOFFICERREPORT": {
+        "ReviewingOfficerReport": {
           "id": "reports.child_reports.reviewing_officer_report",
           "name": "REVIEWING OFFICER REPORT",
           "permission": {
@@ -4034,7 +4081,7 @@
             "delete_own": "reports.child_reports.reviewing_officer_report.delete_own"
           }
         },
-        "FOSTERINGSERVICEMANAGERREPORT": {
+        "FosteringServiceManagerReport": {
           "id": "reports.child_reports.fostering_service_manager_report",
           "name": "FOSTERING SERVICE MANAGER REPORT",
           "permission": {
@@ -4046,7 +4093,7 @@
             "delete_own": "reports.child_reports.fostering_service_manager_report.delete_own"
           }
         },
-        "CHILDALLEGATIONSREPORT": {
+        "ChildAllegationsReport": {
           "id": "reports.child_reports.child_allegations_report",
           "name": "CHILD ALLEGATIONS REPORT",
           "permission": {
@@ -4058,7 +4105,7 @@
             "delete_own": "reports.child_reports.child_allegations_report.delete_own"
           }
         },
-        "CHILDCOMPLAINTSREPORT": {
+        "ChildComplaintsReport": {
           "id": "reports.child_reports.child_complaints_report",
           "name": "CHILD COMPLAINTS REPORT",
           "permission": {
@@ -4070,7 +4117,7 @@
             "delete_own": "reports.child_reports.child_complaints_report.delete_own"
           }
         },
-        "CHILDOOHREPORT": {
+        "ChildOohReport": {
           "id": "reports.child_reports.child_ooh_report",
           "name": "CHILD OOH REPORT",
           "permission": {
@@ -4082,7 +4129,7 @@
             "delete_own": "reports.child_reports.child_ooh_report.delete_own"
           }
         },
-        "CHILDINCIDENTSREPORTCRITICALINCIDENTREPORT": {
+        "ChildIncidentsReportCriticalIncidentReport": {
           "id": "reports.child_reports.child_incidents_report_critical_incident_report",
           "name": "CHILD INCIDENTS REPORT - CRITICAL INCIDENT REPORT",
           "permission": {
@@ -4094,7 +4141,7 @@
             "delete_own": "reports.child_reports.child_incidents_report_critical_incident_report.delete_own"
           }
         },
-        "CHILDPLACEMENTSREPORT": {
+        "ChildPlacementsReport": {
           "id": "reports.child_reports.child_placements_report",
           "name": "CHILD PLACEMENTS REPORT",
           "permission": {
@@ -4106,7 +4153,7 @@
             "delete_own": "reports.child_reports.child_placements_report.delete_own"
           }
         },
-        "CHILDDAYLOGEVENTSREPORT": {
+        "ChildDaylogEventsReport": {
           "id": "reports.child_reports.child_daylog_events_report",
           "name": "CHILD DAYLOG EVENTS REPORT",
           "permission": {
@@ -4118,7 +4165,7 @@
             "delete_own": "reports.child_reports.child_daylog_events_report.delete_own"
           }
         },
-        "EDUCATIONKEYSTAGEREPORT": {
+        "EducationKeyStageReport": {
           "id": "reports.child_reports.education_key_stage_report",
           "name": "EDUCATION KEY STAGE REPORT",
           "permission": {
@@ -4130,7 +4177,7 @@
             "delete_own": "reports.child_reports.education_key_stage_report.delete_own"
           }
         },
-        "CHILDIMMUNISATIONDETAILSREPORT": {
+        "ChildImmunisationDetailsReport": {
           "id": "reports.child_reports.child_immunisation_details_report",
           "name": "CHILD IMMUNISATION DETAILS REPORT",
           "permission": {
@@ -4142,7 +4189,7 @@
             "delete_own": "reports.child_reports.child_immunisation_details_report.delete_own"
           }
         },
-        "CHILDMEDICATIONDETAILSREPORT": {
+        "ChildMedicationDetailsReport": {
           "id": "reports.child_reports.child_medication_details_report",
           "name": "CHILD MEDICATION DETAILS REPORT",
           "permission": {
@@ -4154,7 +4201,7 @@
             "delete_own": "reports.child_reports.child_medication_details_report.delete_own"
           }
         },
-        "CHILDMISSINGPLACEMENTSREPORT": {
+        "ChildMissingPlacementsReport": {
           "id": "reports.child_reports.child_missing_placements_report",
           "name": "CHILD MISSING PLACEMENTS REPORT",
           "permission": {
@@ -4166,7 +4213,7 @@
             "delete_own": "reports.child_reports.child_missing_placements_report.delete_own"
           }
         },
-        "SUPERVISORYHOMEVISIT": {
+        "SupervisoryHomeVisit": {
           "id": "reports.child_reports.supervisory_home_visit",
           "name": "SUPERVISORY HOME VISIT",
           "permission": {
@@ -4178,7 +4225,7 @@
             "delete_own": "reports.child_reports.supervisory_home_visit.delete_own"
           }
         },
-        "CLADOCUMENTATIONREPORT": {
+        "ClaDocumentationReport": {
           "id": "reports.child_reports.cla_documentation_report",
           "name": "CLA DOCUMENTATION REPORT",
           "permission": {
@@ -4525,7 +4572,7 @@
       },
       "SystemPerformanceMonitoring": {
         "id": "system_admin.system_performance_monitoring",
-        "name": "(System Performance Monitoring)",
+        "name": "System Performance Monitoring",
         "MonitoringSystemPerformance": {
           "id": "system_admin.system_performance_monitoring.monitoring_system_performance",
           "name": "Monitoring System Performance",
@@ -4710,7 +4757,7 @@
             "delete_own": "system_admin.manage_faqs.social_worker.delete_own"
           }
         },
-        "IFA": {
+        "Ifa": {
           "id": "system_admin.manage_faqs.ifa",
           "name": "IFA",
           "permission": {
@@ -5531,19 +5578,53 @@
           "delete_own": "marketing.market_gap_analysis.delete_own"
         }
       }
-    }
-  },
-  "FosterCarer": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
+    },
+    "StudentList": {
+      "id": "student_list",
+      "name": "Student list",
       "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
+        "add": "student_list.add",
+        "view": "student_list.view",
+        "edit": "student_list.edit",
+        "edit_own": "student_list.edit_own",
+        "delete": "student_list.delete",
+        "delete_own": "student_list.delete_own"
+      }
+    },
+    "Curriculum": {
+      "id": "curriculum",
+      "name": "Curriculum",
+      "permission": {
+        "add": "curriculum.add",
+        "view": "curriculum.view",
+        "edit": "curriculum.edit",
+        "edit_own": "curriculum.edit_own",
+        "delete": "curriculum.delete",
+        "delete_own": "curriculum.delete_own"
+      }
+    },
+    "LearningJournal": {
+      "id": "learning_journal",
+      "name": "Learning Journal",
+      "permission": {
+        "add": "learning_journal.add",
+        "view": "learning_journal.view",
+        "edit": "learning_journal.edit",
+        "edit_own": "learning_journal.edit_own",
+        "delete": "learning_journal.delete",
+        "delete_own": "learning_journal.delete_own"
+      }
+    },
+    "ComplaintsOrIncidents": {
+      "id": "complaints_or_incidents",
+      "name": "Complaints / Incidents",
+      "permission": {
+        "add": "complaints_or_incidents.add",
+        "view": "complaints_or_incidents.view",
+        "edit": "complaints_or_incidents.edit",
+        "edit_own": "complaints_or_incidents.edit_own",
+        "delete": "complaints_or_incidents.delete",
+        "delete_own": "complaints_or_incidents.delete_own"
       }
     },
     "CarerInfo": {
@@ -6630,58 +6711,6 @@
         "delete_own": "child_care_or_placement.delete_own"
       }
     },
-    "Training": {
-      "id": "training",
-      "name": "Training",
-      "ViewCourses": {
-        "id": "training.view_courses",
-        "name": "View Courses",
-        "permission": {
-          "add": "training.view_courses.add",
-          "view": "training.view_courses.view",
-          "edit": "training.view_courses.edit",
-          "edit_own": "training.view_courses.edit_own",
-          "delete": "training.view_courses.delete",
-          "delete_own": "training.view_courses.delete_own"
-        }
-      },
-      "MyCourses": {
-        "id": "training.my_courses",
-        "name": "My Courses",
-        "permission": {
-          "add": "training.my_courses.add",
-          "view": "training.my_courses.view",
-          "edit": "training.my_courses.edit",
-          "edit_own": "training.my_courses.edit_own",
-          "delete": "training.my_courses.delete",
-          "delete_own": "training.my_courses.delete_own"
-        }
-      },
-      "MyNotes": {
-        "id": "training.my_notes",
-        "name": "My Notes",
-        "permission": {
-          "add": "training.my_notes.add",
-          "view": "training.my_notes.view",
-          "edit": "training.my_notes.edit",
-          "edit_own": "training.my_notes.edit_own",
-          "delete": "training.my_notes.delete",
-          "delete_own": "training.my_notes.delete_own"
-        }
-      },
-      "MyResults": {
-        "id": "training.my_results",
-        "name": "My Results",
-        "permission": {
-          "add": "training.my_results.add",
-          "view": "training.my_results.view",
-          "edit": "training.my_results.edit",
-          "edit_own": "training.my_results.edit_own",
-          "delete": "training.my_results.delete",
-          "delete_own": "training.my_results.delete_own"
-        }
-      }
-    },
     "Finance": {
       "id": "finance",
       "name": "Finance",
@@ -6769,7 +6798,7 @@
           "delete_own": "finance.create_finance_statement.delete_own"
         }
       },
-      "Raisequery": {
+      "RaiseQuery": {
         "id": "finance.raise_query",
         "name": "Raise a Query",
         "permission": {
@@ -6779,126 +6808,6 @@
           "edit_own": "finance.raise_query.edit_own",
           "delete": "finance.raise_query.delete",
           "delete_own": "finance.raise_query.delete_own"
-        }
-      }
-    },
-    "Referrals": {
-      "id": "referrals",
-      "name": "Referrals",
-      "ReferralList": {
-        "id": "referrals.referral_list",
-        "name": "Referral List",
-        "permission": {
-          "add": "referrals.referral_list.add",
-          "view": "referrals.referral_list.view",
-          "edit": "referrals.referral_list.edit",
-          "edit_own": "referrals.referral_list.edit_own",
-          "delete": "referrals.referral_list.delete",
-          "delete_own": "referrals.referral_list.delete_own"
-        }
-      },
-      "ReferralScheme": {
-        "id": "referrals.referral_scheme",
-        "name": "Referral Scheme",
-        "permission": {
-          "add": "referrals.referral_scheme.add",
-          "view": "referrals.referral_scheme.view",
-          "edit": "referrals.referral_scheme.edit",
-          "edit_own": "referrals.referral_scheme.edit_own",
-          "delete": "referrals.referral_scheme.delete",
-          "delete_own": "referrals.referral_scheme.delete_own"
-        }
-      },
-      "OriginalChildReferral": {
-        "id": "referrals.original_child_referral",
-        "name": "Original Child Referral",
-        "permission": {
-          "add": "referrals.original_child_referral.add",
-          "view": "referrals.original_child_referral.view",
-          "edit": "referrals.original_child_referral.edit",
-          "edit_own": "referrals.original_child_referral.edit_own",
-          "delete": "referrals.original_child_referral.delete",
-          "delete_own": "referrals.original_child_referral.delete_own"
-        }
-      },
-      "FosterCarerReference": {
-        "id": "referrals.foster_carer_reference",
-        "name": "Foster Carer Reference",
-        "PersonalReference": {
-          "id": "referrals.foster_carer_reference.personal_reference",
-          "name": "Personal Reference",
-          "permission": {
-            "add": "referrals.foster_carer_reference.personal_reference.add",
-            "view": "referrals.foster_carer_reference.personal_reference.view",
-            "edit": "referrals.foster_carer_reference.personal_reference.edit",
-            "edit_own": "referrals.foster_carer_reference.personal_reference.edit_own",
-            "delete": "referrals.foster_carer_reference.personal_reference.delete",
-            "delete_own": "referrals.foster_carer_reference.personal_reference.delete_own"
-          }
-        },
-        "FormerPartnerReference": {
-          "id": "referrals.foster_carer_reference.former_partner_reference",
-          "name": "Former Partner Reference",
-          "permission": {
-            "add": "referrals.foster_carer_reference.former_partner_reference.add",
-            "view": "referrals.foster_carer_reference.former_partner_reference.view",
-            "edit": "referrals.foster_carer_reference.former_partner_reference.edit",
-            "edit_own": "referrals.foster_carer_reference.former_partner_reference.edit_own",
-            "delete": "referrals.foster_carer_reference.former_partner_reference.delete",
-            "delete_own": "referrals.foster_carer_reference.former_partner_reference.delete_own"
-          }
-        },
-        "EmployerOrVoluntaryReference": {
-          "id": "referrals.foster_carer_reference.employer_or_voluntary_reference",
-          "name": "Employer/voluntary Reference",
-          "permission": {
-            "add": "referrals.foster_carer_reference.employer_or_voluntary_reference.add",
-            "view": "referrals.foster_carer_reference.employer_or_voluntary_reference.view",
-            "edit": "referrals.foster_carer_reference.employer_or_voluntary_reference.edit",
-            "edit_own": "referrals.foster_carer_reference.employer_or_voluntary_reference.edit_own",
-            "delete": "referrals.foster_carer_reference.employer_or_voluntary_reference.delete",
-            "delete_own": "referrals.foster_carer_reference.employer_or_voluntary_reference.delete_own"
-          }
-        }
-      },
-      "RequestForm": {
-        "id": "referrals.request_form",
-        "name": "Request Form",
-        "FosterCarer": {
-          "id": "referrals.request_form.foster_carer",
-          "name": "Foster Carer",
-          "permission": {
-            "add": "referrals.request_form.foster_carer.add",
-            "view": "referrals.request_form.foster_carer.view",
-            "edit": "referrals.request_form.foster_carer.edit",
-            "edit_own": "referrals.request_form.foster_carer.edit_own",
-            "delete": "referrals.request_form.foster_carer.delete",
-            "delete_own": "referrals.request_form.foster_carer.delete_own"
-          }
-        },
-        "FosterChild": {
-          "id": "referrals.request_form.foster_child",
-          "name": "Foster Child",
-          "permission": {
-            "add": "referrals.request_form.foster_child.add",
-            "view": "referrals.request_form.foster_child.view",
-            "edit": "referrals.request_form.foster_child.edit",
-            "edit_own": "referrals.request_form.foster_child.edit_own",
-            "delete": "referrals.request_form.foster_child.delete",
-            "delete_own": "referrals.request_form.foster_child.delete_own"
-          }
-        },
-        "SocialWorker": {
-          "id": "referrals.request_form.social_worker",
-          "name": "Social Worker",
-          "permission": {
-            "add": "referrals.request_form.social_worker.add",
-            "view": "referrals.request_form.social_worker.view",
-            "edit": "referrals.request_form.social_worker.edit",
-            "edit_own": "referrals.request_form.social_worker.edit_own",
-            "delete": "referrals.request_form.social_worker.delete",
-            "delete_own": "referrals.request_form.social_worker.delete_own"
-          }
         }
       }
     },
@@ -6953,7 +6862,7 @@
           "delete_own": "carer_advocacy.list_of_advocates.delete_own"
         }
       },
-      "RaisenewAdvocacy": {
+      "RaiseNewAdvocacy": {
         "id": "carer_advocacy.raise_new_advocacy",
         "name": "Raise a New Advocacy",
         "permission": {
@@ -6963,530 +6872,6 @@
           "edit_own": "carer_advocacy.raise_new_advocacy.edit_own",
           "delete": "carer_advocacy.raise_new_advocacy.delete",
           "delete_own": "carer_advocacy.raise_new_advocacy.delete_own"
-        }
-      }
-    },
-    "Reports": {
-      "id": "reports",
-      "name": "Reports",
-      "DIARYRECORDINGSBYCARER": {
-        "id": "reports.diary_recordings_by_carer",
-        "name": "DIARY RECORDINGS BY CARER",
-        "permission": {
-          "add": "reports.diary_recordings_by_carer.add",
-          "view": "reports.diary_recordings_by_carer.view",
-          "edit": "reports.diary_recordings_by_carer.edit",
-          "edit_own": "reports.diary_recordings_by_carer.edit_own",
-          "delete": "reports.diary_recordings_by_carer.delete",
-          "delete_own": "reports.diary_recordings_by_carer.delete_own"
-        }
-      },
-      "ACTIVECARERSCONTACTSREPORTS": {
-        "id": "reports.active_carers_contacts_reports",
-        "name": "ACTIVE CARERS CONTACTS REPORTS",
-        "permission": {
-          "add": "reports.active_carers_contacts_reports.add",
-          "view": "reports.active_carers_contacts_reports.view",
-          "edit": "reports.active_carers_contacts_reports.edit",
-          "edit_own": "reports.active_carers_contacts_reports.edit_own",
-          "delete": "reports.active_carers_contacts_reports.delete",
-          "delete_own": "reports.active_carers_contacts_reports.delete_own"
-        }
-      },
-      "PARENTANDCHILDREPORTS": {
-        "id": "reports.parent_child_reports",
-        "name": "PARENT AND CHILD REPORTS",
-        "permission": {
-          "add": "reports.parent_child_reports.add",
-          "view": "reports.parent_child_reports.view",
-          "edit": "reports.parent_child_reports.edit",
-          "edit_own": "reports.parent_child_reports.edit_own",
-          "delete": "reports.parent_child_reports.delete",
-          "delete_own": "reports.parent_child_reports.delete_own"
-        }
-      },
-      "PERMANENTFOSTERINGREPORTS": {
-        "id": "reports.permanent_fostering_reports",
-        "name": "PERMANENT FOSTERING REPORTS",
-        "permission": {
-          "add": "reports.permanent_fostering_reports.add",
-          "view": "reports.permanent_fostering_reports.view",
-          "edit": "reports.permanent_fostering_reports.edit",
-          "edit_own": "reports.permanent_fostering_reports.edit_own",
-          "delete": "reports.permanent_fostering_reports.delete",
-          "delete_own": "reports.permanent_fostering_reports.delete_own"
-        }
-      },
-      "SECONDOPINIONREPORTS": {
-        "id": "reports.second_opinion_reports",
-        "name": "SECOND OPINION REPORTS",
-        "permission": {
-          "add": "reports.second_opinion_reports.add",
-          "view": "reports.second_opinion_reports.view",
-          "edit": "reports.second_opinion_reports.edit",
-          "edit_own": "reports.second_opinion_reports.edit_own",
-          "delete": "reports.second_opinion_reports.delete",
-          "delete_own": "reports.second_opinion_reports.delete_own"
-        }
-      },
-      "ANNUALREVIEWDATEREPORTS": {
-        "id": "reports.annual_review_date_reports",
-        "name": "ANNUAL REVIEW DATE REPORTS",
-        "permission": {
-          "add": "reports.annual_review_date_reports.add",
-          "view": "reports.annual_review_date_reports.view",
-          "edit": "reports.annual_review_date_reports.edit",
-          "edit_own": "reports.annual_review_date_reports.edit_own",
-          "delete": "reports.annual_review_date_reports.delete",
-          "delete_own": "reports.annual_review_date_reports.delete_own"
-        }
-      },
-      "FOSTERCARERRECORDOFCRITICALINCIDENTSREPORTS": {
-        "id": "reports.foster_carer_record_of_critical_incidents_reports",
-        "name": "FOSTER CARER RECORD OF CRITICAL INCIDENTS REPORTS",
-        "permission": {
-          "add": "reports.foster_carer_record_of_critical_incidents_reports.add",
-          "view": "reports.foster_carer_record_of_critical_incidents_reports.view",
-          "edit": "reports.foster_carer_record_of_critical_incidents_reports.edit",
-          "edit_own": "reports.foster_carer_record_of_critical_incidents_reports.edit_own",
-          "delete": "reports.foster_carer_record_of_critical_incidents_reports.delete",
-          "delete_own": "reports.foster_carer_record_of_critical_incidents_reports.delete_own"
-        }
-      },
-      "CARERPLACEMENTREPORTS": {
-        "id": "reports.carer_placement_reports",
-        "name": "CARER PLACEMENT REPORTS",
-        "permission": {
-          "add": "reports.carer_placement_reports.add",
-          "view": "reports.carer_placement_reports.view",
-          "edit": "reports.carer_placement_reports.edit",
-          "edit_own": "reports.carer_placement_reports.edit_own",
-          "delete": "reports.carer_placement_reports.delete",
-          "delete_own": "reports.carer_placement_reports.delete_own"
-        }
-      },
-      "CARERIMMUNISATIONDETAILREPORTS": {
-        "id": "reports.carer_immunisation_detail_reports",
-        "name": "CARER IMMUNISATION DETAIL REPORTS",
-        "permission": {
-          "add": "reports.carer_immunisation_detail_reports.add",
-          "view": "reports.carer_immunisation_detail_reports.view",
-          "edit": "reports.carer_immunisation_detail_reports.edit",
-          "edit_own": "reports.carer_immunisation_detail_reports.edit_own",
-          "delete": "reports.carer_immunisation_detail_reports.delete",
-          "delete_own": "reports.carer_immunisation_detail_reports.delete_own"
-        }
-      },
-      "CARERREFERENCECHECKSREPORTS": {
-        "id": "reports.carer_reference_checks_reports",
-        "name": "CARER REFERENCE CHECKS REPORTS",
-        "permission": {
-          "add": "reports.carer_reference_checks_reports.add",
-          "view": "reports.carer_reference_checks_reports.view",
-          "edit": "reports.carer_reference_checks_reports.edit",
-          "edit_own": "reports.carer_reference_checks_reports.edit_own",
-          "delete": "reports.carer_reference_checks_reports.delete",
-          "delete_own": "reports.carer_reference_checks_reports.delete_own"
-        }
-      },
-      "CARERREGISTERREPORTS": {
-        "id": "reports.carer_register_reports",
-        "name": "CARER REGISTER REPORTS",
-        "permission": {
-          "add": "reports.carer_register_reports.add",
-          "view": "reports.carer_register_reports.view",
-          "edit": "reports.carer_register_reports.edit",
-          "edit_own": "reports.carer_register_reports.edit_own",
-          "delete": "reports.carer_register_reports.delete",
-          "delete_own": "reports.carer_register_reports.delete_own"
-        }
-      },
-      "CARERTRAININGREPORTS": {
-        "id": "reports.carer_training_reports",
-        "name": "CARER TRAINING REPORTS",
-        "permission": {
-          "add": "reports.carer_training_reports.add",
-          "view": "reports.carer_training_reports.view",
-          "edit": "reports.carer_training_reports.edit",
-          "edit_own": "reports.carer_training_reports.edit_own",
-          "delete": "reports.carer_training_reports.delete",
-          "delete_own": "reports.carer_training_reports.delete_own"
-        }
-      },
-      "CARERVACANCYREPORTS": {
-        "id": "reports.carer_vacancy_reports",
-        "name": "CARER VACANCY REPORTS",
-        "permission": {
-          "add": "reports.carer_vacancy_reports.add",
-          "view": "reports.carer_vacancy_reports.view",
-          "edit": "reports.carer_vacancy_reports.edit",
-          "edit_own": "reports.carer_vacancy_reports.edit_own",
-          "delete": "reports.carer_vacancy_reports.delete",
-          "delete_own": "reports.carer_vacancy_reports.delete_own"
-        }
-      },
-      "DAYLOGEVENTSREPORTS": {
-        "id": "reports.day_log_events_reports",
-        "name": "DAY LOG EVENTS REPORTS",
-        "permission": {
-          "add": "reports.day_log_events_reports.add",
-          "view": "reports.day_log_events_reports.view",
-          "edit": "reports.day_log_events_reports.edit",
-          "edit_own": "reports.day_log_events_reports.edit_own",
-          "delete": "reports.day_log_events_reports.delete",
-          "delete_own": "reports.day_log_events_reports.delete_own"
-        }
-      }
-    },
-    "PoliciesAndGuidelines": {
-      "id": "policies_guidelines",
-      "name": "Policies & Guidelines",
-      "OrganisationalPolicies": {
-        "id": "policies_guidelines.organisational_policies",
-        "name": "Organisational Policies",
-        "RecruitmentAndAssessmentPolicy": {
-          "id": "policies_guidelines.organisational_policies.recruitment_assessment_policy",
-          "name": "Recruitment and Assessment Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.recruitment_assessment_policy.add",
-            "view": "policies_guidelines.organisational_policies.recruitment_assessment_policy.view",
-            "edit": "policies_guidelines.organisational_policies.recruitment_assessment_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.recruitment_assessment_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.recruitment_assessment_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.recruitment_assessment_policy.delete_own"
-          }
-        },
-        "PanelPolicy": {
-          "id": "policies_guidelines.organisational_policies.panel_policy",
-          "name": "Panel Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.panel_policy.add",
-            "view": "policies_guidelines.organisational_policies.panel_policy.view",
-            "edit": "policies_guidelines.organisational_policies.panel_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.panel_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.panel_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.panel_policy.delete_own"
-          }
-        },
-        "SafeGuardingPolicy": {
-          "id": "policies_guidelines.organisational_policies.safe_guarding_policy",
-          "name": "Safe Guarding Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.safe_guarding_policy.add",
-            "view": "policies_guidelines.organisational_policies.safe_guarding_policy.view",
-            "edit": "policies_guidelines.organisational_policies.safe_guarding_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.safe_guarding_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.safe_guarding_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.safe_guarding_policy.delete_own"
-          }
-        },
-        "AllegationsPolicy": {
-          "id": "policies_guidelines.organisational_policies.allegations_policy",
-          "name": "Allegations Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.allegations_policy.add",
-            "view": "policies_guidelines.organisational_policies.allegations_policy.view",
-            "edit": "policies_guidelines.organisational_policies.allegations_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.allegations_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.allegations_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.allegations_policy.delete_own"
-          }
-        },
-        "EqualitiesPolicy": {
-          "id": "policies_guidelines.organisational_policies.equalities_policy",
-          "name": "Equalities Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.equalities_policy.add",
-            "view": "policies_guidelines.organisational_policies.equalities_policy.view",
-            "edit": "policies_guidelines.organisational_policies.equalities_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.equalities_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.equalities_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.equalities_policy.delete_own"
-          }
-        },
-        "MissingFromCarePolicy": {
-          "id": "policies_guidelines.organisational_policies.missing_from_care_policy",
-          "name": "Missing From Care Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.missing_from_care_policy.add",
-            "view": "policies_guidelines.organisational_policies.missing_from_care_policy.view",
-            "edit": "policies_guidelines.organisational_policies.missing_from_care_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.missing_from_care_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.missing_from_care_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.missing_from_care_policy.delete_own"
-          }
-        },
-        "BehaviourManagementPolicy": {
-          "id": "policies_guidelines.organisational_policies.behaviour_management_policy",
-          "name": "Behaviour Management Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.behaviour_management_policy.add",
-            "view": "policies_guidelines.organisational_policies.behaviour_management_policy.view",
-            "edit": "policies_guidelines.organisational_policies.behaviour_management_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.behaviour_management_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.behaviour_management_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.behaviour_management_policy.delete_own"
-          }
-        },
-        "7StandardsOfCarePolicy": {
-          "id": "policies_guidelines.organisational_policies.7_standards_of_care_policy",
-          "name": "7 Standards of Care Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.7_standards_of_care_policy.add",
-            "view": "policies_guidelines.organisational_policies.7_standards_of_care_policy.view",
-            "edit": "policies_guidelines.organisational_policies.7_standards_of_care_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.7_standards_of_care_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.7_standards_of_care_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.7_standards_of_care_policy.delete_own"
-          }
-        },
-        "SupervisionTrainingSupportPolicy": {
-          "id": "policies_guidelines.organisational_policies.supervision_training_support_policy",
-          "name": "Supervision Training Support Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.supervision_training_support_policy.add",
-            "view": "policies_guidelines.organisational_policies.supervision_training_support_policy.view",
-            "edit": "policies_guidelines.organisational_policies.supervision_training_support_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.supervision_training_support_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.supervision_training_support_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.supervision_training_support_policy.delete_own"
-          }
-        },
-        "HealthPolicy": {
-          "id": "policies_guidelines.organisational_policies.health_policy",
-          "name": "Health Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.health_policy.add",
-            "view": "policies_guidelines.organisational_policies.health_policy.view",
-            "edit": "policies_guidelines.organisational_policies.health_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.health_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.health_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.health_policy.delete_own"
-          }
-        },
-        "EducationalPolicy": {
-          "id": "policies_guidelines.organisational_policies.educational_policy",
-          "name": "Educational Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.educational_policy.add",
-            "view": "policies_guidelines.organisational_policies.educational_policy.view",
-            "edit": "policies_guidelines.organisational_policies.educational_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.educational_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.educational_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.educational_policy.delete_own"
-          }
-        },
-        "PromotingContactPolicy": {
-          "id": "policies_guidelines.organisational_policies.promoting_contact_policy",
-          "name": "Promoting Contact Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.promoting_contact_policy.add",
-            "view": "policies_guidelines.organisational_policies.promoting_contact_policy.view",
-            "edit": "policies_guidelines.organisational_policies.promoting_contact_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.promoting_contact_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.promoting_contact_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.promoting_contact_policy.delete_own"
-          }
-        },
-        "StaffSupervisionPolicy": {
-          "id": "policies_guidelines.organisational_policies.staff_supervision_policy",
-          "name": "Staff Supervision Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.staff_supervision_policy.add",
-            "view": "policies_guidelines.organisational_policies.staff_supervision_policy.view",
-            "edit": "policies_guidelines.organisational_policies.staff_supervision_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.staff_supervision_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.staff_supervision_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.staff_supervision_policy.delete_own"
-          }
-        },
-        "RecordingKeepingPolicy": {
-          "id": "policies_guidelines.organisational_policies.recording_keeping_policy",
-          "name": "Recording Keeping Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.recording_keeping_policy.add",
-            "view": "policies_guidelines.organisational_policies.recording_keeping_policy.view",
-            "edit": "policies_guidelines.organisational_policies.recording_keeping_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.recording_keeping_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.recording_keeping_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.recording_keeping_policy.delete_own"
-          }
-        }
-      },
-      "AgencyGuidelines": {
-        "id": "policies_guidelines.agency_guidelines",
-        "name": "Agency Guidelines",
-        "Recruitment": {
-          "id": "policies_guidelines.agency_guidelines.recruitment",
-          "name": "Recruitment",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.recruitment.add",
-            "view": "policies_guidelines.agency_guidelines.recruitment.view",
-            "edit": "policies_guidelines.agency_guidelines.recruitment.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.recruitment.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.recruitment.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.recruitment.delete_own"
-          }
-        },
-        "Assessment": {
-          "id": "policies_guidelines.agency_guidelines.assessment",
-          "name": "Assessment",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.assessment.add",
-            "view": "policies_guidelines.agency_guidelines.assessment.view",
-            "edit": "policies_guidelines.agency_guidelines.assessment.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.assessment.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.assessment.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.assessment.delete_own"
-          }
-        },
-        "Approval": {
-          "id": "policies_guidelines.agency_guidelines.approval",
-          "name": "Approval",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.approval.add",
-            "view": "policies_guidelines.agency_guidelines.approval.view",
-            "edit": "policies_guidelines.agency_guidelines.approval.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.approval.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.approval.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.approval.delete_own"
-          }
-        },
-        "Training": {
-          "id": "policies_guidelines.agency_guidelines.training",
-          "name": "Training",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.training.add",
-            "view": "policies_guidelines.agency_guidelines.training.view",
-            "edit": "policies_guidelines.agency_guidelines.training.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.training.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.training.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.training.delete_own"
-          }
-        },
-        "Supervision": {
-          "id": "policies_guidelines.agency_guidelines.supervision",
-          "name": "Supervision",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.supervision.add",
-            "view": "policies_guidelines.agency_guidelines.supervision.view",
-            "edit": "policies_guidelines.agency_guidelines.supervision.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.supervision.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.supervision.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.supervision.delete_own"
-          }
-        },
-        "Support": {
-          "id": "policies_guidelines.agency_guidelines.support",
-          "name": "Support",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.support.add",
-            "view": "policies_guidelines.agency_guidelines.support.view",
-            "edit": "policies_guidelines.agency_guidelines.support.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.support.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.support.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.support.delete_own"
-          }
-        }
-      },
-      "GovtLegislationAndRegulations": {
-        "id": "policies_guidelines.govt_legislation_regulations",
-        "name": "Govt Legislation and Regulations",
-        "Acts": {
-          "id": "policies_guidelines.govt_legislation_regulations.acts",
-          "name": "Acts",
-          "permission": {
-            "add": "policies_guidelines.govt_legislation_regulations.acts.add",
-            "view": "policies_guidelines.govt_legislation_regulations.acts.view",
-            "edit": "policies_guidelines.govt_legislation_regulations.acts.edit",
-            "edit_own": "policies_guidelines.govt_legislation_regulations.acts.edit_own",
-            "delete": "policies_guidelines.govt_legislation_regulations.acts.delete",
-            "delete_own": "policies_guidelines.govt_legislation_regulations.acts.delete_own"
-          }
-        },
-        "Regulations": {
-          "id": "policies_guidelines.govt_legislation_regulations.regulations",
-          "name": "Regulations",
-          "permission": {
-            "add": "policies_guidelines.govt_legislation_regulations.regulations.add",
-            "view": "policies_guidelines.govt_legislation_regulations.regulations.view",
-            "edit": "policies_guidelines.govt_legislation_regulations.regulations.edit",
-            "edit_own": "policies_guidelines.govt_legislation_regulations.regulations.edit_own",
-            "delete": "policies_guidelines.govt_legislation_regulations.regulations.delete",
-            "delete_own": "policies_guidelines.govt_legislation_regulations.regulations.delete_own"
-          }
-        }
-      },
-      "Handbooks": {
-        "id": "policies_guidelines.handbooks",
-        "name": "Handbooks",
-        "FosterCarerHandbook": {
-          "id": "policies_guidelines.handbooks.foster_carer_handbook",
-          "name": "Foster Carer Handbook",
-          "permission": {
-            "add": "policies_guidelines.handbooks.foster_carer_handbook.add",
-            "view": "policies_guidelines.handbooks.foster_carer_handbook.view",
-            "edit": "policies_guidelines.handbooks.foster_carer_handbook.edit",
-            "edit_own": "policies_guidelines.handbooks.foster_carer_handbook.edit_own",
-            "delete": "policies_guidelines.handbooks.foster_carer_handbook.delete",
-            "delete_own": "policies_guidelines.handbooks.foster_carer_handbook.delete_own"
-          }
-        },
-        "UnderstandingFostering": {
-          "id": "policies_guidelines.handbooks.understanding_fostering",
-          "name": "Understanding Fostering",
-          "permission": {
-            "add": "policies_guidelines.handbooks.understanding_fostering.add",
-            "view": "policies_guidelines.handbooks.understanding_fostering.view",
-            "edit": "policies_guidelines.handbooks.understanding_fostering.edit",
-            "edit_own": "policies_guidelines.handbooks.understanding_fostering.edit_own",
-            "delete": "policies_guidelines.handbooks.understanding_fostering.delete",
-            "delete_own": "policies_guidelines.handbooks.understanding_fostering.delete_own"
-          }
-        }
-      },
-      "CyberEssentials": {
-        "id": "policies_guidelines.cyber_essentials",
-        "name": "Cyber Essentials",
-        "GeneralDataProtectionRegulation": {
-          "id": "policies_guidelines.cyber_essentials.general_data_protection_regulation",
-          "name": "General Data Protection Regulation",
-          "permission": {
-            "add": "policies_guidelines.cyber_essentials.general_data_protection_regulation.add",
-            "view": "policies_guidelines.cyber_essentials.general_data_protection_regulation.view",
-            "edit": "policies_guidelines.cyber_essentials.general_data_protection_regulation.edit",
-            "edit_own": "policies_guidelines.cyber_essentials.general_data_protection_regulation.edit_own",
-            "delete": "policies_guidelines.cyber_essentials.general_data_protection_regulation.delete",
-            "delete_own": "policies_guidelines.cyber_essentials.general_data_protection_regulation.delete_own"
-          }
-        }
-      },
-      "OtherPolicies": {
-        "id": "policies_guidelines.other_policies",
-        "name": "Other Policies",
-        "HealthAndSocialCare": {
-          "id": "policies_guidelines.other_policies.health_social_care",
-          "name": "Health and Social Care",
-          "permission": {
-            "add": "policies_guidelines.other_policies.health_social_care.add",
-            "view": "policies_guidelines.other_policies.health_social_care.view",
-            "edit": "policies_guidelines.other_policies.health_social_care.edit",
-            "edit_own": "policies_guidelines.other_policies.health_social_care.edit_own",
-            "delete": "policies_guidelines.other_policies.health_social_care.delete",
-            "delete_own": "policies_guidelines.other_policies.health_social_care.delete_own"
-          }
-        },
-        "PerformanceManagement": {
-          "id": "policies_guidelines.other_policies.performance_management",
-          "name": "Performance Management",
-          "permission": {
-            "add": "policies_guidelines.other_policies.performance_management.add",
-            "view": "policies_guidelines.other_policies.performance_management.view",
-            "edit": "policies_guidelines.other_policies.performance_management.edit",
-            "edit_own": "policies_guidelines.other_policies.performance_management.edit_own",
-            "delete": "policies_guidelines.other_policies.performance_management.delete",
-            "delete_own": "policies_guidelines.other_policies.performance_management.delete_own"
-          }
         }
       }
     },
@@ -7500,56 +6885,6 @@
         "edit_own": "declarations_receipts.edit_own",
         "delete": "declarations_receipts.delete",
         "delete_own": "declarations_receipts.delete_own"
-      }
-    },
-    "ContactDirectory": {
-      "id": "contact_directory",
-      "name": "Contact Directory",
-      "permission": {
-        "add": "contact_directory.add",
-        "view": "contact_directory.view",
-        "edit": "contact_directory.edit",
-        "edit_own": "contact_directory.edit_own",
-        "delete": "contact_directory.delete",
-        "delete_own": "contact_directory.delete_own"
-      }
-    },
-    "UserManual": {
-      "id": "user_manual",
-      "name": "User Manual",
-      "permission": {
-        "add": "user_manual.add",
-        "view": "user_manual.view",
-        "edit": "user_manual.edit",
-        "edit_own": "user_manual.edit_own",
-        "delete": "user_manual.delete",
-        "delete_own": "user_manual.delete_own"
-      }
-    },
-    "RaiseSupportTicket": {
-      "id": "raise_support_ticket",
-      "name": "Raise Support Ticket",
-      "permission": {
-        "add": "raise_support_ticket.add",
-        "view": "raise_support_ticket.view",
-        "edit": "raise_support_ticket.edit",
-        "edit_own": "raise_support_ticket.edit_own",
-        "delete": "raise_support_ticket.delete",
-        "delete_own": "raise_support_ticket.delete_own"
-      }
-    }
-  },
-  "Child": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
       }
     },
     "PersonalInfo": {
@@ -8100,494 +7435,6 @@
         }
       }
     },
-    "Reports": {
-      "id": "reports",
-      "name": "Reports",
-      "CHILDLIVINGINTHEHOUSEHOLD'SCOMMENTS": {
-        "id": "reports.child_living_in_the_household_comments",
-        "name": "CHILD LIVING IN THE HOUSEHOLD'S COMMENTS",
-        "permission": {
-          "add": "reports.child_living_in_the_household_comments.add",
-          "view": "reports.child_living_in_the_household_comments.view",
-          "edit": "reports.child_living_in_the_household_comments.edit",
-          "edit_own": "reports.child_living_in_the_household_comments.edit_own",
-          "delete": "reports.child_living_in_the_household_comments.delete",
-          "delete_own": "reports.child_living_in_the_household_comments.delete_own"
-        }
-      },
-      "YOUNGPERSONLIVINGINTHEHOUSEHOLD'SCOMMENTS": {
-        "id": "reports.young_person_living_in_the_household_comments",
-        "name": "YOUNG PERSON LIVING IN THE HOUSEHOLD'S COMMENTS",
-        "permission": {
-          "add": "reports.young_person_living_in_the_household_comments.add",
-          "view": "reports.young_person_living_in_the_household_comments.view",
-          "edit": "reports.young_person_living_in_the_household_comments.edit",
-          "edit_own": "reports.young_person_living_in_the_household_comments.edit_own",
-          "delete": "reports.young_person_living_in_the_household_comments.delete",
-          "delete_own": "reports.young_person_living_in_the_household_comments.delete_own"
-        }
-      },
-      "CHILDREGISTERREPORTFOSTEREDCHILD'SCOMMENTS": {
-        "id": "reports.child_register_report_fostered_child_comments",
-        "name": "CHILD REGISTER REPORT FOSTERED CHILD'S COMMENTS",
-        "permission": {
-          "add": "reports.child_register_report_fostered_child_comments.add",
-          "view": "reports.child_register_report_fostered_child_comments.view",
-          "edit": "reports.child_register_report_fostered_child_comments.edit",
-          "edit_own": "reports.child_register_report_fostered_child_comments.edit_own",
-          "delete": "reports.child_register_report_fostered_child_comments.delete",
-          "delete_own": "reports.child_register_report_fostered_child_comments.delete_own"
-        }
-      },
-      "FOSTEREDYOUNGPERSON'SCOMMENTS": {
-        "id": "reports.fostered_young_person_comments",
-        "name": "FOSTERED YOUNG PERSON'S COMMENTS",
-        "permission": {
-          "add": "reports.fostered_young_person_comments.add",
-          "view": "reports.fostered_young_person_comments.view",
-          "edit": "reports.fostered_young_person_comments.edit",
-          "edit_own": "reports.fostered_young_person_comments.edit_own",
-          "delete": "reports.fostered_young_person_comments.delete",
-          "delete_own": "reports.fostered_young_person_comments.delete_own"
-        }
-      },
-      "CHILDADDITIONALREPORTS": {
-        "id": "reports.child_additional_reports",
-        "name": "CHILD ADDITIONAL REPORTS",
-        "permission": {
-          "add": "reports.child_additional_reports.add",
-          "view": "reports.child_additional_reports.view",
-          "edit": "reports.child_additional_reports.edit",
-          "edit_own": "reports.child_additional_reports.edit_own",
-          "delete": "reports.child_additional_reports.delete",
-          "delete_own": "reports.child_additional_reports.delete_own"
-        }
-      },
-      "CHILDCOMPLAINTSREPORT": {
-        "id": "reports.child_complaints_report",
-        "name": "CHILD COMPLAINTS REPORT",
-        "permission": {
-          "add": "reports.child_complaints_report.add",
-          "view": "reports.child_complaints_report.view",
-          "edit": "reports.child_complaints_report.edit",
-          "edit_own": "reports.child_complaints_report.edit_own",
-          "delete": "reports.child_complaints_report.delete",
-          "delete_own": "reports.child_complaints_report.delete_own"
-        }
-      },
-      "CHILDDAYLOGEVENTSREPORT": {
-        "id": "reports.child_daylog_events_report",
-        "name": "CHILD DAYLOG EVENTS REPORT",
-        "permission": {
-          "add": "reports.child_daylog_events_report.add",
-          "view": "reports.child_daylog_events_report.view",
-          "edit": "reports.child_daylog_events_report.edit",
-          "edit_own": "reports.child_daylog_events_report.edit_own",
-          "delete": "reports.child_daylog_events_report.delete",
-          "delete_own": "reports.child_daylog_events_report.delete_own"
-        }
-      },
-      "EDUCATIONKEYSTAGEREPORT": {
-        "id": "reports.education_key_stage_report",
-        "name": "EDUCATION KEY STAGE REPORT",
-        "permission": {
-          "add": "reports.education_key_stage_report.add",
-          "view": "reports.education_key_stage_report.view",
-          "edit": "reports.education_key_stage_report.edit",
-          "edit_own": "reports.education_key_stage_report.edit_own",
-          "delete": "reports.education_key_stage_report.delete",
-          "delete_own": "reports.education_key_stage_report.delete_own"
-        }
-      },
-      "CHILDIMMUNISATIONDETAILSREPORT": {
-        "id": "reports.child_immunisation_details_report",
-        "name": "CHILD IMMUNISATION DETAILS REPORT",
-        "permission": {
-          "add": "reports.child_immunisation_details_report.add",
-          "view": "reports.child_immunisation_details_report.view",
-          "edit": "reports.child_immunisation_details_report.edit",
-          "edit_own": "reports.child_immunisation_details_report.edit_own",
-          "delete": "reports.child_immunisation_details_report.delete",
-          "delete_own": "reports.child_immunisation_details_report.delete_own"
-        }
-      }
-    },
-    "ContactDirectory": {
-      "id": "contact_directory",
-      "name": "Contact Directory",
-      "permission": {
-        "add": "contact_directory.add",
-        "view": "contact_directory.view",
-        "edit": "contact_directory.edit",
-        "edit_own": "contact_directory.edit_own",
-        "delete": "contact_directory.delete",
-        "delete_own": "contact_directory.delete_own"
-      }
-    },
-    "PoliciesAndGuidelines": {
-      "id": "policies_guidelines",
-      "name": "Policies & Guidelines",
-      "OrganisationalPolicies": {
-        "id": "policies_guidelines.organisational_policies",
-        "name": "Organisational Policies",
-        "RecruitmentAndAssessmentPolicy": {
-          "id": "policies_guidelines.organisational_policies.recruitment_assessment_policy",
-          "name": "Recruitment and Assessment Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.recruitment_assessment_policy.add",
-            "view": "policies_guidelines.organisational_policies.recruitment_assessment_policy.view",
-            "edit": "policies_guidelines.organisational_policies.recruitment_assessment_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.recruitment_assessment_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.recruitment_assessment_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.recruitment_assessment_policy.delete_own"
-          }
-        },
-        "PanelPolicy": {
-          "id": "policies_guidelines.organisational_policies.panel_policy",
-          "name": "Panel Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.panel_policy.add",
-            "view": "policies_guidelines.organisational_policies.panel_policy.view",
-            "edit": "policies_guidelines.organisational_policies.panel_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.panel_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.panel_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.panel_policy.delete_own"
-          }
-        },
-        "SafeGuardingPolicy": {
-          "id": "policies_guidelines.organisational_policies.safe_guarding_policy",
-          "name": "Safe Guarding Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.safe_guarding_policy.add",
-            "view": "policies_guidelines.organisational_policies.safe_guarding_policy.view",
-            "edit": "policies_guidelines.organisational_policies.safe_guarding_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.safe_guarding_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.safe_guarding_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.safe_guarding_policy.delete_own"
-          }
-        },
-        "AllegationsPolicy": {
-          "id": "policies_guidelines.organisational_policies.allegations_policy",
-          "name": "Allegations Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.allegations_policy.add",
-            "view": "policies_guidelines.organisational_policies.allegations_policy.view",
-            "edit": "policies_guidelines.organisational_policies.allegations_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.allegations_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.allegations_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.allegations_policy.delete_own"
-          }
-        },
-        "EqualitiesPolicy": {
-          "id": "policies_guidelines.organisational_policies.equalities_policy",
-          "name": "Equalities Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.equalities_policy.add",
-            "view": "policies_guidelines.organisational_policies.equalities_policy.view",
-            "edit": "policies_guidelines.organisational_policies.equalities_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.equalities_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.equalities_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.equalities_policy.delete_own"
-          }
-        },
-        "MissingFromCarePolicy": {
-          "id": "policies_guidelines.organisational_policies.missing_from_care_policy",
-          "name": "Missing From Care Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.missing_from_care_policy.add",
-            "view": "policies_guidelines.organisational_policies.missing_from_care_policy.view",
-            "edit": "policies_guidelines.organisational_policies.missing_from_care_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.missing_from_care_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.missing_from_care_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.missing_from_care_policy.delete_own"
-          }
-        },
-        "BehaviourManagementPolicy": {
-          "id": "policies_guidelines.organisational_policies.behaviour_management_policy",
-          "name": "Behaviour Management Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.behaviour_management_policy.add",
-            "view": "policies_guidelines.organisational_policies.behaviour_management_policy.view",
-            "edit": "policies_guidelines.organisational_policies.behaviour_management_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.behaviour_management_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.behaviour_management_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.behaviour_management_policy.delete_own"
-          }
-        },
-        "7StandardsOfCarePolicy": {
-          "id": "policies_guidelines.organisational_policies.7_standards_of_care_policy",
-          "name": "7 Standards of Care Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.7_standards_of_care_policy.add",
-            "view": "policies_guidelines.organisational_policies.7_standards_of_care_policy.view",
-            "edit": "policies_guidelines.organisational_policies.7_standards_of_care_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.7_standards_of_care_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.7_standards_of_care_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.7_standards_of_care_policy.delete_own"
-          }
-        },
-        "SupervisionTrainingSupportPolicy": {
-          "id": "policies_guidelines.organisational_policies.supervision_training_support_policy",
-          "name": "Supervision Training Support Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.supervision_training_support_policy.add",
-            "view": "policies_guidelines.organisational_policies.supervision_training_support_policy.view",
-            "edit": "policies_guidelines.organisational_policies.supervision_training_support_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.supervision_training_support_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.supervision_training_support_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.supervision_training_support_policy.delete_own"
-          }
-        },
-        "HealthPolicy": {
-          "id": "policies_guidelines.organisational_policies.health_policy",
-          "name": "Health Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.health_policy.add",
-            "view": "policies_guidelines.organisational_policies.health_policy.view",
-            "edit": "policies_guidelines.organisational_policies.health_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.health_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.health_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.health_policy.delete_own"
-          }
-        },
-        "EducationalPolicy": {
-          "id": "policies_guidelines.organisational_policies.educational_policy",
-          "name": "Educational Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.educational_policy.add",
-            "view": "policies_guidelines.organisational_policies.educational_policy.view",
-            "edit": "policies_guidelines.organisational_policies.educational_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.educational_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.educational_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.educational_policy.delete_own"
-          }
-        },
-        "PromotingContactPolicy": {
-          "id": "policies_guidelines.organisational_policies.promoting_contact_policy",
-          "name": "Promoting Contact Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.promoting_contact_policy.add",
-            "view": "policies_guidelines.organisational_policies.promoting_contact_policy.view",
-            "edit": "policies_guidelines.organisational_policies.promoting_contact_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.promoting_contact_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.promoting_contact_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.promoting_contact_policy.delete_own"
-          }
-        },
-        "StaffSupervisionPolicy": {
-          "id": "policies_guidelines.organisational_policies.staff_supervision_policy",
-          "name": "Staff Supervision Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.staff_supervision_policy.add",
-            "view": "policies_guidelines.organisational_policies.staff_supervision_policy.view",
-            "edit": "policies_guidelines.organisational_policies.staff_supervision_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.staff_supervision_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.staff_supervision_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.staff_supervision_policy.delete_own"
-          }
-        },
-        "RecordingKeepingPolicy": {
-          "id": "policies_guidelines.organisational_policies.recording_keeping_policy",
-          "name": "Recording Keeping Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.recording_keeping_policy.add",
-            "view": "policies_guidelines.organisational_policies.recording_keeping_policy.view",
-            "edit": "policies_guidelines.organisational_policies.recording_keeping_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.recording_keeping_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.recording_keeping_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.recording_keeping_policy.delete_own"
-          }
-        }
-      },
-      "AgencyGuidelines": {
-        "id": "policies_guidelines.agency_guidelines",
-        "name": "Agency Guidelines",
-        "Recruitment": {
-          "id": "policies_guidelines.agency_guidelines.recruitment",
-          "name": "Recruitment",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.recruitment.add",
-            "view": "policies_guidelines.agency_guidelines.recruitment.view",
-            "edit": "policies_guidelines.agency_guidelines.recruitment.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.recruitment.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.recruitment.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.recruitment.delete_own"
-          }
-        },
-        "Assessment": {
-          "id": "policies_guidelines.agency_guidelines.assessment",
-          "name": "Assessment",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.assessment.add",
-            "view": "policies_guidelines.agency_guidelines.assessment.view",
-            "edit": "policies_guidelines.agency_guidelines.assessment.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.assessment.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.assessment.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.assessment.delete_own"
-          }
-        },
-        "Approval": {
-          "id": "policies_guidelines.agency_guidelines.approval",
-          "name": "Approval",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.approval.add",
-            "view": "policies_guidelines.agency_guidelines.approval.view",
-            "edit": "policies_guidelines.agency_guidelines.approval.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.approval.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.approval.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.approval.delete_own"
-          }
-        },
-        "Training": {
-          "id": "policies_guidelines.agency_guidelines.training",
-          "name": "Training",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.training.add",
-            "view": "policies_guidelines.agency_guidelines.training.view",
-            "edit": "policies_guidelines.agency_guidelines.training.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.training.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.training.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.training.delete_own"
-          }
-        },
-        "Supervision": {
-          "id": "policies_guidelines.agency_guidelines.supervision",
-          "name": "Supervision",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.supervision.add",
-            "view": "policies_guidelines.agency_guidelines.supervision.view",
-            "edit": "policies_guidelines.agency_guidelines.supervision.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.supervision.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.supervision.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.supervision.delete_own"
-          }
-        },
-        "Support": {
-          "id": "policies_guidelines.agency_guidelines.support",
-          "name": "Support",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.support.add",
-            "view": "policies_guidelines.agency_guidelines.support.view",
-            "edit": "policies_guidelines.agency_guidelines.support.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.support.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.support.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.support.delete_own"
-          }
-        }
-      },
-      "GovtLegislationAndRegulations": {
-        "id": "policies_guidelines.govt_legislation_regulations",
-        "name": "Govt Legislation and Regulations",
-        "Acts": {
-          "id": "policies_guidelines.govt_legislation_regulations.acts",
-          "name": "Acts",
-          "permission": {
-            "add": "policies_guidelines.govt_legislation_regulations.acts.add",
-            "view": "policies_guidelines.govt_legislation_regulations.acts.view",
-            "edit": "policies_guidelines.govt_legislation_regulations.acts.edit",
-            "edit_own": "policies_guidelines.govt_legislation_regulations.acts.edit_own",
-            "delete": "policies_guidelines.govt_legislation_regulations.acts.delete",
-            "delete_own": "policies_guidelines.govt_legislation_regulations.acts.delete_own"
-          }
-        },
-        "Regulations": {
-          "id": "policies_guidelines.govt_legislation_regulations.regulations",
-          "name": "Regulations",
-          "permission": {
-            "add": "policies_guidelines.govt_legislation_regulations.regulations.add",
-            "view": "policies_guidelines.govt_legislation_regulations.regulations.view",
-            "edit": "policies_guidelines.govt_legislation_regulations.regulations.edit",
-            "edit_own": "policies_guidelines.govt_legislation_regulations.regulations.edit_own",
-            "delete": "policies_guidelines.govt_legislation_regulations.regulations.delete",
-            "delete_own": "policies_guidelines.govt_legislation_regulations.regulations.delete_own"
-          }
-        }
-      },
-      "Handbooks": {
-        "id": "policies_guidelines.handbooks",
-        "name": "Handbooks",
-        "FosterCarerHandbook": {
-          "id": "policies_guidelines.handbooks.foster_carer_handbook",
-          "name": "Foster Carer Handbook",
-          "permission": {
-            "add": "policies_guidelines.handbooks.foster_carer_handbook.add",
-            "view": "policies_guidelines.handbooks.foster_carer_handbook.view",
-            "edit": "policies_guidelines.handbooks.foster_carer_handbook.edit",
-            "edit_own": "policies_guidelines.handbooks.foster_carer_handbook.edit_own",
-            "delete": "policies_guidelines.handbooks.foster_carer_handbook.delete",
-            "delete_own": "policies_guidelines.handbooks.foster_carer_handbook.delete_own"
-          }
-        },
-        "UnderstandingFostering": {
-          "id": "policies_guidelines.handbooks.understanding_fostering",
-          "name": "Understanding Fostering",
-          "permission": {
-            "add": "policies_guidelines.handbooks.understanding_fostering.add",
-            "view": "policies_guidelines.handbooks.understanding_fostering.view",
-            "edit": "policies_guidelines.handbooks.understanding_fostering.edit",
-            "edit_own": "policies_guidelines.handbooks.understanding_fostering.edit_own",
-            "delete": "policies_guidelines.handbooks.understanding_fostering.delete",
-            "delete_own": "policies_guidelines.handbooks.understanding_fostering.delete_own"
-          }
-        }
-      },
-      "CyberEssentials": {
-        "id": "policies_guidelines.cyber_essentials",
-        "name": "Cyber Essentials",
-        "GeneralDataProtectionRegulation": {
-          "id": "policies_guidelines.cyber_essentials.general_data_protection_regulation",
-          "name": "General Data Protection Regulation",
-          "permission": {
-            "add": "policies_guidelines.cyber_essentials.general_data_protection_regulation.add",
-            "view": "policies_guidelines.cyber_essentials.general_data_protection_regulation.view",
-            "edit": "policies_guidelines.cyber_essentials.general_data_protection_regulation.edit",
-            "edit_own": "policies_guidelines.cyber_essentials.general_data_protection_regulation.edit_own",
-            "delete": "policies_guidelines.cyber_essentials.general_data_protection_regulation.delete",
-            "delete_own": "policies_guidelines.cyber_essentials.general_data_protection_regulation.delete_own"
-          }
-        }
-      },
-      "OtherPolicies": {
-        "id": "policies_guidelines.other_policies",
-        "name": "Other Policies",
-        "HealthAndSocialCare": {
-          "id": "policies_guidelines.other_policies.health_social_care",
-          "name": "Health and Social Care",
-          "permission": {
-            "add": "policies_guidelines.other_policies.health_social_care.add",
-            "view": "policies_guidelines.other_policies.health_social_care.view",
-            "edit": "policies_guidelines.other_policies.health_social_care.edit",
-            "edit_own": "policies_guidelines.other_policies.health_social_care.edit_own",
-            "delete": "policies_guidelines.other_policies.health_social_care.delete",
-            "delete_own": "policies_guidelines.other_policies.health_social_care.delete_own"
-          }
-        },
-        "PerformanceManagement": {
-          "id": "policies_guidelines.other_policies.performance_management",
-          "name": "Performance Management",
-          "permission": {
-            "add": "policies_guidelines.other_policies.performance_management.add",
-            "view": "policies_guidelines.other_policies.performance_management.view",
-            "edit": "policies_guidelines.other_policies.performance_management.edit",
-            "edit_own": "policies_guidelines.other_policies.performance_management.edit_own",
-            "delete": "policies_guidelines.other_policies.performance_management.delete",
-            "delete_own": "policies_guidelines.other_policies.performance_management.delete_own"
-          }
-        }
-      }
-    },
-    "ChildrenGuides": {
-      "id": "children_guides",
-      "name": "Children's Guides",
-      "permission": {
-        "add": "children_guides.add",
-        "view": "children_guides.view",
-        "edit": "children_guides.edit",
-        "edit_own": "children_guides.edit_own",
-        "delete": "children_guides.delete",
-        "delete_own": "children_guides.delete_own"
-      }
-    },
     "RaiseYourVoice": {
       "id": "raise_your_voice",
       "name": "Raise Your Voice",
@@ -8691,80 +7538,6 @@
           "delete_own": "raise_your_voice.complaints.delete_own"
         }
       }
-    }
-  },
-  "SocialWorker": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
-      }
-    },
-    "PersonalDetails": {
-      "id": "personal_details",
-      "name": "Personal Details",
-      "permission": {
-        "add": "personal_details.add",
-        "view": "personal_details.view",
-        "edit": "personal_details.edit",
-        "edit_own": "personal_details.edit_own",
-        "delete": "personal_details.delete",
-        "delete_own": "personal_details.delete_own"
-      }
-    },
-    "Training": {
-      "id": "training",
-      "name": "Training",
-      "permission": {
-        "add": "training.add",
-        "view": "training.view",
-        "edit": "training.edit",
-        "edit_own": "training.edit_own",
-        "delete": "training.delete",
-        "delete_own": "training.delete_own"
-      }
-    },
-    "FosterCarer": {
-      "id": "foster_carer",
-      "name": "Foster Carer",
-      "permission": {
-        "add": "foster_carer.add",
-        "view": "foster_carer.view",
-        "edit": "foster_carer.edit",
-        "edit_own": "foster_carer.edit_own",
-        "delete": "foster_carer.delete",
-        "delete_own": "foster_carer.delete_own"
-      }
-    },
-    "FosterChild": {
-      "id": "foster_child",
-      "name": "Foster Child",
-      "permission": {
-        "add": "foster_child.add",
-        "view": "foster_child.view",
-        "edit": "foster_child.edit",
-        "edit_own": "foster_child.edit_own",
-        "delete": "foster_child.delete",
-        "delete_own": "foster_child.delete_own"
-      }
-    },
-    "Referrals": {
-      "id": "referrals",
-      "name": "Referrals",
-      "permission": {
-        "add": "referrals.add",
-        "view": "referrals.view",
-        "edit": "referrals.edit",
-        "edit_own": "referrals.edit_own",
-        "delete": "referrals.delete",
-        "delete_own": "referrals.delete_own"
-      }
     },
     "TimeSheetLogging": {
       "id": "time_sheet_logging",
@@ -8776,68 +7549,6 @@
         "edit_own": "time_sheet_logging.edit_own",
         "delete": "time_sheet_logging.delete",
         "delete_own": "time_sheet_logging.delete_own"
-      }
-    },
-    "Audit": {
-      "id": "audit",
-      "name": "Audit",
-      "permission": {
-        "add": "audit.add",
-        "view": "audit.view",
-        "edit": "audit.edit",
-        "edit_own": "audit.edit_own",
-        "delete": "audit.delete",
-        "delete_own": "audit.delete_own"
-      }
-    },
-    "PoliciesAndGuidelines": {
-      "id": "policies_guidelines",
-      "name": "Policies & Guidelines",
-      "permission": {
-        "add": "policies_guidelines.add",
-        "view": "policies_guidelines.view",
-        "edit": "policies_guidelines.edit",
-        "edit_own": "policies_guidelines.edit_own",
-        "delete": "policies_guidelines.delete",
-        "delete_own": "policies_guidelines.delete_own"
-      }
-    },
-    "UserManual": {
-      "id": "user_manual",
-      "name": "User Manual",
-      "permission": {
-        "add": "user_manual.add",
-        "view": "user_manual.view",
-        "edit": "user_manual.edit",
-        "edit_own": "user_manual.edit_own",
-        "delete": "user_manual.delete",
-        "delete_own": "user_manual.delete_own"
-      }
-    },
-    "ITHelpDesk": {
-      "id": "it_help_desk",
-      "name": "IT Help Desk",
-      "permission": {
-        "add": "it_help_desk.add",
-        "view": "it_help_desk.view",
-        "edit": "it_help_desk.edit",
-        "edit_own": "it_help_desk.edit_own",
-        "delete": "it_help_desk.delete",
-        "delete_own": "it_help_desk.delete_own"
-      }
-    }
-  },
-  "LocalAuthority": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
       }
     },
     "LocalAuthorityProfile": {
@@ -8862,18 +7573,6 @@
         "edit_own": "la_employee_directory.edit_own",
         "delete": "la_employee_directory.delete",
         "delete_own": "la_employee_directory.delete_own"
-      }
-    },
-    "PersonalDetails": {
-      "id": "personal_details",
-      "name": "Personal Details",
-      "permission": {
-        "add": "personal_details.add",
-        "view": "personal_details.view",
-        "edit": "personal_details.edit",
-        "edit_own": "personal_details.edit_own",
-        "delete": "personal_details.delete",
-        "delete_own": "personal_details.delete_own"
       }
     },
     "SecureDataExchange": {
@@ -8910,202 +7609,6 @@
         "edit_own": "la_policies_agreements.edit_own",
         "delete": "la_policies_agreements.delete",
         "delete_own": "la_policies_agreements.delete_own"
-      }
-    },
-    "FosterChild": {
-      "id": "foster_child",
-      "name": "Foster Child",
-      "permission": {
-        "add": "foster_child.add",
-        "view": "foster_child.view",
-        "edit": "foster_child.edit",
-        "edit_own": "foster_child.edit_own",
-        "delete": "foster_child.delete",
-        "delete_own": "foster_child.delete_own"
-      }
-    },
-    "Safeguarding": {
-      "id": "safeguarding",
-      "name": "Safeguarding",
-      "permission": {
-        "add": "safeguarding.add",
-        "view": "safeguarding.view",
-        "edit": "safeguarding.edit",
-        "edit_own": "safeguarding.edit_own",
-        "delete": "safeguarding.delete",
-        "delete_own": "safeguarding.delete_own"
-      }
-    },
-    "ContactDirectory": {
-      "id": "contact_directory",
-      "name": "Contact Directory",
-      "permission": {
-        "add": "contact_directory.add",
-        "view": "contact_directory.view",
-        "edit": "contact_directory.edit",
-        "edit_own": "contact_directory.edit_own",
-        "delete": "contact_directory.delete",
-        "delete_own": "contact_directory.delete_own"
-      }
-    },
-    "AgencyPoliciesAndGuidelines": {
-      "id": "agency_policies_guidelines",
-      "name": "Agency Policies & Guidelines",
-      "permission": {
-        "add": "agency_policies_guidelines.add",
-        "view": "agency_policies_guidelines.view",
-        "edit": "agency_policies_guidelines.edit",
-        "edit_own": "agency_policies_guidelines.edit_own",
-        "delete": "agency_policies_guidelines.delete",
-        "delete_own": "agency_policies_guidelines.delete_own"
-      }
-    },
-    "UserManual": {
-      "id": "user_manual",
-      "name": "User Manual",
-      "permission": {
-        "add": "user_manual.add",
-        "view": "user_manual.view",
-        "edit": "user_manual.edit",
-        "edit_own": "user_manual.edit_own",
-        "delete": "user_manual.delete",
-        "delete_own": "user_manual.delete_own"
-      }
-    },
-    "ITHelpDesk": {
-      "id": "it_help_desk",
-      "name": "IT Help Desk",
-      "permission": {
-        "add": "it_help_desk.add",
-        "view": "it_help_desk.view",
-        "edit": "it_help_desk.edit",
-        "edit_own": "it_help_desk.edit_own",
-        "delete": "it_help_desk.delete",
-        "delete_own": "it_help_desk.delete_own"
-      }
-    }
-  },
-  "Auditor": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
-      }
-    },
-    "FosterCarer": {
-      "id": "foster_carer",
-      "name": "Foster Carer",
-      "permission": {
-        "add": "foster_carer.add",
-        "view": "foster_carer.view",
-        "edit": "foster_carer.edit",
-        "edit_own": "foster_carer.edit_own",
-        "delete": "foster_carer.delete",
-        "delete_own": "foster_carer.delete_own"
-      }
-    },
-    "FosterChild": {
-      "id": "foster_child",
-      "name": "Foster Child",
-      "permission": {
-        "add": "foster_child.add",
-        "view": "foster_child.view",
-        "edit": "foster_child.edit",
-        "edit_own": "foster_child.edit_own",
-        "delete": "foster_child.delete",
-        "delete_own": "foster_child.delete_own"
-      }
-    },
-    "Training": {
-      "id": "training",
-      "name": "Training",
-      "permission": {
-        "add": "training.add",
-        "view": "training.view",
-        "edit": "training.edit",
-        "edit_own": "training.edit_own",
-        "delete": "training.delete",
-        "delete_own": "training.delete_own"
-      }
-    },
-    "Audits": {
-      "id": "audits",
-      "name": "Audits",
-      "permission": {
-        "add": "audits.add",
-        "view": "audits.view",
-        "edit": "audits.edit",
-        "edit_own": "audits.edit_own",
-        "delete": "audits.delete",
-        "delete_own": "audits.delete_own"
-      }
-    },
-    "ContactDirectory": {
-      "id": "contact_directory",
-      "name": "Contact Directory",
-      "permission": {
-        "add": "contact_directory.add",
-        "view": "contact_directory.view",
-        "edit": "contact_directory.edit",
-        "edit_own": "contact_directory.edit_own",
-        "delete": "contact_directory.delete",
-        "delete_own": "contact_directory.delete_own"
-      }
-    },
-    "PoliciesAndGuidelines": {
-      "id": "policies_guidelines",
-      "name": "Policies & Guidelines",
-      "permission": {
-        "add": "policies_guidelines.add",
-        "view": "policies_guidelines.view",
-        "edit": "policies_guidelines.edit",
-        "edit_own": "policies_guidelines.edit_own",
-        "delete": "policies_guidelines.delete",
-        "delete_own": "policies_guidelines.delete_own"
-      }
-    },
-    "UserManual": {
-      "id": "user_manual",
-      "name": "User Manual",
-      "permission": {
-        "add": "user_manual.add",
-        "view": "user_manual.view",
-        "edit": "user_manual.edit",
-        "edit_own": "user_manual.edit_own",
-        "delete": "user_manual.delete",
-        "delete_own": "user_manual.delete_own"
-      }
-    },
-    "ITHelpDesk": {
-      "id": "it_help_desk",
-      "name": "IT Help Desk",
-      "permission": {
-        "add": "it_help_desk.add",
-        "view": "it_help_desk.view",
-        "edit": "it_help_desk.edit",
-        "edit_own": "it_help_desk.edit_own",
-        "delete": "it_help_desk.delete",
-        "delete_own": "it_help_desk.delete_own"
-      }
-    }
-  },
-  "PanelMember": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
       }
     },
     "ActiveCaseDocument": {
@@ -9252,901 +7755,5 @@
         "delete_own": "panel_history.delete_own"
       }
     }
-  },
-  "SchoolTeacher": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
-      }
-    },
-    "StudentList": {
-      "id": "student_list",
-      "name": "Student list",
-      "permission": {
-        "add": "student_list.add",
-        "view": "student_list.view",
-        "edit": "student_list.edit",
-        "edit_own": "student_list.edit_own",
-        "delete": "student_list.delete",
-        "delete_own": "student_list.delete_own"
-      }
-    },
-    "Curriculum": {
-      "id": "curriculum",
-      "name": "Curriculum",
-      "permission": {
-        "add": "curriculum.add",
-        "view": "curriculum.view",
-        "edit": "curriculum.edit",
-        "edit_own": "curriculum.edit_own",
-        "delete": "curriculum.delete",
-        "delete_own": "curriculum.delete_own"
-      }
-    },
-    "LearningJournal": {
-      "id": "learning_journal",
-      "name": "Learning Journal",
-      "permission": {
-        "add": "learning_journal.add",
-        "view": "learning_journal.view",
-        "edit": "learning_journal.edit",
-        "edit_own": "learning_journal.edit_own",
-        "delete": "learning_journal.delete",
-        "delete_own": "learning_journal.delete_own"
-      }
-    },
-    "ComplaintsOrIncidents": {
-      "id": "complaints_or_incidents",
-      "name": "Complaints /Incidents",
-      "permission": {
-        "add": "complaints_or_incidents.add",
-        "view": "complaints_or_incidents.view",
-        "edit": "complaints_or_incidents.edit",
-        "edit_own": "complaints_or_incidents.edit_own",
-        "delete": "complaints_or_incidents.delete",
-        "delete_own": "complaints_or_incidents.delete_own"
-      }
-    },
-    "Reports": {
-      "id": "reports",
-      "name": "Reports",
-      "permission": {
-        "add": "reports.add",
-        "view": "reports.view",
-        "edit": "reports.edit",
-        "edit_own": "reports.edit_own",
-        "delete": "reports.delete",
-        "delete_own": "reports.delete_own"
-      }
-    },
-    "ContactDirectory": {
-      "id": "contact_directory",
-      "name": "Contact Directory",
-      "permission": {
-        "add": "contact_directory.add",
-        "view": "contact_directory.view",
-        "edit": "contact_directory.edit",
-        "edit_own": "contact_directory.edit_own",
-        "delete": "contact_directory.delete",
-        "delete_own": "contact_directory.delete_own"
-      }
-    },
-    "PoliciesAndGuidelines": {
-      "id": "policies_g_uidelines",
-      "name": "Policies and GUidelines",
-      "permission": {
-        "add": "policies_g_uidelines.add",
-        "view": "policies_g_uidelines.view",
-        "edit": "policies_g_uidelines.edit",
-        "edit_own": "policies_g_uidelines.edit_own",
-        "delete": "policies_g_uidelines.delete",
-        "delete_own": "policies_g_uidelines.delete_own"
-      }
-    },
-    "UserManual": {
-      "id": "user_manual",
-      "name": "User Manual",
-      "permission": {
-        "add": "user_manual.add",
-        "view": "user_manual.view",
-        "edit": "user_manual.edit",
-        "edit_own": "user_manual.edit_own",
-        "delete": "user_manual.delete",
-        "delete_own": "user_manual.delete_own"
-      }
-    },
-    "RaisesupportTicket": {
-      "id": "raise_support_ticket",
-      "name": "Raise a Support Ticket",
-      "permission": {
-        "add": "raise_support_ticket.add",
-        "view": "raise_support_ticket.view",
-        "edit": "raise_support_ticket.edit",
-        "edit_own": "raise_support_ticket.edit_own",
-        "delete": "raise_support_ticket.delete",
-        "delete_own": "raise_support_ticket.delete_own"
-      }
-    }
-  },
-  "ProspectiveCarer": {
-    "Dashboard": {
-      "id": "dashboard",
-      "name": "Dashboard",
-      "permission": {
-        "add": "dashboard.add",
-        "view": "dashboard.view",
-        "edit": "dashboard.edit",
-        "edit_own": "dashboard.edit_own",
-        "delete": "dashboard.delete",
-        "delete_own": "dashboard.delete_own"
-      }
-    },
-    "CarerInfo": {
-      "id": "carer_info",
-      "name": "Carer Info",
-      "PersonalInfo": {
-        "id": "carer_info.personal_info",
-        "name": "Personal Info",
-        "InitialEnquiry": {
-          "id": "carer_info.personal_info.initial_enquiry",
-          "name": "Initial Enquiry",
-          "permission": {
-            "add": "carer_info.personal_info.initial_enquiry.add",
-            "view": "carer_info.personal_info.initial_enquiry.view",
-            "edit": "carer_info.personal_info.initial_enquiry.edit",
-            "edit_own": "carer_info.personal_info.initial_enquiry.edit_own",
-            "delete": "carer_info.personal_info.initial_enquiry.delete",
-            "delete_own": "carer_info.personal_info.initial_enquiry.delete_own"
-          }
-        },
-        "ApplicationForm": {
-          "id": "carer_info.personal_info.application_form",
-          "name": "Application Form",
-          "permission": {
-            "add": "carer_info.personal_info.application_form.add",
-            "view": "carer_info.personal_info.application_form.view",
-            "edit": "carer_info.personal_info.application_form.edit",
-            "edit_own": "carer_info.personal_info.application_form.edit_own",
-            "delete": "carer_info.personal_info.application_form.delete",
-            "delete_own": "carer_info.personal_info.application_form.delete_own"
-          }
-        },
-        "FormF": {
-          "id": "carer_info.personal_info.form_f",
-          "name": "Form F",
-          "permission": {
-            "add": "carer_info.personal_info.form_f.add",
-            "view": "carer_info.personal_info.form_f.view",
-            "edit": "carer_info.personal_info.form_f.edit",
-            "edit_own": "carer_info.personal_info.form_f.edit_own",
-            "delete": "carer_info.personal_info.form_f.delete",
-            "delete_own": "carer_info.personal_info.form_f.delete_own"
-          }
-        },
-        "InitialHomeVisit": {
-          "id": "carer_info.personal_info.initial_home_visit",
-          "name": "Initial Home Visit",
-          "permission": {
-            "add": "carer_info.personal_info.initial_home_visit.add",
-            "view": "carer_info.personal_info.initial_home_visit.view",
-            "edit": "carer_info.personal_info.initial_home_visit.edit",
-            "edit_own": "carer_info.personal_info.initial_home_visit.edit_own",
-            "delete": "carer_info.personal_info.initial_home_visit.delete",
-            "delete_own": "carer_info.personal_info.initial_home_visit.delete_own"
-          }
-        },
-        "CarerChronologyOfEvents": {
-          "id": "carer_info.personal_info.carer_chronology_of_events",
-          "name": "Carer Chronology of Events",
-          "permission": {
-            "add": "carer_info.personal_info.carer_chronology_of_events.add",
-            "view": "carer_info.personal_info.carer_chronology_of_events.view",
-            "edit": "carer_info.personal_info.carer_chronology_of_events.edit",
-            "edit_own": "carer_info.personal_info.carer_chronology_of_events.edit_own",
-            "delete": "carer_info.personal_info.carer_chronology_of_events.delete",
-            "delete_own": "carer_info.personal_info.carer_chronology_of_events.delete_own"
-          }
-        },
-        "CarerFamilyOrSupportNetwork": {
-          "id": "carer_info.personal_info.carer_family_or_support_network",
-          "name": "Carer Family / Support Network",
-          "permission": {
-            "add": "carer_info.personal_info.carer_family_or_support_network.add",
-            "view": "carer_info.personal_info.carer_family_or_support_network.view",
-            "edit": "carer_info.personal_info.carer_family_or_support_network.edit",
-            "edit_own": "carer_info.personal_info.carer_family_or_support_network.edit_own",
-            "delete": "carer_info.personal_info.carer_family_or_support_network.delete",
-            "delete_own": "carer_info.personal_info.carer_family_or_support_network.delete_own"
-          }
-        },
-        "AddressHistory": {
-          "id": "carer_info.personal_info.address_history",
-          "name": "Address History",
-          "permission": {
-            "add": "carer_info.personal_info.address_history.add",
-            "view": "carer_info.personal_info.address_history.view",
-            "edit": "carer_info.personal_info.address_history.edit",
-            "edit_own": "carer_info.personal_info.address_history.edit_own",
-            "delete": "carer_info.personal_info.address_history.delete",
-            "delete_own": "carer_info.personal_info.address_history.delete_own"
-          }
-        },
-        "PetQuestionnaire": {
-          "id": "carer_info.personal_info.pet_questionnaire",
-          "name": "Pet Questionnaire",
-          "permission": {
-            "add": "carer_info.personal_info.pet_questionnaire.add",
-            "view": "carer_info.personal_info.pet_questionnaire.view",
-            "edit": "carer_info.personal_info.pet_questionnaire.edit",
-            "edit_own": "carer_info.personal_info.pet_questionnaire.edit_own",
-            "delete": "carer_info.personal_info.pet_questionnaire.delete",
-            "delete_own": "carer_info.personal_info.pet_questionnaire.delete_own"
-          }
-        },
-        "InterviewRecordAndAnalysis": {
-          "id": "carer_info.personal_info.interview_record_analysis",
-          "name": "Interview Record and Analysis",
-          "permission": {
-            "add": "carer_info.personal_info.interview_record_analysis.add",
-            "view": "carer_info.personal_info.interview_record_analysis.view",
-            "edit": "carer_info.personal_info.interview_record_analysis.edit",
-            "edit_own": "carer_info.personal_info.interview_record_analysis.edit_own",
-            "delete": "carer_info.personal_info.interview_record_analysis.delete",
-            "delete_own": "carer_info.personal_info.interview_record_analysis.delete_own"
-          }
-        },
-        "SocialMediaLinks": {
-          "id": "carer_info.personal_info.social_media_links",
-          "name": "Social Media Links",
-          "permission": {
-            "add": "carer_info.personal_info.social_media_links.add",
-            "view": "carer_info.personal_info.social_media_links.view",
-            "edit": "carer_info.personal_info.social_media_links.edit",
-            "edit_own": "carer_info.personal_info.social_media_links.edit_own",
-            "delete": "carer_info.personal_info.social_media_links.delete",
-            "delete_own": "carer_info.personal_info.social_media_links.delete_own"
-          }
-        }
-      },
-      "BackgroundChecks": {
-        "id": "carer_info.background_checks",
-        "name": "Background Checks",
-        "StatutoryChecksList": {
-          "id": "carer_info.background_checks.statutory_checks_list",
-          "name": "Statutory Checks List",
-          "permission": {
-            "add": "carer_info.background_checks.statutory_checks_list.add",
-            "view": "carer_info.background_checks.statutory_checks_list.view",
-            "edit": "carer_info.background_checks.statutory_checks_list.edit",
-            "edit_own": "carer_info.background_checks.statutory_checks_list.edit_own",
-            "delete": "carer_info.background_checks.statutory_checks_list.delete",
-            "delete_own": "carer_info.background_checks.statutory_checks_list.delete_own"
-          }
-        }
-      },
-      "MedicalHistory": {
-        "id": "carer_info.medical_history",
-        "name": "Medical History",
-        "HealthAndSafety": {
-          "id": "carer_info.medical_history.health_safety",
-          "name": "Health and Safety",
-          "permission": {
-            "add": "carer_info.medical_history.health_safety.add",
-            "view": "carer_info.medical_history.health_safety.view",
-            "edit": "carer_info.medical_history.health_safety.edit",
-            "edit_own": "carer_info.medical_history.health_safety.edit_own",
-            "delete": "carer_info.medical_history.health_safety.delete",
-            "delete_own": "carer_info.medical_history.health_safety.delete_own"
-          }
-        },
-        "Immunisations": {
-          "id": "carer_info.medical_history.immunisations",
-          "name": "Immunisations",
-          "permission": {
-            "add": "carer_info.medical_history.immunisations.add",
-            "view": "carer_info.medical_history.immunisations.view",
-            "edit": "carer_info.medical_history.immunisations.edit",
-            "edit_own": "carer_info.medical_history.immunisations.edit_own",
-            "delete": "carer_info.medical_history.immunisations.delete",
-            "delete_own": "carer_info.medical_history.immunisations.delete_own"
-          }
-        }
-      },
-      "EmploymentHistory": {
-        "id": "carer_info.employment_history",
-        "name": "Employment History",
-        "EmploymentDetails": {
-          "id": "carer_info.employment_history.employment_details",
-          "name": "Employment Details",
-          "permission": {
-            "add": "carer_info.employment_history.employment_details.add",
-            "view": "carer_info.employment_history.employment_details.view",
-            "edit": "carer_info.employment_history.employment_details.edit",
-            "edit_own": "carer_info.employment_history.employment_details.edit_own",
-            "delete": "carer_info.employment_history.employment_details.delete",
-            "delete_own": "carer_info.employment_history.employment_details.delete_own"
-          }
-        }
-      },
-      "TrainingProfiles": {
-        "id": "carer_info.training_profiles",
-        "name": "Training Profiles",
-        "TrainingProfile": {
-          "id": "carer_info.training_profiles.training_profile",
-          "name": "Training Profile",
-          "permission": {
-            "add": "carer_info.training_profiles.training_profile.add",
-            "view": "carer_info.training_profiles.training_profile.view",
-            "edit": "carer_info.training_profiles.training_profile.edit",
-            "edit_own": "carer_info.training_profiles.training_profile.edit_own",
-            "delete": "carer_info.training_profiles.training_profile.delete",
-            "delete_own": "carer_info.training_profiles.training_profile.delete_own"
-          }
-        }
-      },
-      "OtherInformation": {
-        "id": "carer_info.other_information",
-        "name": "Other Information",
-        "NextOfKin": {
-          "id": "carer_info.other_information.next_of_kin",
-          "name": "Next of Kin",
-          "permission": {
-            "add": "carer_info.other_information.next_of_kin.add",
-            "view": "carer_info.other_information.next_of_kin.view",
-            "edit": "carer_info.other_information.next_of_kin.edit",
-            "edit_own": "carer_info.other_information.next_of_kin.edit_own",
-            "delete": "carer_info.other_information.next_of_kin.delete",
-            "delete_own": "carer_info.other_information.next_of_kin.delete_own"
-          }
-        },
-        "BankAccountDetails": {
-          "id": "carer_info.other_information.bank_account_details",
-          "name": "Bank Account Details",
-          "permission": {
-            "add": "carer_info.other_information.bank_account_details.add",
-            "view": "carer_info.other_information.bank_account_details.view",
-            "edit": "carer_info.other_information.bank_account_details.edit",
-            "edit_own": "carer_info.other_information.bank_account_details.edit_own",
-            "delete": "carer_info.other_information.bank_account_details.delete",
-            "delete_own": "carer_info.other_information.bank_account_details.delete_own"
-          }
-        }
-      },
-      "SubstituteCares": {
-        "id": "carer_info.substitute_cares",
-        "name": "Substitute Cares",
-        "BackupCarer": {
-          "id": "carer_info.substitute_cares.backup_carer",
-          "name": "Backup Carer",
-          "permission": {
-            "add": "carer_info.substitute_cares.backup_carer.add",
-            "view": "carer_info.substitute_cares.backup_carer.view",
-            "edit": "carer_info.substitute_cares.backup_carer.edit",
-            "edit_own": "carer_info.substitute_cares.backup_carer.edit_own",
-            "delete": "carer_info.substitute_cares.backup_carer.delete",
-            "delete_own": "carer_info.substitute_cares.backup_carer.delete_own"
-          }
-        },
-        "SwapCarer": {
-          "id": "carer_info.substitute_cares.swap_carer",
-          "name": "Swap Carer",
-          "permission": {
-            "add": "carer_info.substitute_cares.swap_carer.add",
-            "view": "carer_info.substitute_cares.swap_carer.view",
-            "edit": "carer_info.substitute_cares.swap_carer.edit",
-            "edit_own": "carer_info.substitute_cares.swap_carer.edit_own",
-            "delete": "carer_info.substitute_cares.swap_carer.delete",
-            "delete_own": "carer_info.substitute_cares.swap_carer.delete_own"
-          }
-        },
-        "RespiteCarer": {
-          "id": "carer_info.substitute_cares.respite_carer",
-          "name": "Respite Carer",
-          "permission": {
-            "add": "carer_info.substitute_cares.respite_carer.add",
-            "view": "carer_info.substitute_cares.respite_carer.view",
-            "edit": "carer_info.substitute_cares.respite_carer.edit",
-            "edit_own": "carer_info.substitute_cares.respite_carer.edit_own",
-            "delete": "carer_info.substitute_cares.respite_carer.delete",
-            "delete_own": "carer_info.substitute_cares.respite_carer.delete_own"
-          }
-        }
-      }
-    },
-    "Finance": {
-      "id": "finance",
-      "name": "Finance",
-      "ReimbursementOrOtherExpenseClaims": {
-        "id": "finance.reimbursement_or_other_expense_claims",
-        "name": "Reimbursement / Other expense claims",
-        "permission": {
-          "add": "finance.reimbursement_or_other_expense_claims.add",
-          "view": "finance.reimbursement_or_other_expense_claims.view",
-          "edit": "finance.reimbursement_or_other_expense_claims.edit",
-          "edit_own": "finance.reimbursement_or_other_expense_claims.edit_own",
-          "delete": "finance.reimbursement_or_other_expense_claims.delete",
-          "delete_own": "finance.reimbursement_or_other_expense_claims.delete_own"
-        }
-      },
-      "ViewAndDownloadPayStatements": {
-        "id": "finance.view_download_pay_statements",
-        "name": "View & Download Pay-Statements",
-        "permission": {
-          "add": "finance.view_download_pay_statements.add",
-          "view": "finance.view_download_pay_statements.view",
-          "edit": "finance.view_download_pay_statements.edit",
-          "edit_own": "finance.view_download_pay_statements.edit_own",
-          "delete": "finance.view_download_pay_statements.delete",
-          "delete_own": "finance.view_download_pay_statements.delete_own"
-        }
-      },
-      "BankDetails": {
-        "id": "finance.bank_details",
-        "name": "Bank Details",
-        "permission": {
-          "add": "finance.bank_details.add",
-          "view": "finance.bank_details.view",
-          "edit": "finance.bank_details.edit",
-          "edit_own": "finance.bank_details.edit_own",
-          "delete": "finance.bank_details.delete",
-          "delete_own": "finance.bank_details.delete_own"
-        }
-      },
-      "ReferralBonus": {
-        "id": "finance.referral_bonus",
-        "name": "Referral Bonus",
-        "permission": {
-          "add": "finance.referral_bonus.add",
-          "view": "finance.referral_bonus.view",
-          "edit": "finance.referral_bonus.edit",
-          "edit_own": "finance.referral_bonus.edit_own",
-          "delete": "finance.referral_bonus.delete",
-          "delete_own": "finance.referral_bonus.delete_own"
-        }
-      },
-      "ViewPaymentContractOrAgreement": {
-        "id": "finance.view_payment_contract_or_agreement",
-        "name": "View Payment Contract / Agreement",
-        "permission": {
-          "add": "finance.view_payment_contract_or_agreement.add",
-          "view": "finance.view_payment_contract_or_agreement.view",
-          "edit": "finance.view_payment_contract_or_agreement.edit",
-          "edit_own": "finance.view_payment_contract_or_agreement.edit_own",
-          "delete": "finance.view_payment_contract_or_agreement.delete",
-          "delete_own": "finance.view_payment_contract_or_agreement.delete_own"
-        }
-      },
-      "MoneyManagementForFosterCarer": {
-        "id": "finance.money_management_for_foster_carer",
-        "name": "Money Management For Foster Carer",
-        "permission": {
-          "add": "finance.money_management_for_foster_carer.add",
-          "view": "finance.money_management_for_foster_carer.view",
-          "edit": "finance.money_management_for_foster_carer.edit",
-          "edit_own": "finance.money_management_for_foster_carer.edit_own",
-          "delete": "finance.money_management_for_foster_carer.delete",
-          "delete_own": "finance.money_management_for_foster_carer.delete_own"
-        }
-      },
-      "CreateFinanceStatement": {
-        "id": "finance.create_finance_statement",
-        "name": "Create Finance Statement",
-        "permission": {
-          "add": "finance.create_finance_statement.add",
-          "view": "finance.create_finance_statement.view",
-          "edit": "finance.create_finance_statement.edit",
-          "edit_own": "finance.create_finance_statement.edit_own",
-          "delete": "finance.create_finance_statement.delete",
-          "delete_own": "finance.create_finance_statement.delete_own"
-        }
-      },
-      "Raisequery": {
-        "id": "finance.raise_query",
-        "name": "Raise a Query",
-        "permission": {
-          "add": "finance.raise_query.add",
-          "view": "finance.raise_query.view",
-          "edit": "finance.raise_query.edit",
-          "edit_own": "finance.raise_query.edit_own",
-          "delete": "finance.raise_query.delete",
-          "delete_own": "finance.raise_query.delete_own"
-        }
-      }
-    },
-    "PoliciesAndGuidelines": {
-      "id": "policies_guidelines",
-      "name": "Policies & Guidelines",
-      "OrganisationalPolicies": {
-        "id": "policies_guidelines.organisational_policies",
-        "name": "Organisational Policies",
-        "RecruitmentAndAssessmentPolicy": {
-          "id": "policies_guidelines.organisational_policies.recruitment_assessment_policy",
-          "name": "Recruitment and Assessment Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.recruitment_assessment_policy.add",
-            "view": "policies_guidelines.organisational_policies.recruitment_assessment_policy.view",
-            "edit": "policies_guidelines.organisational_policies.recruitment_assessment_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.recruitment_assessment_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.recruitment_assessment_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.recruitment_assessment_policy.delete_own"
-          }
-        },
-        "PanelPolicy": {
-          "id": "policies_guidelines.organisational_policies.panel_policy",
-          "name": "Panel Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.panel_policy.add",
-            "view": "policies_guidelines.organisational_policies.panel_policy.view",
-            "edit": "policies_guidelines.organisational_policies.panel_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.panel_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.panel_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.panel_policy.delete_own"
-          }
-        },
-        "SafeGuardingPolicy": {
-          "id": "policies_guidelines.organisational_policies.safe_guarding_policy",
-          "name": "Safe Guarding Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.safe_guarding_policy.add",
-            "view": "policies_guidelines.organisational_policies.safe_guarding_policy.view",
-            "edit": "policies_guidelines.organisational_policies.safe_guarding_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.safe_guarding_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.safe_guarding_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.safe_guarding_policy.delete_own"
-          }
-        },
-        "AllegationsPolicy": {
-          "id": "policies_guidelines.organisational_policies.allegations_policy",
-          "name": "Allegations Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.allegations_policy.add",
-            "view": "policies_guidelines.organisational_policies.allegations_policy.view",
-            "edit": "policies_guidelines.organisational_policies.allegations_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.allegations_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.allegations_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.allegations_policy.delete_own"
-          }
-        },
-        "EqualitiesPolicy": {
-          "id": "policies_guidelines.organisational_policies.equalities_policy",
-          "name": "Equalities Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.equalities_policy.add",
-            "view": "policies_guidelines.organisational_policies.equalities_policy.view",
-            "edit": "policies_guidelines.organisational_policies.equalities_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.equalities_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.equalities_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.equalities_policy.delete_own"
-          }
-        },
-        "MissingFromCarePolicy": {
-          "id": "policies_guidelines.organisational_policies.missing_from_care_policy",
-          "name": "Missing From Care Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.missing_from_care_policy.add",
-            "view": "policies_guidelines.organisational_policies.missing_from_care_policy.view",
-            "edit": "policies_guidelines.organisational_policies.missing_from_care_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.missing_from_care_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.missing_from_care_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.missing_from_care_policy.delete_own"
-          }
-        },
-        "BehaviourManagementPolicy": {
-          "id": "policies_guidelines.organisational_policies.behaviour_management_policy",
-          "name": "Behaviour Management Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.behaviour_management_policy.add",
-            "view": "policies_guidelines.organisational_policies.behaviour_management_policy.view",
-            "edit": "policies_guidelines.organisational_policies.behaviour_management_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.behaviour_management_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.behaviour_management_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.behaviour_management_policy.delete_own"
-          }
-        },
-        "7StandardsOfCarePolicy": {
-          "id": "policies_guidelines.organisational_policies.7_standards_of_care_policy",
-          "name": "7 Standards of Care Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.7_standards_of_care_policy.add",
-            "view": "policies_guidelines.organisational_policies.7_standards_of_care_policy.view",
-            "edit": "policies_guidelines.organisational_policies.7_standards_of_care_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.7_standards_of_care_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.7_standards_of_care_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.7_standards_of_care_policy.delete_own"
-          }
-        },
-        "SupervisionTrainingSupportPolicy": {
-          "id": "policies_guidelines.organisational_policies.supervision_training_support_policy",
-          "name": "Supervision Training Support Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.supervision_training_support_policy.add",
-            "view": "policies_guidelines.organisational_policies.supervision_training_support_policy.view",
-            "edit": "policies_guidelines.organisational_policies.supervision_training_support_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.supervision_training_support_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.supervision_training_support_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.supervision_training_support_policy.delete_own"
-          }
-        },
-        "HealthPolicy": {
-          "id": "policies_guidelines.organisational_policies.health_policy",
-          "name": "Health Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.health_policy.add",
-            "view": "policies_guidelines.organisational_policies.health_policy.view",
-            "edit": "policies_guidelines.organisational_policies.health_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.health_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.health_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.health_policy.delete_own"
-          }
-        },
-        "EducationalPolicy": {
-          "id": "policies_guidelines.organisational_policies.educational_policy",
-          "name": "Educational Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.educational_policy.add",
-            "view": "policies_guidelines.organisational_policies.educational_policy.view",
-            "edit": "policies_guidelines.organisational_policies.educational_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.educational_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.educational_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.educational_policy.delete_own"
-          }
-        },
-        "PromotingContactPolicy": {
-          "id": "policies_guidelines.organisational_policies.promoting_contact_policy",
-          "name": "Promoting Contact Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.promoting_contact_policy.add",
-            "view": "policies_guidelines.organisational_policies.promoting_contact_policy.view",
-            "edit": "policies_guidelines.organisational_policies.promoting_contact_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.promoting_contact_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.promoting_contact_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.promoting_contact_policy.delete_own"
-          }
-        },
-        "StaffSupervisionPolicy": {
-          "id": "policies_guidelines.organisational_policies.staff_supervision_policy",
-          "name": "Staff Supervision Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.staff_supervision_policy.add",
-            "view": "policies_guidelines.organisational_policies.staff_supervision_policy.view",
-            "edit": "policies_guidelines.organisational_policies.staff_supervision_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.staff_supervision_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.staff_supervision_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.staff_supervision_policy.delete_own"
-          }
-        },
-        "RecordingKeepingPolicy": {
-          "id": "policies_guidelines.organisational_policies.recording_keeping_policy",
-          "name": "Recording Keeping Policy",
-          "permission": {
-            "add": "policies_guidelines.organisational_policies.recording_keeping_policy.add",
-            "view": "policies_guidelines.organisational_policies.recording_keeping_policy.view",
-            "edit": "policies_guidelines.organisational_policies.recording_keeping_policy.edit",
-            "edit_own": "policies_guidelines.organisational_policies.recording_keeping_policy.edit_own",
-            "delete": "policies_guidelines.organisational_policies.recording_keeping_policy.delete",
-            "delete_own": "policies_guidelines.organisational_policies.recording_keeping_policy.delete_own"
-          }
-        }
-      },
-      "AgencyGuidelines": {
-        "id": "policies_guidelines.agency_guidelines",
-        "name": "Agency Guidelines",
-        "Recruitment": {
-          "id": "policies_guidelines.agency_guidelines.recruitment",
-          "name": "Recruitment",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.recruitment.add",
-            "view": "policies_guidelines.agency_guidelines.recruitment.view",
-            "edit": "policies_guidelines.agency_guidelines.recruitment.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.recruitment.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.recruitment.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.recruitment.delete_own"
-          }
-        },
-        "Assessment": {
-          "id": "policies_guidelines.agency_guidelines.assessment",
-          "name": "Assessment",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.assessment.add",
-            "view": "policies_guidelines.agency_guidelines.assessment.view",
-            "edit": "policies_guidelines.agency_guidelines.assessment.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.assessment.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.assessment.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.assessment.delete_own"
-          }
-        },
-        "Approval": {
-          "id": "policies_guidelines.agency_guidelines.approval",
-          "name": "Approval",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.approval.add",
-            "view": "policies_guidelines.agency_guidelines.approval.view",
-            "edit": "policies_guidelines.agency_guidelines.approval.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.approval.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.approval.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.approval.delete_own"
-          }
-        },
-        "Training": {
-          "id": "policies_guidelines.agency_guidelines.training",
-          "name": "Training",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.training.add",
-            "view": "policies_guidelines.agency_guidelines.training.view",
-            "edit": "policies_guidelines.agency_guidelines.training.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.training.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.training.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.training.delete_own"
-          }
-        },
-        "Supervision": {
-          "id": "policies_guidelines.agency_guidelines.supervision",
-          "name": "Supervision",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.supervision.add",
-            "view": "policies_guidelines.agency_guidelines.supervision.view",
-            "edit": "policies_guidelines.agency_guidelines.supervision.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.supervision.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.supervision.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.supervision.delete_own"
-          }
-        },
-        "Support": {
-          "id": "policies_guidelines.agency_guidelines.support",
-          "name": "Support",
-          "permission": {
-            "add": "policies_guidelines.agency_guidelines.support.add",
-            "view": "policies_guidelines.agency_guidelines.support.view",
-            "edit": "policies_guidelines.agency_guidelines.support.edit",
-            "edit_own": "policies_guidelines.agency_guidelines.support.edit_own",
-            "delete": "policies_guidelines.agency_guidelines.support.delete",
-            "delete_own": "policies_guidelines.agency_guidelines.support.delete_own"
-          }
-        }
-      },
-      "GovtLegislationAndRegulations": {
-        "id": "policies_guidelines.govt_legislation_regulations",
-        "name": "Govt Legislation and Regulations",
-        "Acts": {
-          "id": "policies_guidelines.govt_legislation_regulations.acts",
-          "name": "Acts",
-          "permission": {
-            "add": "policies_guidelines.govt_legislation_regulations.acts.add",
-            "view": "policies_guidelines.govt_legislation_regulations.acts.view",
-            "edit": "policies_guidelines.govt_legislation_regulations.acts.edit",
-            "edit_own": "policies_guidelines.govt_legislation_regulations.acts.edit_own",
-            "delete": "policies_guidelines.govt_legislation_regulations.acts.delete",
-            "delete_own": "policies_guidelines.govt_legislation_regulations.acts.delete_own"
-          }
-        },
-        "Regulations": {
-          "id": "policies_guidelines.govt_legislation_regulations.regulations",
-          "name": "Regulations",
-          "permission": {
-            "add": "policies_guidelines.govt_legislation_regulations.regulations.add",
-            "view": "policies_guidelines.govt_legislation_regulations.regulations.view",
-            "edit": "policies_guidelines.govt_legislation_regulations.regulations.edit",
-            "edit_own": "policies_guidelines.govt_legislation_regulations.regulations.edit_own",
-            "delete": "policies_guidelines.govt_legislation_regulations.regulations.delete",
-            "delete_own": "policies_guidelines.govt_legislation_regulations.regulations.delete_own"
-          }
-        }
-      },
-      "Handbooks": {
-        "id": "policies_guidelines.handbooks",
-        "name": "Handbooks",
-        "FosterCarerHandbook": {
-          "id": "policies_guidelines.handbooks.foster_carer_handbook",
-          "name": "Foster Carer Handbook",
-          "permission": {
-            "add": "policies_guidelines.handbooks.foster_carer_handbook.add",
-            "view": "policies_guidelines.handbooks.foster_carer_handbook.view",
-            "edit": "policies_guidelines.handbooks.foster_carer_handbook.edit",
-            "edit_own": "policies_guidelines.handbooks.foster_carer_handbook.edit_own",
-            "delete": "policies_guidelines.handbooks.foster_carer_handbook.delete",
-            "delete_own": "policies_guidelines.handbooks.foster_carer_handbook.delete_own"
-          }
-        },
-        "UnderstandingFostering": {
-          "id": "policies_guidelines.handbooks.understanding_fostering",
-          "name": "Understanding Fostering",
-          "permission": {
-            "add": "policies_guidelines.handbooks.understanding_fostering.add",
-            "view": "policies_guidelines.handbooks.understanding_fostering.view",
-            "edit": "policies_guidelines.handbooks.understanding_fostering.edit",
-            "edit_own": "policies_guidelines.handbooks.understanding_fostering.edit_own",
-            "delete": "policies_guidelines.handbooks.understanding_fostering.delete",
-            "delete_own": "policies_guidelines.handbooks.understanding_fostering.delete_own"
-          }
-        }
-      },
-      "CyberEssentials": {
-        "id": "policies_guidelines.cyber_essentials",
-        "name": "Cyber Essentials",
-        "GeneralDataProtectionRegulation": {
-          "id": "policies_guidelines.cyber_essentials.general_data_protection_regulation",
-          "name": "General Data Protection Regulation",
-          "permission": {
-            "add": "policies_guidelines.cyber_essentials.general_data_protection_regulation.add",
-            "view": "policies_guidelines.cyber_essentials.general_data_protection_regulation.view",
-            "edit": "policies_guidelines.cyber_essentials.general_data_protection_regulation.edit",
-            "edit_own": "policies_guidelines.cyber_essentials.general_data_protection_regulation.edit_own",
-            "delete": "policies_guidelines.cyber_essentials.general_data_protection_regulation.delete",
-            "delete_own": "policies_guidelines.cyber_essentials.general_data_protection_regulation.delete_own"
-          }
-        }
-      },
-      "OtherPolicies": {
-        "id": "policies_guidelines.other_policies",
-        "name": "Other Policies",
-        "HealthAndSocialCare": {
-          "id": "policies_guidelines.other_policies.health_social_care",
-          "name": "Health and Social Care",
-          "permission": {
-            "add": "policies_guidelines.other_policies.health_social_care.add",
-            "view": "policies_guidelines.other_policies.health_social_care.view",
-            "edit": "policies_guidelines.other_policies.health_social_care.edit",
-            "edit_own": "policies_guidelines.other_policies.health_social_care.edit_own",
-            "delete": "policies_guidelines.other_policies.health_social_care.delete",
-            "delete_own": "policies_guidelines.other_policies.health_social_care.delete_own"
-          }
-        },
-        "PerformanceManagement": {
-          "id": "policies_guidelines.other_policies.performance_management",
-          "name": "Performance Management",
-          "permission": {
-            "add": "policies_guidelines.other_policies.performance_management.add",
-            "view": "policies_guidelines.other_policies.performance_management.view",
-            "edit": "policies_guidelines.other_policies.performance_management.edit",
-            "edit_own": "policies_guidelines.other_policies.performance_management.edit_own",
-            "delete": "policies_guidelines.other_policies.performance_management.delete",
-            "delete_own": "policies_guidelines.other_policies.performance_management.delete_own"
-          }
-        }
-      }
-    },
-    "DeclarationsAndReceipts": {
-      "id": "declarations_receipts",
-      "name": "Declarations & Receipts",
-      "permission": {
-        "add": "declarations_receipts.add",
-        "view": "declarations_receipts.view",
-        "edit": "declarations_receipts.edit",
-        "edit_own": "declarations_receipts.edit_own",
-        "delete": "declarations_receipts.delete",
-        "delete_own": "declarations_receipts.delete_own"
-      }
-    },
-    "UserManual": {
-      "id": "user_manual",
-      "name": "User Manual",
-      "permission": {
-        "add": "user_manual.add",
-        "view": "user_manual.view",
-        "edit": "user_manual.edit",
-        "edit_own": "user_manual.edit_own",
-        "delete": "user_manual.delete",
-        "delete_own": "user_manual.delete_own"
-      }
-    },
-    "RaiseSupportTicket": {
-      "id": "raise_support_ticket",
-      "name": "Raise Support Ticket",
-      "permission": {
-        "add": "raise_support_ticket.add",
-        "view": "raise_support_ticket.view",
-        "edit": "raise_support_ticket.edit",
-        "edit_own": "raise_support_ticket.edit_own",
-        "delete": "raise_support_ticket.delete",
-        "delete_own": "raise_support_ticket.delete_own"
-      }
-    }
-  }
+  
 }
