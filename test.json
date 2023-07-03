@@ -1412,7 +1412,7 @@
       "name": "Matching & Placement",
       "Matching": {
         "id": "matching_placement.matching",
-        "name": "[Matching]",
+        "name": "Matching",
         "permission": {
           "add": "matching_placement.matching.add",
           "view": "matching_placement.matching.view",
@@ -1424,7 +1424,7 @@
       },
       "Placement": {
         "id": "matching_placement.placement",
-        "name": "[Placement]",
+        "name": "Placement",
         "PlacementStatus": {
           "id": "matching_placement.placement.placement_status",
           "name": "Placement Status",
