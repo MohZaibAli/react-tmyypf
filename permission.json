@@ -937,6 +937,18 @@
     "HealthOrMedicalHistory": {
       "id": "fch.health_or_medical_history",
       "name": "Health/Medical History",
+      "BehaviouralInfo": {
+        "id": "fch.health_or_medical_history.behavioural_info",
+        "name": "Behavioural Info",
+        "permission": {
+          "add": "fch.health_or_medical_history.behavioural_info.add",
+          "view": "fch.health_or_medical_history.behavioural_info.view",
+          "edit": "fch.health_or_medical_history.behavioural_info.edit",
+          "edit_own": "fch.health_or_medical_history.behavioural_info.edit_own",
+          "delete": "fch.health_or_medical_history.behavioural_info.delete",
+          "delete_own": "fch.health_or_medical_history.behavioural_info.delete_own"
+        }
+      },
       "HospitalInfo": {
         "id": "fch.health_or_medical_history.hospital_info",
         "name": "Hospital Info",
@@ -1155,6 +1167,30 @@
           "edit_own": "fch.education_records.leisure_activities_or_hobby.edit_own",
           "delete": "fch.education_records.leisure_activities_or_hobby.delete",
           "delete_own": "fch.education_records.leisure_activities_or_hobby.delete_own"
+        }
+      },
+      "IndependencePacksLifeSkillAssessment": {
+        "id": "fch.education_records.independence_packs_life_skill_assessment",
+        "name": "Independence Packs - Life Skill Assessment",
+        "permission": {
+          "add": "fch.education_records.independence_packs_life_skill_assessment.add",
+          "view": "fch.education_records.independence_packs_life_skill_assessment.view",
+          "edit": "fch.education_records.independence_packs_life_skill_assessment.edit",
+          "edit_own": "fch.education_records.independence_packs_life_skill_assessment.edit_own",
+          "delete": "fch.education_records.independence_packs_life_skill_assessment.delete",
+          "delete_own": "fch.education_records.independence_packs_life_skill_assessment.delete_own"
+        }
+      },
+      "ChildActivityDirectory": {
+        "id": "fch.education_records.ch_activity_directory",
+        "name": "Child's Activity Directory",
+        "permission": {
+          "add": "fch.education_records.ch_activity_directory.add",
+          "view": "fch.education_records.ch_activity_directory.view",
+          "edit": "fch.education_records.ch_activity_directory.edit",
+          "edit_own": "fch.education_records.ch_activity_directory.edit_own",
+          "delete": "fch.education_records.ch_activity_directory.delete",
+          "delete_own": "fch.education_records.ch_activity_directory.delete_own"
         }
       }
     },
@@ -1737,6 +1773,18 @@
     "HealthOrMedicalHistory": {
       "id": "ch_info.health_or_medical_history",
       "name": "Health/Medical History",
+      "BehaviouralInfo": {
+        "id": "ch_info.health_or_medical_history.behavioural_info",
+        "name": "Behavioural Info",
+        "permission": {
+          "add": "ch_info.health_or_medical_history.behavioural_info.add",
+          "view": "ch_info.health_or_medical_history.behavioural_info.view",
+          "edit": "ch_info.health_or_medical_history.behavioural_info.edit",
+          "edit_own": "ch_info.health_or_medical_history.behavioural_info.edit_own",
+          "delete": "ch_info.health_or_medical_history.behavioural_info.delete",
+          "delete_own": "ch_info.health_or_medical_history.behavioural_info.delete_own"
+        }
+      },
       "HospitalInfo": {
         "id": "ch_info.health_or_medical_history.hospital_info",
         "name": "Hospital Info",
@@ -1955,6 +2003,30 @@
           "edit_own": "ch_info.education_records.leisure_activities_or_hobby.edit_own",
           "delete": "ch_info.education_records.leisure_activities_or_hobby.delete",
           "delete_own": "ch_info.education_records.leisure_activities_or_hobby.delete_own"
+        }
+      },
+      "IndependencePacksLifeSkillAssessment": {
+        "id": "ch_info.education_records.independence_packs_life_skill_assessment",
+        "name": "Independence Packs - Life Skill Assessment",
+        "permission": {
+          "add": "ch_info.education_records.independence_packs_life_skill_assessment.add",
+          "view": "ch_info.education_records.independence_packs_life_skill_assessment.view",
+          "edit": "ch_info.education_records.independence_packs_life_skill_assessment.edit",
+          "edit_own": "ch_info.education_records.independence_packs_life_skill_assessment.edit_own",
+          "delete": "ch_info.education_records.independence_packs_life_skill_assessment.delete",
+          "delete_own": "ch_info.education_records.independence_packs_life_skill_assessment.delete_own"
+        }
+      },
+      "ChildActivityDirectory": {
+        "id": "ch_info.education_records.ch_activity_directory",
+        "name": "Child's Activity Directory",
+        "permission": {
+          "add": "ch_info.education_records.ch_activity_directory.add",
+          "view": "ch_info.education_records.ch_activity_directory.view",
+          "edit": "ch_info.education_records.ch_activity_directory.edit",
+          "edit_own": "ch_info.education_records.ch_activity_directory.edit_own",
+          "delete": "ch_info.education_records.ch_activity_directory.delete",
+          "delete_own": "ch_info.education_records.ch_activity_directory.delete_own"
         }
       }
     },
@@ -2537,6 +2609,18 @@
     "HealthOrMedicalHistory": {
       "id": "student_list.health_or_medical_history",
       "name": "Health/Medical History",
+      "BehaviouralInfo": {
+        "id": "student_list.health_or_medical_history.behavioural_info",
+        "name": "Behavioural Info",
+        "permission": {
+          "add": "student_list.health_or_medical_history.behavioural_info.add",
+          "view": "student_list.health_or_medical_history.behavioural_info.view",
+          "edit": "student_list.health_or_medical_history.behavioural_info.edit",
+          "edit_own": "student_list.health_or_medical_history.behavioural_info.edit_own",
+          "delete": "student_list.health_or_medical_history.behavioural_info.delete",
+          "delete_own": "student_list.health_or_medical_history.behavioural_info.delete_own"
+        }
+      },
       "HospitalInfo": {
         "id": "student_list.health_or_medical_history.hospital_info",
         "name": "Hospital Info",
@@ -2755,6 +2839,30 @@
           "edit_own": "student_list.education_records.leisure_activities_or_hobby.edit_own",
           "delete": "student_list.education_records.leisure_activities_or_hobby.delete",
           "delete_own": "student_list.education_records.leisure_activities_or_hobby.delete_own"
+        }
+      },
+      "IndependencePacksLifeSkillAssessment": {
+        "id": "student_list.education_records.independence_packs_life_skill_assessment",
+        "name": "Independence Packs - Life Skill Assessment",
+        "permission": {
+          "add": "student_list.education_records.independence_packs_life_skill_assessment.add",
+          "view": "student_list.education_records.independence_packs_life_skill_assessment.view",
+          "edit": "student_list.education_records.independence_packs_life_skill_assessment.edit",
+          "edit_own": "student_list.education_records.independence_packs_life_skill_assessment.edit_own",
+          "delete": "student_list.education_records.independence_packs_life_skill_assessment.delete",
+          "delete_own": "student_list.education_records.independence_packs_life_skill_assessment.delete_own"
+        }
+      },
+      "ChildActivityDirectory": {
+        "id": "student_list.education_records.ch_activity_directory",
+        "name": "Child's Activity Directory",
+        "permission": {
+          "add": "student_list.education_records.ch_activity_directory.add",
+          "view": "student_list.education_records.ch_activity_directory.view",
+          "edit": "student_list.education_records.ch_activity_directory.edit",
+          "edit_own": "student_list.education_records.ch_activity_directory.edit_own",
+          "delete": "student_list.education_records.ch_activity_directory.delete",
+          "delete_own": "student_list.education_records.ch_activity_directory.delete_own"
         }
       }
     },
