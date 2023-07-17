@@ -1,0 +1,828 @@
+{
+  "IFA": {
+    "Dashboard": {},
+    "Foster Carer": {
+      "Personal Info": {
+        "Initial Enquiry": {},
+        "Application Form": {},
+        "Form F": {},
+        "Initial Home Visit": {},
+        "Carer Chronology of Events": {},
+        "Carer Family / Support Network": {},
+        "Address History": {},
+        "Pet Questionnaire ": {},
+        "Interview Record and Analysis ": {},
+        "Social Media Links ": {}
+      },
+      "Background Checks": {
+        "Statutory Checks List": {}
+      },
+      "Medical History": {
+        "Health and Safety": {},
+        "Immunisations": {}
+      },
+      "Employment History": {
+        "Employment Details": {}
+      },
+      "Training Profiles": {
+        "Training Profile": {}
+      },
+      "Other Information": {
+        "Next of Kin": {},
+        "Bank Account Details": {}
+      },
+      "Substitute Cares": {
+        "Backup Carer": {},
+        "Swap Carer": {},
+        "Respite Carer": {}
+      }
+    },
+    "Foster Carer Recruitment": {
+      "Enquiry Stage": {
+        "Initial Contact": {},
+        "Initial Enquiry Stage": {},
+        "Digital Info Pack": {},
+        "Initial Home Visit": {},
+        "Social Worker Assessment": {}
+      },
+      "Assessment Stage 1": {
+        "Regular Assessment Meeting": {},
+        "Statutory Checks Verification": {},
+        "Training Verification": {},
+        "Stage 1 Approval": {}
+      },
+      "Assessment Stage 2": {
+        "Fostering Panel Assessment / Interview": {},
+        "Fostering Panel Recommendation": {},
+        "Agency Decision": {},
+        "Sign off Approval": {}
+      },
+      "Contracts and Declarations": {
+        "Agency Policy": {},
+        "Finance Agreement": {},
+        "Agency Safeguard Policy": {},
+        "Recruitment and Assessment Policy": {},
+        "Recording Keeping Policy": {},
+        "Declarations": {}
+      },
+      "Ready for Placement": {
+        "Policy Receipts": {},
+        "Safeguarding Measures (Before Child Placement)": {},
+        "Mandatory Training": {},
+        "Risk Assessments": {},
+        "Placement Preference": {},
+        "Awaiting Placement": {}
+      }
+    },
+    "Foster Child": {
+      "Child Background Info": {
+        "Child Chronology of Events": {},
+        "CLA Documentation": {},
+        "Family/Persons & Org Involved": {},
+        "Carer Details": {}
+      },
+      "Health/Medical History": {
+        "Behavioural Info": {},
+        "Hospital Info": {},
+        "Hospitalisation Info": {},
+        "Immunisation Info": {},
+        "Medical Appointments": {},
+        "Medication Info": {},
+        "Statutory Medical Info": {},
+        "Therapy Info": {},
+        "GP Details": {}
+      },
+      "Education Records": {
+        "Absence Info": {},
+        "Education Info": {},
+        "Exclusion Info": {},
+        "Out of School Activity": {},
+        "Personal Education Plan": {},
+        "SATS / Exam / Grade Details": {},
+        "School Detail Info": {},
+        "Study Support Info": {},
+        "Vocational Course Info": {},
+        "Leisure activities / Hobby": {},
+        "Independence Packs - Life Skill Assessment": {},
+        "Child's Activity Directory": {}
+      },
+      "Child Goals & Pathway": {
+        "Pathway Plan": {},
+        "Personal Goals": {}
+      },
+      "Social Worker Details": {
+        "Supervising Social Worker": {},
+        "LA Social Worker": {}
+      },
+      "Referrals": {
+        "Child Referral": {},
+        "Original Referral": {}
+      },
+      "Child Day Log": {
+        "Day Log/Journal Entries": {},
+        "Diary Recordings": {},
+        "Child Holiday Preferences": {}
+      },
+      "Other Information": {
+        "Safe Care Policy": {},
+        "Placement and Discharge History": {},
+        "CLA Review": {},
+        "Sanction Details": {},
+        "Risk Assessment": {},
+        "IFA Participation Policy for Child": {}
+      },
+      "Events & Notification": {
+        "Child Exploitation": {},
+        "Allegation": {},
+        "Child Missing Placement": {
+          "Missing Form Whereabouts Known": {},
+          "Missing Form Whereabouts Unknown Form": {}
+        },
+        "Complaints": {},
+        "Incident": {},
+        "Ofsted Notification": {}
+      },
+      "Child Reports": {
+        "Child living in the household's comments": {},
+        "Young person living in the household's comments": {},
+        "Child register report fostered child's comments": {},
+        "Fostered young person's comments": {},
+        "Child's social worker report": {},
+        "Child additional reports": {},
+        "Reviewing officer report": {},
+        "Fostering service manager report": {},
+        "Child allegations report": {},
+        "Child complaints report": {},
+        "Child OOH report": {},
+        "Child critical incidents report": {},
+        "Child placements report": {},
+        "Child day log events report": {},
+        "Education key stage report": {},
+        "Child immunisation details report": {},
+        "Child medication details report": {},
+        "Child missing placements report": {},
+        "Supervisory Home Visit": {},
+        "CLA documentation report": {}
+      }
+    },
+    "Matching & Placement": {
+      "[Matching]": {},
+      "[Placement]": {
+        "Placement Status": {},
+        "Make Placement": {},
+        "Transfer Placement": {},
+        "Respite Placement": {},
+        "Discharge Placement": {},
+        "End Placement": {},
+        "Rejections": {},
+        "Placement Checklist": {},
+        "Placement Meeting Record": {}
+      }
+    },
+    "Deregister Foster Carer": {
+      "DeReg initial Request": {
+        "Initial Request for De-Registration": {},
+        "Social worker Initial Assessment": {},
+        "Final Outcome": {}
+      },
+      "DeReg Assessment Stage 1": {
+        "Consultation with Foster Carer": {},
+        "Formal Review Meeting": {},
+        "Final Outcome": {}
+      },
+      "DeReg Assessment Stage 2": {
+        "Fostering Panel Assessment/interview": {},
+        "Fostering Panel Recommendation": {},
+        "Representations/Review Procedure": {},
+        "Proposal to Terminate": {},
+        "Proposal to Revise": {},
+        "Statutory Checks": {},
+        "Final Outcome": {}
+      },
+      "DeReg Contracts and Agreements": {
+        "Final Finance Settlements": {},
+        "Agency Policy Agreements": {},
+        "Written notice of the proposal": {},
+        "Terms of approval": {},
+        "Consent Form": {}
+      },
+      "Final De-Registration": {
+        "Agency Decision": {},
+        "Resignation by Foster Carers": {},
+        "Moved to De-register status": {}
+      }
+    },
+    "Safeguarding": {
+      "Child Protection And Safeguarding": {
+        "Child Abuse and Exploitation Management": {},
+        "Allegation Management": {},
+        "Incident Management": {},
+        "Agency Safeguarding Officer / Contact": {},
+        "Safeguarding - Child Advocacy": {},
+        "Contextual Safeguarding Operational Group Information Form": {}
+      },
+      "Safeguarding Tools": {
+        "Safeguarding Assessment Tool": {},
+        "Safeguarding Checklist": {},
+        "Safeguarding Measures to be Taken Before a Child is Placed": {},
+        "Safeguarding Measures When a Child is Placed": {},
+        "Safeguarding Meetings / Policy Revision Meetings": {},
+        "Safeguarding Training": {}
+      },
+      "Safeguarding Policy, Guide Templates": {
+        "Agency Safeguarding Policy": {},
+        "Safeguarding Templates": {},
+        "Safe Caring Policy for Looked After Children": {},
+        "Support for Carers (Parental Guide)": {},
+        "Safeguarding Legislation": {}
+      },
+      "Safeguarding-Third Parties": {
+        "Barnardo's": {},
+        "Foster Talk": {},
+        "Coram Voice": {},
+        "Emergency duty team": {},
+        "NSPCC - National society for the Prevention of Cruelty to Children": {}
+      }
+    },
+    "Referrals": {
+      "Referral Details": {
+        "Referral List": {},
+        "Referral History": {},
+        "Original Child Referral": {},
+        "Move to current referral": {}
+      },
+      "Referral Request Forms": {
+        "Foster Carer Request Form": {},
+        "Foster Child Request Form": {},
+        "Social Worker Request Form": {},
+        "Referral Scheme": {}
+      }
+    },
+    "Panel": {
+      "Panel Tools": {
+        "Panel Calendar": {},
+        "Panel Setup": {},
+        "Panel Actions/Comments": {},
+        "Panel Agenda": {},
+        "Panel Minutes - Administrator": {},
+        "Panel Minutes - Chair": {},
+        "Panel Minutes - ADM Approval": {},
+        "Panel Checklist": {}
+      },
+      "Panel Evaluation Forms": {
+        "Panel Member Self-Evaluation Form": {},
+        "Panel Member Review Form": {},
+        "Panel Chair Self-Evaluation Form": {},
+        "Panel Chair Review Form": {},
+        "Panel Member Questionnaire": {}
+      }
+    },
+    "Training": {
+      "Manage Courses": {
+        "Course Resource Pool": {},
+        "Certificate Management": {},
+        "Search Course": {},
+        "Archive Course": {},
+        "Training Clock Engine": {},
+        "Pending For Approval": {}
+      },
+      "Manage Trainees": {
+        "Trainee List": {},
+        "Delegate Certificates": {},
+        "Course Evaluation Form": {},
+        "Notifications": {}
+      },
+      "Manage Trainers": {
+        "Trainer Registrations": {},
+        "Training Sessions": {},
+        "Trainer Evaluation Forms": {}
+      }
+    },
+    "Local Authority": {
+      "Local Authority": {
+        "View all Local Authority": {},
+        "View Children List": {},
+        "Request for Secure Data Exchange": {}
+      },
+      "LA Employees": {
+        "LA Employee Directory": {}
+      }
+    },
+    "Audits": {
+      "Assign an Audit": {},
+      "Total Assigned Audits": {},
+      "Completed Audits": {}
+    },
+    "Children's Guides": {},
+    "Advocacy": {
+      "Carer Advocacy": {
+        "View All Advocacy": {},
+        "Recently Accessed Advocacy": {},
+        "Carers Self Advocacy Toolkit": {},
+        "List of Advocates": {},
+        "Foster Talk": {}
+      },
+      "Child Advocacy": {
+        "Advocacy Form to be Filled by the Child": {},
+        "Advocacy Form raised by the Child via Voice Memo": {},
+        "Advocacy Form Filled by Someone Else": {},
+        "View Advocacy History": {},
+        "Advocacy Meetings": {}
+      },
+      "Advocate Directory": {}
+    },
+    "Compliance Management": {
+      "Category": {
+        "Sub-category": {}
+      }
+    },
+    "Reports": {
+      "IFA Reports": {
+        "FR-A-2019": {},
+        "FR-B-2019": {},
+        "FR-C1": {},
+        "FR-C2": {},
+        "FR-D1": {},
+        "FR-D2": {},
+        "FR-E": {},
+        "FR-F1": {},
+        "FR-F2": {},
+        "FR-F3": {},
+        "FR-F4": {},
+        "FR-G": {},
+        "FR-H": {},
+        "FR-I": {},
+        "SUPERVISORY HOME VISIT": {},
+        "UNANNOUNCED HOME VISIT": {},
+        "CARER FEEDBACK FOR EMPLOYEES APPRAISAL": {},
+        "RISK ASSESSMENT FORM": {},
+        "TRAINING REPORT": {},
+        "USER LOG HISTORY REPORT": {}
+      },
+      "Carer Reports": {
+        "DIARY RECORDINGS BY CARER": {},
+        "ACTIVE CARERS CONTACTS REPORTS": {},
+        "PARENT AND CHILD REPORTS": {},
+        "PERMANENT FOSTERING REPORTS": {},
+        "SECOND OPINION REPORTS": {},
+        "ANNUAL REVIEW DATE REPORTS": {},
+        "FOSTER CARER RECORD OF CRITICAL INCIDENTS REPORTS": {},
+        "CARER PLACEMENT REPORTS": {},
+        "CARER IMMUNISATION DETAIL REPORTS": {},
+        "CARER REFERENCE CHECKS REPORTS": {},
+        "CARER REGISTER REPORTS": {},
+        "CARER TRAINING REPORTS": {},
+        "CARER VACANCY REPORTS": {},
+        "DAY LOG EVENTS REPORTS": {}
+      },
+      "Child Reports": {
+        "CHILD LIVING IN THE HOUSEHOLD'S COMMENTS": {},
+        "YOUNG PERSON LIVING IN THE HOUSEHOLD'S COMMENTS": {},
+        "CHILD REGISTER REPORT FOSTERED CHILD'S COMMENTS": {},
+        "FOSTERED YOUNG PERSON'S COMMENTS": {},
+        "CHILD'S SOCIAL WORKER REPORT": {},
+        "CHILD ADDITIONAL REPORTS": {},
+        "REVIEWING OFFICER REPORT": {},
+        "FOSTERING SERVICE MANAGER REPORT": {},
+        "CHILD ALLEGATIONS REPORT": {},
+        "CHILD COMPLAINTS REPORT": {},
+        "CHILD OOH REPORT": {},
+        "CHILD INCIDENTS REPORT - CRITICAL INCIDENT REPORT": {},
+        "CHILD PLACEMENTS REPORT": {},
+        "CHILD DAYLOG EVENTS REPORT": {},
+        "EDUCATION KEY STAGE REPORT": {},
+        "CHILD IMMUNISATION DETAILS REPORT": {},
+        "CHILD MEDICATION DETAILS REPORT": {},
+        "CHILD MISSING PLACEMENTS REPORT": {},
+        "SUPERVISORY HOME VISIT": {},
+        "CLA DOCUMENTATION REPORT": {}
+      }
+    },
+    "Contact Directory": {},
+    "System Admin": {
+      "User Management": {
+        "Manage Users": {},
+        "Generate Login": {},
+        "Manage User Roles": {},
+        "Manage Access Levels": {}
+      },
+      "Manage Alerts": {},
+      "Area office Setup": {},
+      "Reference Data Management": {},
+      "System Configuration": {},
+      "Digital Signature Management": {},
+      "Manage Letter Templates": {},
+      "API Inventory": {},
+      "Manage Third Party Licenses": {},
+      "Backup and Archive Settings": {},
+      "BCP / DR": {
+        "Business Continuity Plan": {},
+        "BCP History": {}
+      },
+      "Manage / Send News Letters": {},
+      "Manage Social Media Content": {},
+      "Manage Ratings / Feedbacks": {},
+      "Distribution List Management": {
+        "Email Group": {},
+        "WhatsApp Group": {}
+      },
+      "Audit Trails and Audit Logs": {
+        "Custom Views": {},
+        "Windows Logs": {},
+        "Applications and Services": {},
+        "Subscription": {},
+        "Transaction History": {}
+      },
+      "(System Performance Monitoring)": {
+        "Monitoring System Performance": {},
+        "Audit Trails and Audit logs": {},
+        "Cloud & AWS Monitoring": {},
+        "User Experience and Business Analytics": {},
+        "Database Monitoring": {},
+        "Marketing Analytics": {},
+        "System security": {},
+        "Quick Access": {},
+        "Server health check-up": {},
+        "Reminders / Alerts": {},
+        "Mobile Apps Analytics": {}
+      },
+      "Bulk Operations": {},
+      "Manage FAQs": {
+        "Foster Child": {},
+        "Foster Carer": {},
+        "Social Worker": {},
+        "IFA": {}
+      },
+      "Notification Management": {
+        "Child Notification": {},
+        "Carer Notification": {},
+        "HR Notification": {}
+      },
+      "Manage Contact Directory": {},
+      "Manage User Dashboard": {},
+      "Safeguarding Notification Settings": {},
+      "Session Settings": {}
+    },
+    "Policies & Guidelines": {
+      "Organisational Policies": {
+        "Recruitment and Assessment Policy": {},
+        "Panel Policy": {},
+        "Safe Guarding Policy": {},
+        "Allegations Policy": {},
+        "Equalities Policy": {},
+        "Missing From Care Policy": {},
+        "Behaviour Management Policy": {},
+        "7 Standards of Care Policy": {},
+        "Supervision Training Support Policy": {},
+        "Health Policy": {},
+        "Educational Policy": {},
+        "Promoting Contact Policy": {},
+        "Staff Supervision Policy": {},
+        "Recording Keeping Policy": {}
+      },
+      "Agency Guidelines": {
+        "Recruitment": {},
+        "Assessment": {},
+        "Approval": {},
+        "Training": {},
+        "Supervision": {},
+        "Support": {}
+      },
+      "Govt Legislation and Regulations": {
+        "Acts": {},
+        "Regulations": {}
+      },
+      "Handbooks": {
+        "Foster Carer Handbook": {},
+        "Understanding Fostering": {}
+      },
+      "Templates": {
+        "Letter Template": {},
+        "Request Form Template": {}
+      },
+      "Checklists": {
+        "Home Safety Checklist": {}
+      },
+      "Cyber Essentials": {
+        "General Data Protection Regulation": {}
+      },
+      "Other Policies": {
+        "Health and Social Care": {},
+        "Performance Management": {}
+      }
+    },
+    "User Manual": {},
+    "IT Help Desk": {},
+    "Marketing": {
+      "Marketing Campaigns": {
+        "Campaigns": {},
+        "Ad Sets": {},
+        "Results": {}
+      },
+      "Event Marketing": {
+        "Events": {},
+        "Event Calendar": {},
+        "VIPs": {},
+        "Attendance": {},
+        "Venues": {}
+      },
+      "Marketing Strategy / Plan": {},
+      "Social Media Marketing": {
+        "Schedule Content": {},
+        "Results": {},
+        "Pitches and Requests": {}
+      },
+      "Email Marketing": {
+        "Emails": {
+          "Foster A Child This New Year-get 25% more benefits": {},
+          "Promote you Foster Child for Participation Policy": {},
+          "Learn our new Safeguarding Policies": {},
+          "Meet our new Head of Safeguarding": {}
+        },
+        "Branch": {},
+        "Lists": {}
+      },
+      "Persona-Focused Content Marketing": {
+        "Editorial": {},
+        "Personas": {},
+        "Verticals": {},
+        "Content Ideas": {},
+        "Published": {}
+      },
+      "SWOT Analysis": {},
+      "Marketing Plan Meetings": {},
+      "Market Gap Analysis": {}
+    }
+  },
+  "FosterCarer": {
+    "Dashboard": {},
+    "Carer Info": "IFA.Foster Carer",
+    "Child Info": "IFA.Foster Child",
+    "Child Care / Placement": "IFA.Matching & Placement.[Placement].Placement Status",
+    "Training": {
+      "View Courses": {},
+      "My Courses": {},
+      "My Notes": {},
+      "My Results": {}
+    },
+    "Finance": {
+      "Reimbursement / Other expense claims": {},
+      "View & Download Pay-Statements": {},
+      "Bank Details": {},
+      "Referral Bonus": {},
+      "View Payment Contract / Agreement": {},
+      "Money Management For Foster Carer": {},
+      "Create Finance Statement": {},
+      "Raise a Query": {}
+    },
+    "Referrals": {
+      "Referral List": {},
+      "Referral Scheme": {},
+      "Original Child Referral": {},
+      "Foster Carer Reference": {
+        "Personal Reference": {},
+        "Former Partner Reference": {},
+        "Employer/voluntary Reference": {}
+      },
+      "Request Form": {
+        "Foster Carer": {},
+        "Foster Child": {},
+        "Social Worker": {}
+      }
+    },
+    "Carer Advocacy": "IFA.Advocacy.Carer Advocacy++Raise a New Advocacy--Foster Talk",
+    "Reports": "IFA.Reports.Carer Reports",
+    "Policies & Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "Declarations & Receipts": {},
+    "Contact Directory": "IFA.Contact Directory",
+    "User Manual": "IFA.User Manual",
+    "Raise Support Ticket": "IFA.IT Help Desk"
+  },
+  "FosterChild": {
+    "Dashboard": {},
+    "Personal Info": {
+      "Child Personal Information": {},
+      "Child's Birth Mother": {},
+      "Child's Birth Father": {},
+      "Family Composition": {},
+      "Birth Parents and Child Views": {},
+      "Legal Status of Child": {},
+      "Chronology of Events": {},
+      "Safe Care Inspection": {},
+      "Pathway Plan": {},
+      "Independence Packs": {},
+      "Family / Persons & Org Involved": {},
+      "Social Worker Details": {},
+      "Fostering Journey": {}
+    },
+    "Carer Details": {
+      "Primary Carer": {},
+      "Secondary Carer": {},
+      "Backup Carer": {},
+      "Respite Carer": {},
+      "Swap Carer": {}
+    },
+    "Education": "IFA.Foster Child.Education Records--Independence Packs - Life Skill Assessment,Child's Activity Directory",
+    "Health": "IFA.Foster Child.Health/Medical History--Behavioural Info",
+    "Personal Goals": "IFA.Foster Child.Child Goals & Pathway.Personal Goals",
+    "Pathway Plan": "IFA.Foster Child.Child Goals & Pathway.Pathway Plan",
+    "Holiday Idea": "IFA.Foster Child.Child Day Log.Child Holiday Preferences",
+    "Daily Journal": "IFA.Foster Child.Child Day Log.Day Log/Journal Entries",
+    "Money Management": {
+      "Kiddie Saving": {},
+      "Guide to Manage your Pocket Money": {},
+      "Money Skills Assessment": {},
+      "Savings Account for Minors": {}
+    },
+    "Reports": "IFA.Reports.Child Reports==CHILD LIVING IN THE HOUSEHOLD'S COMMENTS,YOUNG PERSON LIVING IN THE HOUSEHOLD'S COMMENTS,CHILD REGISTER REPORT FOSTERED CHILD'S COMMENTS,FOSTERED YOUNG PERSON'S COMMENTS,CHILD ADDITIONAL REPORTS,CHILD COMPLAINTS REPORT,CHILD DAYLOG EVENTS REPORT,EDUCATION KEY STAGE REPORT,CHILD IMMUNISATION DETAILS REPORT",
+    "Contact Directory": "IFA.Contact Directory",
+    "Policies & Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "Children's Guides": "IFA.Children's Guides",
+    "Raise Your Voice": {
+      "Sanction Details": {},
+      "Child Advocacy": "IFA.Advocacy.Child Advocacy",
+      "IFA Participation Policy for Child": {},
+      "Complaints": {}
+    }
+  },
+  "SocialWorker": {
+    "Dashboard": {},
+    "Personal Details": {},
+    "Training": "FosterCarer.Training",
+    "Foster Carer": "IFA.Foster Carer",
+    "Foster Child": "IFA.Foster Child",
+    "Referrals": {
+      "Request Form": {
+        "Social Worker": {},
+        "Foster Carer": {},
+        "Foster Child": {}
+      },
+      "Referral Scheme": {},
+      "Referral History": {}
+    },
+    "Time Sheet Logging": {},
+    "Audit": {
+      "Audits": {},
+      "Reports": {}
+    },
+    "Policies & Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "User Manual": "IFA.User Manual",
+    "IT Help Desk": "IFA.IT Help Desk"
+  },
+  "LocalAuthority": {
+    "Dashboard": {},
+    "Local Authority Profile": {
+      "LA Basic Information": {},
+      "View Local Authority Employees": {},
+      "Bank Details": {},
+      "Local Authority Policies & Agreement": {},
+      "Any Other Document": {},
+      "Meeting & Recording": {},
+      "LA Social Media": {}
+    },
+    "LA Employee Directory": {},
+    "Personal Details": {
+      "ABOUT THE CANDIDATE": {
+        "Personal Info": {},
+        "Address Details": {},
+        "Photo For ID": {},
+        "ID Upload": {}
+      },
+      "REFERENCES": {
+        "Add Reference": {},
+        "Reference Status": {}
+      },
+      "TRAINING & WORK HISTORY": {
+        "Certificates": {},
+        "Additional Training Details": {},
+        "Work Experience": {},
+        "Specialties": {}
+      },
+      "BACKGROUND CHECKS": {
+        "DBS": {},
+        "Right To Work": {}
+      },
+      "OTHER INFORMATION": {
+        "Contact Preference": {},
+        "Employment Status": {},
+        "Equal Opportunity Declaration": {},
+        "Additional Docs": {},
+        "Bank Details": {}
+      },
+      "MEDICAL HISTORY": {
+        "Immunisation": {}
+      },
+      "DECLARATION": {
+        "Declaration": {}
+      }
+    },
+    "Secure Data Exchange": {
+      "Single Child Data Exchange": {},
+      "Bulk Secure Children Data Exchange": {}
+    },
+    "Meetings & Recordings": {},
+    "LA Policies & Agreements": {},
+    "Foster Child": "IFA.Foster Child",
+    "Safeguarding": "IFA.Safeguarding",
+    "Contact Directory": "IFA.Contact Directory",
+    "Policies & Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "User Manual": "IFA.User Manual",
+    "IT Help Desk": "IFA.IT Help Desk"
+  },
+  "Auditor": {
+    "Dashboard": {},
+    "Foster Carer": "IFA.Foster Carer",
+    "Foster Child": "IFA.Foster Child",
+    "Training": "FosterCarer.Training",
+    "Audits": {
+      "Carer Audit Reports": {
+        "View Report": {},
+        "Audit Form": {}
+      },
+      "Child Audit Reports": {
+        "View Report": {},
+        "Audit Form": {}
+      }
+    },
+    "Contact Directory": "IFA.Contact Directory",
+    "Policies & Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "User Manual": "IFA.User Manual",
+    "Raise Support Ticket": "IFA.IT Help Desk"
+  },
+  "PanelMember": {
+    "Dashboard": {},
+    "Active Case Documents": {
+      "Initial Enquiry": {},
+      "Application Form": {},
+      "Initial Home Visit": {},
+      "Form F": {},
+      "Carer Family / Support Network": {},
+      "Health & Safety": {},
+      "Statutory Checks List": {},
+      "Pet Questionnaire": {},
+      "Carer Address History": {},
+      "Personal Details": {},
+      "Swap Carer": {},
+      "Training Profile": {}
+    },
+    "Action / Comments": {},
+    "Agenda": {},
+    "Minutes": {
+      "[Panel Administrator]": {},
+      "[Panel Chair]": {}
+    },
+    "Checklist": {},
+    "Outcome": {},
+    "Self-Evaluation Form": {},
+    "Member Review Form": {},
+    "Chair Self-evaluation Form": {},
+    "Chair Review Form": {},
+    "Member Questionnaire": {},
+    "Panel History": {}
+  },
+  "SchoolTeacher": {
+    "Dashboard": {
+      "Learning Journals": {},
+      "Complaints / Incidents": {},
+      "Progress & Educational Reports": {},
+      "Achievements": {},
+      "Upcoming Homeworks": {},
+      "Education": {},
+      "Attendance": {},
+      "View Full Child Profile": {},
+      "Assessments": {},
+      "Student List": {},
+      "Reports": {},
+      "Activity Directory": {},
+      "Curriculum": {}
+    },
+    "Student List": "IFA.Foster Child",
+    "Curriculum": {},
+    "Learning Journal": {
+      "Stories": {},
+      "Wow Moments": {},
+      "My Daily Journal": "IFA.Foster Child.Child Day Log.Day Log/Journal Entries",
+      "Gallery": {},
+      "Videos": {},
+      "School Trips (Check-in)": {}
+    },
+    "Complaints / Incidents": {
+      "Complaints": {},
+      "Incidents": {}
+    },
+    "Reports": "IFA.Reports.Child Reports",
+    "Contact Directory": "IFA.Contact Directory",
+    "Policies and Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "User Manual": "IFA.User Manual",
+    "Raise a Support Ticket": "IFA.IT Help Desk"
+  },
+  "ProspectiveCarer": {
+    "Dashboard": {},
+    "Carer Info": "IFA.Foster Carer",
+    "Finance": "FosterCarer.Finance",
+    "Policies & Guidelines": "IFA.Policies & Guidelines==Organisational Policies,Agency Guidelines,Govt Legislation and Regulations,Handbooks,Cyber Essentials,Other Policies",
+    "Declarations & Receipts": "FosterCarer.Declarations & Receipts",
+    "User Manual": "IFA.User Manual",
+    "Raise Support Ticket": "IFA.IT Help Desk"
+  }
+}
